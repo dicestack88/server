@@ -68,3 +68,13 @@
 [03:41:00] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [03:41:00] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 10 builds behind ***
 [03:41:00] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[03:47:16] [User Authenticator #0/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
+[03:47:18] [Server thread/INFO]: YuviPRO1123 joined the game
+[03:47:18] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:38852] logged in with entity id 1 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[03:47:19] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[03:47:20] [Server thread/INFO]: dicestack88YT joined the game
+[03:47:20] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:38860] logged in with entity id 2 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[03:47:36] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[03:47:36] [Server thread/INFO]: dicestack88YT left the game
+[03:47:37] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
+[03:47:37] [Server thread/INFO]: YuviPRO1123 left the game

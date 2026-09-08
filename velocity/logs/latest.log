@@ -90,3 +90,13 @@ javax.imageio.IIOException: Can't read input file!
 [03:44:56] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
 [03:44:56] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
 [03:44:56] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (10.09s)!
+[03:47:16] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:39084) has connected
+[03:47:16] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
+[03:47:19] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:39108) has connected
+[03:47:19] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[03:47:36] [nLogin - Task Executor #0/INFO] [nlogin]: The user dicestack88YT has successfully registered.
+[03:47:36] [nLogin - Task Executor #0/INFO] [nlogin]: The user YuviPRO1123 has successfully registered.
+[03:47:36] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[03:47:36] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[03:47:37] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
+[03:47:37] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
