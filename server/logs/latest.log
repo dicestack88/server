@@ -110,3 +110,112 @@
 [03:47:38] [Server thread/INFO]: YuviPRO1123 joined the game
 [03:47:38] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:34980] logged in with entity id 53 at ([minecraft:overworld]-949.5, 79.0, -111.5)
 [03:47:57] [Server thread/INFO]: dicestack88YT has made the advancement [Monster Hunter]
+[03:48:56] [Server thread/INFO]: YuviPRO1123 was blown up by Creeper
+[03:49:11] [Server thread/INFO]: YuviPRO1123 has made the advancement [Monster Hunter]
+[03:49:17] [Server thread/INFO]: Made dicestack88YT a server operator
+[03:49:29] [Server thread/INFO]: dicestack88YT issued server command: /gamemode survival
+[03:49:34] [Server thread/INFO]: dicestack88YT issued server command: /gamemode creative
+[03:49:34] [Server thread/INFO]: [dicestack88YT: Set own game mode to Creative Mode]
+[03:49:42] [Server thread/INFO]: dicestack88YT issued server command: /locate biome minecraft:sulfur_caves
+[03:49:42] [Server thread/INFO]: Locating element minecraft:sulfur_caves took 25 ms
+[03:49:57] [Server thread/INFO]: dicestack88YT issued server command: /tp @s -1032 17 -405
+[03:49:57] [Server thread/INFO]: [dicestack88YT: Teleported dicestack88YT to -1031.500000, 17.000000, -404.500000]
+[03:50:15] [Server thread/INFO]: dicestack88YT issued server command: /effect give @a minecraft:night_vision 9999 in
+[03:50:21] [Server thread/INFO]: dicestack88YT issued server command: /effect give @a minecraft:night_vision infinite
+[03:50:21] [Server thread/INFO]: [dicestack88YT: Applied effect Night Vision to 2 targets]
+[03:50:29] [Server thread/INFO]: dicestack88YT issued server command: /gamemode spectator
+[03:50:29] [Server thread/INFO]: [dicestack88YT: Set own game mode to Spectator Mode]
+[03:50:39] [Server thread/INFO]: dicestack88YT issued server command: /gamemode creative
+[03:50:39] [Server thread/INFO]: [dicestack88YT: Set own game mode to Creative Mode]
+[03:50:46] [Server thread/INFO]: dicestack88YT issued server command: /tp @a dicestack88YT
+[03:50:46] [Server thread/INFO]: [dicestack88YT: Teleported 2 entities to dicestack88YT]
+[03:51:16] [Server thread/INFO]: dicestack88YT issued server command: /give YuviPRO1123 wood
+[03:51:26] [Server thread/INFO]: dicestack88YT issued server command: /give YuviPRO1123 minecraft:slime_block
+[03:51:26] [Server thread/INFO]: [dicestack88YT: Gave 1 [Slime Block] to YuviPRO1123]
+[03:51:27] [Server thread/INFO]: YuviPRO1123 was slain by Spider
+[03:51:34] [Server thread/INFO]: dicestack88YT issued server command: /effect give @a minecraft:resistance infinite
+[03:51:34] [Server thread/INFO]: [dicestack88YT: Applied effect Resistance to 2 targets]
+[03:51:39] [Server thread/INFO]: dicestack88YT issued server command: /tp @a dicestack88YT
+[03:51:39] [Server thread/INFO]: [dicestack88YT: Teleported 2 entities to dicestack88YT]
+[03:51:43] [Server thread/INFO]: dicestack88YT issued server command: /tp @a dicestack88YT
+[03:51:43] [Server thread/INFO]: [dicestack88YT: Teleported 2 entities to dicestack88YT]
+[03:51:47] [Server thread/INFO]: dicestack88YT issued server command: /effect give @a minecraft:night_vision infinite
+[03:51:47] [Server thread/INFO]: [dicestack88YT: Applied effect Night Vision to 2 targets]
+[03:51:59] [Server thread/INFO]: dicestack88YT issued server command: /difficulty peaceful
+[03:51:59] [Server thread/INFO]: [dicestack88YT: The difficulty has been set to Peaceful]
+[03:52:06] [Server thread/INFO]: dicestack88YT issued server command: /give YuviPRO1123 minecraft:slime_block
+[03:52:06] [Server thread/INFO]: [dicestack88YT: Gave 1 [Slime Block] to YuviPRO1123]
+[03:52:13] [Server thread/INFO]: dicestack88YT issued server command: /give @a minecraft:slime_block
+[03:52:13] [Server thread/INFO]: [dicestack88YT: Gave 1 [Slime Block] to 2 players]
+[03:52:47] [Server thread/INFO]: dicestack88YT issued server command: /give @a minecraft:acacia_wood
+[03:52:47] [Server thread/INFO]: [dicestack88YT: Gave 1 [Acacia Wood] to 2 players]
+[03:52:56] [Server thread/INFO]: dicestack88YT issued server command: /give @a minecraft:acacia_log
+[03:52:56] [Server thread/INFO]: [dicestack88YT: Gave 1 [Acacia Log] to 2 players]
+[03:53:05] [Server thread/INFO]: dicestack88YT issued server command: /give @a minecraft:acacia_log
+[03:53:05] [Server thread/INFO]: [dicestack88YT: Gave 1 [Acacia Log] to 2 players]
+[03:53:06] [Server thread/INFO]: dicestack88YT issued server command: /give @a minecraft:acacia_log
+[03:53:06] [Server thread/INFO]: [dicestack88YT: Gave 1 [Acacia Log] to 2 players]
+[03:53:33] [Server thread/INFO]: dicestack88YT issued server command: /clear @a
+[03:53:33] [Server thread/INFO]: [dicestack88YT: Removed 19 item(s) from 2 players]
+[03:54:00] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
+[03:54:00] [Server thread/INFO]: YuviPRO1123 left the game
+[03:54:19] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[03:54:19] [Server thread/INFO]: dicestack88YT left the game
+[03:56:43] [User Authenticator #2/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
+[03:56:44] [Server thread/INFO]: YuviPRO1123 joined the game
+[03:56:44] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:43966] logged in with entity id 2404 at ([minecraft:overworld]-1051.0975487795747, -9.0, -462.69999998807907)
+[03:58:05] [Server thread/INFO]: YuviPRO1123 tried to swim in lava
+[03:58:07] [Server thread/WARN]: Skipping Entity with id minecraft:enderman
+[03:58:10] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[03:58:11] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[03:59:24] [Server thread/INFO]: YuviPRO1123 has made the advancement [Stone Age]
+[04:00:01] [User Authenticator #3/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[04:00:02] [Server thread/INFO]: dicestack88YT joined the game
+[04:00:02] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:57278] logged in with entity id 3209 at ([minecraft:overworld]-1052.1884768715531, -9.0, -459.63466076466904)
+[04:00:05] [Server thread/INFO]: YuviPRO1123 has made the advancement [Getting an Upgrade]
+[04:00:13] [Async Chat Thread - #0/INFO]: [Not Secure] <YuviPRO1123> yo
+[04:00:16] [Async Chat Thread - #0/INFO]: [Not Secure] <dicestack88YT> wsp
+[04:00:21] [Server thread/INFO]: dicestack88YT issued server command: /tp YuviPRO1123
+[04:00:21] [Server thread/INFO]: [dicestack88YT: Teleported dicestack88YT to YuviPRO1123]
+[04:00:31] [Async Chat Thread - #0/INFO]: [Not Secure] <dicestack88YT> bro i need to make a better world spawn
+[04:00:46] [Async Chat Thread - #0/INFO]: [Not Secure] <YuviPRO1123> just do it anywhere
+[04:00:55] [Async Chat Thread - #0/INFO]: [Not Secure] <YuviPRO1123> also add some plugins
+[04:01:10] [Server thread/INFO]: dicestack88YT issued server command: /tp dicestack88YT 10000 200 10000
+[04:01:10] [Server thread/INFO]: [dicestack88YT: Teleported dicestack88YT to 10000.500000, 200.000000, 10000.500000]
+[04:02:06] [Server thread/INFO]: dicestack88YT issued server command: /locate biome minecraft:cherry_grove
+[04:02:06] [Server thread/INFO]: Locating element minecraft:cherry_grove took 314 ms
+[04:02:08] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:08] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:08] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:08] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:08] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:21] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:21] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:21] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:21] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:21] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:21] [Server thread/WARN]: Skipping Entity with id minecraft:drowned
+[04:02:34] [Server thread/INFO]: dicestack88YT issued server command: /tp @s 9008 81 9744
+[04:02:34] [Server thread/INFO]: [dicestack88YT: Teleported dicestack88YT to 9008.500000, 81.000000, 9744.500000]
+[04:02:37] [Server thread/WARN]: YuviPRO1123 moved too quickly! 3.412548890593257,-5.768476202412984,7.637398890346738
+[04:02:52] [Server thread/INFO]: dicestack88YT issued server command: /tp @s 9008 200 9744
+[04:02:52] [Server thread/INFO]: [dicestack88YT: Teleported dicestack88YT to 9008.500000, 200.000000, 9744.500000]
+[04:03:10] [Server thread/INFO]: dicestack88YT issued server command: /setworldspawn
+[04:03:10] [Server thread/INFO]: [dicestack88YT: Set the world spawn point to 8991, 120, 9753 [0.0, 0.0] in minecraft:overworld]
+[04:03:14] [Server thread/INFO]: dicestack88YT issued server command: /tp @a dic
+[04:03:16] [Server thread/INFO]: dicestack88YT issued server command: /tp @a dicestack88YT
+[04:03:16] [Server thread/INFO]: [dicestack88YT: Teleported 2 entities to dicestack88YT]
+[04:03:19] [Async Chat Thread - #2/INFO]: [Not Secure] <dicestack88YT> oops
+[04:03:21] [Async Chat Thread - #2/INFO]: [Not Secure] <YuviPRO1123> bru
+[04:03:22] [Server thread/INFO]: dicestack88YT issued server command: /setworldspawn
+[04:03:22] [Server thread/INFO]: [dicestack88YT: Set the world spawn point to 8991, 120, 9753 [0.0, 0.0] in minecraft:overworld]
+[04:03:27] [Async Chat Thread - #2/INFO]: [Not Secure] <dicestack88YT> this is the new spawn
+[04:03:30] [Async Chat Thread - #2/INFO]: [Not Secure] <YuviPRO1123> kk
+[04:03:35] [Async Chat Thread - #2/INFO]: [Not Secure] <dicestack88YT> 10k blocks away
+[04:03:40] [Async Chat Thread - #2/INFO]: [Not Secure] <YuviPRO1123> add spawn protection here
+[04:03:48] [Async Chat Thread - #2/INFO]: [Not Secure] <YuviPRO1123> so noone griefs it
+[04:04:03] [Server thread/INFO]: dicestack88YT issued server command: /spawnpoint
+[04:04:03] [Server thread/INFO]: [dicestack88YT: Set spawn point to 8981, 120, 9773 [0.0, 0.0] in minecraft:overworld for dicestack88YT]
+[04:04:07] [Server thread/INFO]: dicestack88YT issued server command: /spawnpoint
+[04:04:07] [Server thread/INFO]: [dicestack88YT: Set spawn point to 8990, 120, 9752 [0.0, 0.0] in minecraft:overworld for dicestack88YT]
+[04:06:05] [Server thread/INFO]: YuviPRO1123 has made the advancement [Acquire Hardware]
