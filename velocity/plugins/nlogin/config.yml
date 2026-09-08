@@ -255,7 +255,7 @@ security:
       enable: true
       
       # Sets the maximum number of records per IP address.
-      max: 3
+      max: 100
       
       # Defines whether the IP limiter should block accounts from entering the server.
       prevent-login: false
