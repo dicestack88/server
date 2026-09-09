@@ -145,3 +145,30 @@
 [00:19:01] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 10 builds behind ***
 [00:19:01] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
 [00:19:06] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[00:21:32] [User Authenticator #0/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:21:34] [Server thread/INFO]: isaacman joined the game
+[00:21:34] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:45114] logged in with entity id 7 at ([minecraft:overworld]-7609.6507009373145, -43.0, -7176.381751954611)
+[00:22:25] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:22:25] [Server thread/INFO]: isaacman left the game
+[00:25:50] [Server thread/INFO]: [Not Secure] [Server] smthn wrong
+[00:26:51] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:26:52] [Server thread/INFO]: dicestack88YT joined the game
+[00:26:52] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:60384] logged in with entity id 273 at ([minecraft:overworld]-3777.9959075095267, 113.15051430295304, -7167.713237474985)
+[00:29:01] [Server thread/INFO]: dicestack88YT issued server command: /clear
+[00:29:01] [Server thread/INFO]: [dicestack88YT: Removed 288 item(s) from player dicestack88YT]
+[00:30:15] [User Authenticator #2/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
+[00:30:15] [Server thread/INFO]: Agent_007 joined the game
+[00:30:15] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:36920] logged in with entity id 601 at ([minecraft:overworld]-3785.1447194671255, 111.0, -7171.350818798125)
+[00:30:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Agent_007> hehehehehe
+[00:30:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Agent_007> nigger
+[00:30:53] [Server thread/INFO]: Agent_007 issued server command: /tprt
+[00:30:54] [Server thread/INFO]: Agent_007 issued server command: /tpr
+[00:30:57] [Server thread/INFO]: Agent_007 issued server command: /rtp
+[00:32:19] [Server thread/INFO]: Agent_007 issued server command: /fullbright
+[00:32:22] [Server thread/INFO]: Agent_007 issued server command: /fb
+[00:32:24] [Server thread/INFO]: Agent_007 issued server command: /nv
+[00:32:28] [Server thread/INFO]: Agent_007 issued server command: /nightvision
+[00:33:24] [Server thread/INFO]: dicestack88YT issued server command: /time set day
+[00:33:24] [Server thread/INFO]: [dicestack88YT: Set minecraft:overworld to time marker minecraft:day]
+[00:33:36] [Server thread/INFO]: dicestack88YT issued server command: /effect give @a minecraft:night_vision
+[00:33:36] [Server thread/INFO]: [dicestack88YT: Applied effect Night Vision to 2 targets]

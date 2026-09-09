@@ -68,3 +68,20 @@
 [00:18:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [00:18:38] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 10 builds behind ***
 [00:18:38] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[00:21:24] [User Authenticator #0/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:21:26] [Server thread/INFO]: isaacman joined the game
+[00:21:26] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:41776] logged in with entity id 1 at ([minecraft:overworld]8.5, -597.3319675390915, 8.5)
+[00:21:32] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:21:32] [Server thread/INFO]: isaacman left the game
+[00:26:43] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:26:44] [Server thread/INFO]: dicestack88YT joined the game
+[00:26:44] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:41532] logged in with entity id 2 at ([minecraft:overworld]8.5, -584.6271286843997, 8.5)
+[00:26:51] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:26:51] [Server thread/INFO]: dicestack88YT left the game
+[00:29:54] [User Authenticator #2/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
+[00:29:54] [Server thread/INFO]: Agent_007 joined the game
+[00:29:54] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:58182] logged in with entity id 3 at ([minecraft:overworld]8.5, -435.0659515962443, 8.5)
+[00:29:57] [Server thread/WARN]: Agent_007 moved too quickly! 0.0,-10.869593198563393,0.0
+[00:30:11] [Server thread/WARN]: Agent_007 moved too quickly! 0.0,-11.699689575016464,0.0
+[00:30:15] [Server thread/INFO]: Agent_007 lost connection: Disconnected
+[00:30:15] [Server thread/INFO]: Agent_007 left the game

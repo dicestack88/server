@@ -1,19 +1,31 @@
 {
   "stats": {
-    "minecraft:picked_up": {
-      "minecraft:dirt": 3,
-      "minecraft:string": 2,
-      "minecraft:cherry_sapling": 1,
-      "minecraft:wheat_seeds": 1,
-      "minecraft:slime_block": 1,
-      "minecraft:pink_petals": 29,
-      "minecraft:rotten_flesh": 1
-    },
     "minecraft:killed": {
       "minecraft:zombie": 1
     },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 1,
+      "minecraft:time_since_rest": 39252,
+      "minecraft:walk_one_cm": 58655,
+      "minecraft:leave_game": 4,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 110,
+      "minecraft:damage_dealt": 391,
+      "minecraft:play_time": 70747,
+      "minecraft:jump": 234,
+      "minecraft:time_since_death": 39232,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 64971,
+      "minecraft:fall_one_cm": 1431,
+      "minecraft:total_world_time": 70747,
+      "minecraft:fly_one_cm": 236457,
+      "minecraft:walk_on_water_one_cm": 2525,
+      "minecraft:crouch_one_cm": 5758,
+      "minecraft:sneak_time": 2966,
+      "minecraft:deaths": 3
+    },
     "minecraft:used": {
-      "minecraft:deepslate_tile_slab": 187,
+      "minecraft:deepslate_tile_slab": 188,
       "minecraft:grass_block": 20,
       "minecraft:deepslate": 1,
       "minecraft:polished_deepslate": 38,
@@ -27,37 +39,26 @@
       "minecraft:potent_sulfur": 1,
       "minecraft:deepslate_tiles": 95,
       "minecraft:acacia_wood": 1,
-      "minecraft:dirt": 1
+      "minecraft:dirt": 1,
+      "minecraft:polished_blackstone_wall": 26
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 3,
+      "minecraft:string": 2,
+      "minecraft:cherry_sapling": 1,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:slime_block": 1,
+      "minecraft:pink_petals": 29,
+      "minecraft:rotten_flesh": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:slime_block": 1
     },
     "minecraft:mined": {
       "minecraft:short_grass": 4,
       "minecraft:tall_grass": 1,
       "minecraft:dirt": 1,
       "minecraft:grass_block": 1
-    },
-    "minecraft:custom": {
-      "minecraft:talked_to_villager": 1,
-      "minecraft:time_since_rest": 33252,
-      "minecraft:walk_one_cm": 55848,
-      "minecraft:leave_game": 4,
-      "minecraft:mob_kills": 1,
-      "minecraft:damage_taken": 110,
-      "minecraft:damage_dealt": 391,
-      "minecraft:play_time": 64747,
-      "minecraft:jump": 230,
-      "minecraft:time_since_death": 33232,
-      "minecraft:drop": 1,
-      "minecraft:sprint_one_cm": 61123,
-      "minecraft:fall_one_cm": 1431,
-      "minecraft:total_world_time": 64747,
-      "minecraft:fly_one_cm": 227933,
-      "minecraft:walk_on_water_one_cm": 2525,
-      "minecraft:crouch_one_cm": 5565,
-      "minecraft:sneak_time": 2854,
-      "minecraft:deaths": 3
-    },
-    "minecraft:dropped": {
-      "minecraft:slime_block": 1
     }
   },
   "DataVersion": 4903
