@@ -1,27 +1,12 @@
 {
   "stats": {
-    "minecraft:killed_by": {
-      "minecraft:warden": 1,
-      "minecraft:zombie": 1
-    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 202,
-      "minecraft:walk_one_cm": 16044,
-      "minecraft:leave_game": 3,
-      "minecraft:damage_taken": 990,
-      "minecraft:play_time": 15523,
-      "minecraft:damage_dealt": 122,
-      "minecraft:jump": 119,
-      "minecraft:time_since_death": 182,
-      "minecraft:sprint_one_cm": 7702,
-      "minecraft:fall_one_cm": 5375,
-      "minecraft:total_world_time": 15523,
-      "minecraft:fly_one_cm": 60290,
-      "minecraft:walk_on_water_one_cm": 496,
-      "minecraft:crouch_one_cm": 3,
-      "minecraft:sneak_time": 546,
-      "minecraft:climb_one_cm": 16,
-      "minecraft:deaths": 4
+      "minecraft:time_since_rest": 460,
+      "minecraft:walk_one_cm": 697,
+      "minecraft:total_world_time": 460,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 460,
+      "minecraft:time_since_death": 460
     }
   },
   "DataVersion": 4903
