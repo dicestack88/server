@@ -1,0 +1,104 @@
+# ==============================================================================
+#                      UnstableSMP Farlands Configuration
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Generation Settings
+# ------------------------------------------------------------------------------
+# Set to true to completely prevent vanilla structures (Villages, Strongholds, etc.)
+# from generating anywhere within the Farlands zones. Vanilla areas are unaffected.
+disable-structures-in-farlands: false
+
+# ------------------------------------------------------------------------------
+# Worlds
+# ------------------------------------------------------------------------------
+# Worlds where the Farlands will generate.
+# By default, only the main world is enabled.
+#
+# Example:
+# worlds:
+#   - world
+#   - world_nether
+#   - survival
+worlds:
+  - world
+
+# ------------------------------------------------------------------------------
+# Farlands Zones
+# ------------------------------------------------------------------------------
+# Every zone can be customized.
+#
+# name
+#   The name used in commands such as:
+#   /uf tp <name>
+#
+# enabled
+#   Set to false to disable a zone.
+#   When a zone is disabled, the previous enabled zone continues until the next one.
+#
+# start-distance
+#   The X coordinate where the zone begins.
+#   Distances should be in ascending order.
+#
+# Default Farlands start:
+# 12550821
+zones:
+  start:
+    name: "start"
+    enabled: true
+    start-distance: 12550821
+
+  floating:
+    name: "floating"
+    enabled: true
+    start-distance: 12570000
+
+  spikes:
+    name: "spikes"
+    enabled: true
+    start-distance: 12575000
+
+  repeating:
+    name: "repeating"
+    enabled: true
+    start-distance: 12580000
+
+  cherry:
+    name: "cherry"
+    enabled: true
+    start-distance: 12600000
+
+  grasshills:
+    name: "grasshills"
+    enabled: true
+    start-distance: 12630000
+
+  sandhills:
+    name: "sandhills"
+    enabled: true
+    start-distance: 12640000
+
+  sand:
+    name: "sand"
+    enabled: true
+    start-distance: 12642000
+
+  grasschunks:
+    name: "grasschunks"
+    enabled: true
+    start-distance: 12650000
+
+  chunks:
+    name: "chunks"
+    enabled: true
+    start-distance: 12800000
+
+  decay:
+    name: "decay"
+    enabled: true
+    start-distance: 12802100
+
+  grid:
+    name: "grid"
+    enabled: true
+    start-distance: 12803000

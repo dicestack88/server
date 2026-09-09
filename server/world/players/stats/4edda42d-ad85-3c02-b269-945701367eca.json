@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:yellow_bed": 1,
+      "minecraft:pointed_dripstone": 3,
+      "minecraft:porkchop": 5,
+      "minecraft:leaf_litter": 9,
+      "minecraft:dirt": 1,
+      "minecraft:oak_log": 13,
+      "minecraft:stonecutter": 1,
+      "minecraft:crafting_table": 2
+    },
+    "minecraft:killed": {
+      "minecraft:pig": 2
+    },
+    "minecraft:used": {
+      "minecraft:leaf_litter": 6,
+      "minecraft:diamond_axe": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:wooden_spear": 13,
+      "minecraft:wooden_pickaxe": 3
+    },
+    "minecraft:mined": {
+      "minecraft:pointed_dripstone": 1,
+      "minecraft:yellow_bed": 1,
+      "minecraft:oak_leaves": 1,
+      "minecraft:dirt_path": 1,
+      "minecraft:stonecutter": 1,
+      "minecraft:crafting_table": 2,
+      "minecraft:leaf_litter": 2,
+      "minecraft:oak_log": 13
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 88,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:diamond_boots": 1,
+      "minecraft:oak_planks": 52,
+      "minecraft:diamond_axe": 1,
+      "minecraft:diamond_pickaxe": 1,
+      "minecraft:diamond_helmet": 1,
+      "minecraft:diamond_chestplate": 1,
+      "minecraft:diamond_spear": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:wooden_spear": 1,
+      "minecraft:diamond_leggings": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 3,
+      "minecraft:talked_to_villager": 2,
+      "minecraft:time_since_rest": 19363,
+      "minecraft:walk_one_cm": 88956,
+      "minecraft:leave_game": 3,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 180,
+      "minecraft:play_time": 19363,
+      "minecraft:damage_dealt": 300,
+      "minecraft:jump": 292,
+      "minecraft:time_since_death": 19363,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 46515,
+      "minecraft:open_chest": 4,
+      "minecraft:fall_one_cm": 9044,
+      "minecraft:total_world_time": 19363,
+      "minecraft:fly_one_cm": 38885,
+      "minecraft:sneak_time": 28,
+      "minecraft:climb_one_cm": 872
+    },
+    "minecraft:dropped": {
+      "minecraft:leaf_litter": 3
+    }
+  },
+  "DataVersion": 4903
+}

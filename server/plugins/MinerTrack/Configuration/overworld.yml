@@ -1,0 +1,92 @@
+# ### MinerTrack Anti-Xray Configuration - Configuration/{world}.yml ##############################
+#
+#   Welcome to MinerTrack anti-xray configuration file for worlds.
+#   This file defines world-class settings specifically optimized for anti-xray detection.
+#
+#  Useful Links:
+#  Get Update: https://modrinth.com/plugin/minertrack
+#  View Source: https://github.com/At87668/MinerTrack
+#  Report Issue: https://github.com/At87668/MinerTrack/issues
+#  Pull Requset: https://github.com/At87668/MinerTrack/pulls
+#  Visit Wiki: https://minertrack.pages.dev/wiki/
+#  Join Discord: https://discord.gg/MzTea2W9cb
+#  Support Project: https://patreon.com/Author87668/join
+#
+#  Anyway, thanks for using MinerTrack anti-xray! ❤
+#
+# #################################################################################
+
+# ############################################################################################################################
+# #        ##   This plugin in order to capture XRayer quickly, might generate false positives for players who are lucky!   ##
+# #  Warn  ##   Be careful not to set the VL threshold too low!                                                             ##
+# #        ##   Don't detect for common ores either, you should only detect for rare ores!                                  ##
+# ############################################################################################################################
+
+# ############################################################################################################################
+# #        ##   Default configuration may be slow on the first check-out.                                                   ##
+# #  Info  ##   It will be more accurate afterwards,                                                                        ##
+# #        ##   Therefore, it is recommended to adjust the configuration to suit your needs.                                ##
+# ############################################################################################################################
+
+# ! NOTE: DON'T EDIT CONFIG VERSION !
+_config-version: 3
+
+xray:
+  enable: true # Enable X-ray detection
+  
+  max-height: 32 # Only detect operations below this height
+  
+  # The type of ore a player has to mine before being able to be checked
+  # Block identifiers use the canonical Minecraft namespace format
+  # (minecraft:<path>) so the same config works on Bukkit and Fabric.
+  # Reference: https://minecraft.wiki/w/Java_Edition_data_values
+  rare-ores:
+  - minecraft:emerald_ore
+  - minecraft:deepslate_emerald_ore
+  - minecraft:diamond_ore
+  - minecraft:deepslate_diamond_ore
+  
+  # Mined length record limit (Unit: block)
+  max_path_length: 500
+  
+  # Path record is reset after the player VL is 0 {n} minutes.
+  trace_remove: 15
+  
+  max_vein_distance: 5 # When two veins are close together, VL is not increased.
+  
+  # VL is increased as the player digs the number of veins
+  veinCountThreshold: 2
+  
+  # Small vein detection size
+  # If a vein contains <= this number of blocks, the plugin uses a more sensitive
+  # comparison strategy (cluster overlap/min distance) to decide whether it's a new vein.
+  # Default: 4
+  small_vein_detection_size: 4
+  
+  path-detection:
+    turn-count-threshold: 10 # Maximum number of turns threshold
+    branch-count-threshold: 6 # Maximum number of branches
+    y-change-threshold: 4 # Maximum Y-axis change threshold
+    y-change-threshold-add-required: 3 # If y pos transformation exceeds this value, the threshold is increased
+  
+  # Natural Detection
+  natural-detection:
+    enable: true
+    
+    # Satisfying the conditions will think they are in a natural.
+    cave:
+      air-threshold: 14 # When the number of air blocks reaches several, the player is considered to be in a cave?
+      CaveAirMultiplier: 5 # If cave air is found, regarded as how many ordinary air?
+      detection-range: 3 # 3 = 7x7x7, 2 = 5x5x5
+      check_skip_vl: true # VL add of whether or not to skip natural behavior
+      ignore-artificial-air: true # When true, ignore recently player-created air when checking for caves
+      artificial-air-remove-time: 20 # Minutes to consider broken blocks as artificial air
+    sea:
+      check-running-water: false # Should we check running water?
+      water-threshold: 14
+      detection-range: 3
+      check_skip_vl: true
+    lava-sea:
+      lava-threshold: 14
+      detection-range: 3
+      check_skip_vl: true
