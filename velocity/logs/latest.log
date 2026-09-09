@@ -1,12 +1,12 @@
-[01:41:41] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
-[01:41:41] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[01:41:41] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[01:41:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[01:41:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[01:41:43] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
-[01:41:43] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[01:41:43] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[01:41:43] [main/ERROR] [eaglerxserver]: Could not load server icon: server-icon.png
+[08:38:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
+[08:38:42] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[08:38:42] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[08:38:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[08:38:42] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[08:38:43] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
+[08:38:43] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[08:38:43] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[08:38:44] [main/ERROR] [eaglerxserver]: Could not load server icon: server-icon.png
 javax.imageio.IIOException: Can't read input file!
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1264)
 	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader.loadServerIcon(ServerIconLoader.java:112)
@@ -32,1088 +32,124 @@ javax.imageio.IIOException: Can't read input file!
 	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:439)
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:310)
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[01:41:43] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
-[01:41:43] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
-[01:41:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
-[01:41:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.19 by NickUC
-[01:41:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
-[01:41:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
-[01:41:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
-[01:41:45] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
-[01:41:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
-[01:41:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
-[01:41:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
-[01:41:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[01:41:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
-[01:41:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
-[01:41:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
-[01:41:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 2293ms)
-[01:41:46] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:41:46] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
-[01:41:46] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[01:41:47] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[01:41:47] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/server/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[01:41:47] [EaglercraftXServer - Task Executor #0/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[01:41:48] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 1.59s)
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
-[01:41:50] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.92s)
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.19
-[01:41:52] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
-[01:41:53] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.13.0...
-[01:41:55] [pool-7-thread-3/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 5.62s)
-[01:41:56] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:41:56] [LuckPerms - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
-[01:41:56] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:41:56] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:41:56] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Loading translations...
-[01:41:56] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Registering protocols...
-[01:41:57] [LuckPerms - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
-[01:41:57] [LuckPerms - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
-[01:41:57] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
-[01:41:57] [main/INFO] [nantibot]: Injecting channel initializers
-[01:41:57] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:41:57] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0x517f0063, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
-[01:41:57] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[01:41:57] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
-[01:41:57] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (16.41s)!
-[01:42:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56026) has connected
-[01:42:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[01:42:30] [nLogin - Task Executor #2/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[01:42:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[01:42:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[01:42:37] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:52450) has connected
-[01:42:37] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[01:42:42] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:52458) has connected
-[01:42:43] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[01:42:48] [nLogin - Task Executor #0/INFO] [nlogin]: The user isaacman has successfully logged in.
-[01:42:48] [nLogin - Task Executor #2/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[01:42:48] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[01:42:49] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[01:42:49] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[01:42:49] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[01:43:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:52458) has disconnected
-[01:43:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[01:44:28] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:52450) has disconnected
-[01:44:28] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[01:45:44] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (/[0:0:0:0:0:0:0:1]:43158) has connected
-[01:45:44] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
-[01:45:44] [Netty epoll Worker #7/WARN] [viabackwards]: (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[01:45:50] [nLogin - Task Executor #4/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
-[01:45:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
-[01:45:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
-[01:46:00] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (/[0:0:0:0:0:0:0:1]:43158) has disconnected
-[01:46:00] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
-[01:46:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56026): kicked from server survival: Server is restarting
-[01:46:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[01:46:26] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56026): unable to connect to server auth
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[01:46:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56026) has disconnected: Unable to connect you to auth. Please try again later.
-[01:48:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:49922) has connected
-[01:48:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[01:48:41] [nLogin - Task Executor #6/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[01:48:42] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[01:48:42] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[01:48:56] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:49922) has disconnected
-[01:48:56] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[01:50:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:55830) has connected
-[01:50:51] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[01:50:59] [nLogin - Task Executor #7/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[01:50:59] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[01:50:59] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[01:53:05] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:42592) has connected
-[01:53:05] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[01:53:12] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:42592) has disconnected
-[01:53:12] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[01:54:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:52418) has connected
-[01:54:27] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[01:54:31] [nLogin - Task Executor #9/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[01:54:31] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[01:54:31] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[01:55:25] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:36606) has connected
-[01:55:25] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[01:55:34] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:36606) has disconnected
-[01:55:34] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[01:56:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60728) has connected
-[01:56:29] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[01:56:34] [nLogin - Task Executor #10/INFO] [nlogin]: The user isaacman has successfully logged in.
-[01:56:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[01:56:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[01:57:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:52418) has disconnected
-[01:57:46] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[01:58:10] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:42544) has connected
-[01:58:10] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[01:58:15] [nLogin - Task Executor #8/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[01:58:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[01:58:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[01:59:31] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:42544) has disconnected
-[01:59:31] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[02:00:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60728) has disconnected
-[02:00:12] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[02:01:47] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:55830) has disconnected: An internal error occurred in your connection.
-[02:01:47] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:55830): read timed out
-[02:01:47] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[02:05:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:58190) has connected
-[02:05:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:05:53] [nLogin - Task Executor #12/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:05:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[02:05:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:06:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53824) has connected
-[02:06:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[02:06:32] [nLogin - Task Executor #8/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[02:06:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[02:06:33] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[02:09:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:45520) has connected
-[02:09:15] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[02:09:21] [nLogin - Task Executor #13/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[02:09:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[02:09:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[02:10:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:45520) has disconnected
-[02:10:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[02:10:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:58190) has disconnected
-[02:10:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[02:10:32] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (/[0:0:0:0:0:0:0:1]:47800) has connected
-[02:10:32] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
-[02:10:39] [nLogin - Task Executor #8/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
-[02:10:39] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
-[02:10:39] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
-[02:11:07] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:57238) has connected
-[02:11:07] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:11:12] [nLogin - Task Executor #13/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:11:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[02:11:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:12:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:57238) has disconnected
-[02:12:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[02:17:30] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:43060) has connected
-[02:17:30] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:17:38] [nLogin - Task Executor #15/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:17:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[02:17:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:20:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:43060) has disconnected
-[02:20:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[02:22:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (/[0:0:0:0:0:0:0:1]:47800) has disconnected
-[02:22:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
-[02:31:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53824) has disconnected
-[02:31:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[02:31:44] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YeelerYeer4562 (/[0:0:0:0:0:0:0:1]:47560) has connected
-[02:31:44] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YeelerYeer4562 -> auth has connected
-[02:31:50] [nLogin - Task Executor #22/INFO] [nlogin]: The user YeelerYeer4562 has successfully logged in.
-[02:31:51] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YeelerYeer4562 -> survival has connected
-[02:31:51] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YeelerYeer4562 -> auth has disconnected
-[02:32:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59824) has connected
-[02:32:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:32:55] [nLogin - Task Executor #20/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:32:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[02:32:55] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:34:55] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YeelerYeer4562 (/[0:0:0:0:0:0:0:1]:47560): kicked from server survival: disconnect.timeout
-[02:34:55] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YeelerYeer4562 -> survival has disconnected
-[02:34:55] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YeelerYeer4562 -> auth has connected
-[02:35:02] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YeelerYeer4562 (/[0:0:0:0:0:0:0:1]:47560) has disconnected: An internal error occurred in your connection.
-[02:35:02] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YeelerYeer4562 (/[0:0:0:0:0:0:0:1]:47560): read timed out
-[02:35:02] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YeelerYeer4562 -> auth has disconnected
-[02:35:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:35202) has connected
-[02:35:35] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[02:35:41] [nLogin - Task Executor #23/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[02:35:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[02:35:42] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[02:39:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59824) has disconnected
-[02:39:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[02:44:12] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:51046) has connected
-[02:44:12] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:44:22] [nLogin - Task Executor #27/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:44:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[02:44:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:45:20] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:51046) has disconnected
-[02:45:20] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[02:47:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:35202) has disconnected: An internal error occurred in your connection.
-[02:47:19] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:35202): read timed out
-[02:47:19] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[02:51:41] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:44104) has connected
-[02:51:41] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:53:11] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:44104) has disconnected: You took too long to login.
-[02:53:11] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:59:29] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60244) has connected
-[02:59:30] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:59:35] [nLogin - Task Executor #31/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:59:36] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60244): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[02:59:41] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60244): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[02:59:46] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60244): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[02:59:48] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:60244) has disconnected
-[02:59:48] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[02:59:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060) has connected
-[02:59:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[02:59:55] [nLogin - Task Executor #29/INFO] [nlogin]: The user isaacman has successfully logged in.
-[02:59:56] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:00:01] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:00:06] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:00:11] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:00:16] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:00:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:59060) has disconnected
-[03:00:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:00:24] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:38908) has connected
-[03:00:24] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:00:29] [nLogin - Task Executor #29/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:00:30] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:00:38] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:38908) has disconnected
-[03:00:38] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:00:38] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:00:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:54994) has connected
-[03:00:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:00:53] [nLogin - Task Executor #29/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[03:00:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[03:00:54] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:02:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:46780) has connected
-[03:02:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:02:14] [nLogin - Task Executor #29/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:02:14] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:02:14] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:03:28] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:46780) has disconnected
-[03:03:28] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:03:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:54994): kicked from server survival: Server closed
-[03:03:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[03:03:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:05:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:54994) has disconnected: An internal error occurred in your connection.
-[03:05:19] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:54994): read timed out
-[03:05:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:05:29] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:49170) has connected
-[03:05:29] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:05:34] [nLogin - Task Executor #32/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[03:05:34] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[03:05:34] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:07:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55912) has connected
-[03:07:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:07:45] [nLogin - Task Executor #33/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:07:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:07:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:08:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55912) has disconnected
-[03:08:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:08:08] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:48608) has connected
-[03:08:08] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:08:17] [nLogin - Task Executor #33/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:08:17] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:08:17] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:09:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:56014) has connected
-[03:09:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[03:09:28] [nLogin - Task Executor #34/INFO] [nlogin]: The user Agent_007 has successfully logged in.
-[03:09:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has connected
-[03:09:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[03:10:24] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:49170) has disconnected
-[03:10:24] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[03:10:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:48608): kicked from server survival: Server is restarting
-[03:10:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:10:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:56014): kicked from server survival: Server is restarting
-[03:10:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has disconnected
-[03:10:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[03:10:28] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:10:36] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:56014) has disconnected
-[03:10:36] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[03:10:47] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:48608) has disconnected
-[03:10:47] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:10:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56406) has connected
-[03:10:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:10:54] [nLogin - Task Executor #34/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:10:54] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56406): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:10:59] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066) has connected
-[03:10:59] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[03:10:59] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56406): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:04] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56406): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:06] [nLogin - Task Executor #35/INFO] [nlogin]: The user Agent_007 has successfully logged in.
-[03:11:07] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:09] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56406): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56406) has disconnected
-[03:11:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:11:12] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55622) has connected
-[03:11:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:11:17] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:17] [nLogin - Task Executor #34/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:11:18] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55622): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:22] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:23] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55622): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:27] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:28] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55622): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:32] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:33] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55622): unable to connect to server survival
-io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:25567
-Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
-	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
-	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
-	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
-	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
-	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
-	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
-	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
-	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
-	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-[03:11:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has connected
-[03:11:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:11:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:55622) has disconnected
-[03:11:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:11:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:11:48] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:43122) has connected
-[03:11:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:11:52] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[03:11:54] [nLogin - Task Executor #34/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:11:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:11:54] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:12:10] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53288) has connected
-[03:12:10] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:12:17] [nLogin - Task Executor #35/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[03:12:17] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[03:12:17] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:15:58] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53288): kicked from server survival: disconnect.timeout
-[03:15:58] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[03:15:58] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:16:17] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53288) has disconnected
-[03:16:17] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:17:40] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066): kicked from server survival: Server closed
-[03:17:40] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has disconnected
-[03:17:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:43122): kicked from server survival: Server closed
-[03:17:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:17:40] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[03:17:40] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:19:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:59910) has connected
-[03:19:41] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:19:46] [nLogin - Task Executor #37/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[03:19:46] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[03:19:46] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:19:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:43122) has disconnected: An internal error occurred in your connection.
-[03:19:56] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:43122): read timed out
-[03:19:56] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:20:08] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:59066) has disconnected
-[03:20:08] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[03:20:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:57458) has connected
-[03:20:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[03:20:23] [nLogin - Task Executor #37/INFO] [nlogin]: The user Agent_007 has successfully logged in.
-[03:20:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has connected
-[03:20:24] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[03:21:47] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:54824) has connected
-[03:21:47] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[03:21:55] [nLogin - Task Executor #38/INFO] [nlogin]: The user isaacman has successfully logged in.
-[03:21:56] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[03:21:56] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[03:23:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:57458) has disconnected
-[03:23:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has disconnected
-[03:24:13] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:54824) has disconnected
-[03:24:13] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[03:25:34] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:59910) has disconnected
-[03:25:34] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[03:29:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ironmanLJM (/[0:0:0:0:0:0:0:1]:33988) has connected
-[03:29:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has connected
-[03:29:14] [nLogin - Task Executor #40/INFO] [nlogin]: The user ironmanLJM has successfully logged in.
-[03:29:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has connected
-[03:29:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> auth has disconnected
-[03:29:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ironmanLJM (/[0:0:0:0:0:0:0:1]:33988) has disconnected
-[03:29:38] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ironmanLJM -> survival has disconnected
-[03:30:19] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41252) has connected
-[03:30:19] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:30:25] [nLogin - Task Executor #41/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[03:30:26] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[03:30:26] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:34:49] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41252) has disconnected: An internal error occurred in your connection.
-[03:34:49] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41252): read timed out
-[03:34:49] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[03:37:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58994) has connected
-[03:37:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[03:37:17] [nLogin - Task Executor #43/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[03:37:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[03:37:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[03:49:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:42586) has connected
-[03:49:58] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has connected
-[03:50:20] [nLogin - Task Executor #47/INFO] [nlogin]: The user ThisNotAlex has successfully registered.
-[03:50:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has connected
-[03:50:21] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has disconnected
-[03:51:22] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:44582) has connected
-[03:51:22] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> auth has connected
-[03:51:42] [nLogin - Task Executor #48/INFO] [nlogin]: The user HACKER1original1 has successfully registered.
-[03:51:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> survival has connected
-[03:51:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> auth has disconnected
-[03:54:53] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dark67 (/[0:0:0:0:0:0:0:1]:49190) has connected
-[03:54:53] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> auth has connected
-[03:55:05] [nLogin - Task Executor #49/INFO] [nlogin]: The user dark67 has successfully registered.
-[03:55:06] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> survival has connected
-[03:55:06] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> auth has disconnected
-[03:55:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dark67 (/[0:0:0:0:0:0:0:1]:49190) has disconnected
-[03:55:33] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> survival has disconnected
-[03:55:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:42586) has disconnected
-[03:55:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has disconnected
-[03:55:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58994) has disconnected
-[03:55:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[03:56:08] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:44582) has disconnected
-[03:56:08] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> survival has disconnected
-[04:01:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:54718) has connected
-[04:01:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:01:35] [nLogin - Task Executor #50/INFO] [nlogin]: The user isaacman has successfully logged in.
-[04:01:36] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[04:01:36] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:02:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:56656) has connected
-[04:02:10] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has connected
-[04:02:19] [nLogin - Task Executor #49/INFO] [nlogin]: The user ThisNotAlex has successfully logged in.
-[04:02:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has connected
-[04:02:20] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has disconnected
-[04:03:36] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:57694) has connected
-[04:03:36] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:03:41] [nLogin - Task Executor #51/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[04:03:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[04:03:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:05:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:56656) has disconnected
-[04:05:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has disconnected
-[04:05:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:58806) has connected
-[04:05:13] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[04:05:18] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:58820) has connected
-[04:05:19] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[04:05:27] [nLogin - Task Executor #52/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[04:05:27] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[04:05:27] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[04:05:34] [nLogin - Task Executor #52/INFO] [nlogin]: The user Agent_007 has successfully logged in.
-[04:05:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has connected
-[04:05:35] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[04:08:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] A_Bell_01 (/[0:0:0:0:0:0:0:1]:55386) has connected
-[04:08:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has connected
-[04:08:27] [nLogin - Task Executor #52/INFO] [nlogin]: The user A_Bell_01 has successfully registered.
-[04:08:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> survival has connected
-[04:08:28] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has disconnected
-[04:13:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:53148) has connected
-[04:13:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has connected
-[04:13:37] [nLogin - Task Executor #56/INFO] [nlogin]: The user ThisNotAlex has successfully logged in.
-[04:13:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has connected
-[04:13:37] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has disconnected
-[04:15:57] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:35120) has connected
-[04:15:57] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has connected
-[04:16:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:54718) has disconnected
-[04:16:09] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[04:16:15] [nLogin - Task Executor #56/INFO] [nlogin]: The user WaveFire0110 has successfully registered.
-[04:16:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has connected
-[04:16:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has disconnected
-[04:16:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dark67 (/[0:0:0:0:0:0:0:1]:48074) has connected
-[04:16:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> auth has connected
-[04:16:45] [nLogin - Task Executor #58/INFO] [nlogin]: The user dark67 has successfully logged in.
-[04:16:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> survival has connected
-[04:16:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> auth has disconnected
-[04:18:03] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] TADA_WAZZAM (/[0:0:0:0:0:0:0:1]:48760) has connected
-[04:18:03] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] TADA_WAZZAM -> auth has connected
-[04:18:36] [nLogin - Task Executor #58/INFO] [nlogin]: The user TADA_WAZZAM has successfully registered.
-[04:18:36] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] TADA_WAZZAM -> survival has connected
-[04:18:36] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] TADA_WAZZAM -> auth has disconnected
-[04:18:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:54012) has connected
-[04:18:54] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:19:01] [nLogin - Task Executor #58/INFO] [nlogin]: The user isaacman has successfully logged in.
-[04:19:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[04:19:02] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:19:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:54012) has disconnected
-[04:19:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[04:20:51] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:53148) has disconnected
-[04:20:51] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has disconnected
-[04:20:59] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] TADA_WAZZAM (/[0:0:0:0:0:0:0:1]:48760) has disconnected
-[04:20:59] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] TADA_WAZZAM -> survival has disconnected
-[04:21:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56318) has connected
-[04:21:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:21:17] [nLogin - Task Executor #58/INFO] [nlogin]: The user isaacman has successfully logged in.
-[04:21:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[04:21:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:21:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:56318) has disconnected
-[04:21:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[04:22:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] A_Bell_01 (/[0:0:0:0:0:0:0:1]:55386) has disconnected
-[04:22:16] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> survival has disconnected
-[04:22:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:58806) has disconnected
-[04:22:19] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has disconnected
-[04:22:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:58820) has disconnected
-[04:22:21] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[04:23:06] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:57694): kicked from server survival: Server is restarting
-[04:23:06] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[04:23:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dark67 (/[0:0:0:0:0:0:0:1]:48074): kicked from server survival: Server is restarting
-[04:23:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> survival has disconnected
-[04:23:06] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:35120): kicked from server survival: Server is restarting
-[04:23:06] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has disconnected
-[04:23:06] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has connected
-[04:23:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> auth has connected
-[04:23:06] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:23:19] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:35120) has disconnected
-[04:23:19] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has disconnected
-[04:23:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dark67 (/[0:0:0:0:0:0:0:1]:48074) has disconnected
-[04:23:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dark67 -> auth has disconnected
-[04:24:20] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:57694) has disconnected
-[04:24:20] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:24:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58704) has connected
-[04:24:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:24:26] [nLogin - Task Executor #58/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[04:24:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[04:24:27] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:24:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:41172) has connected
-[04:24:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:25:04] [nLogin - Task Executor #61/INFO] [nlogin]: The user isaacman has successfully logged in.
-[04:25:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[04:25:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:25:12] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:55928) has connected
-[04:25:12] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[04:25:16] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] A_Bell_01 (/[0:0:0:0:0:0:0:1]:33606) has connected
-[04:25:16] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has connected
-[04:25:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:33620) has connected
-[04:25:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has connected
-[04:25:24] [nLogin - Task Executor #58/INFO] [nlogin]: The user A_Bell_01 has successfully logged in.
-[04:25:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> survival has connected
-[04:25:25] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has disconnected
-[04:25:25] [nLogin - Task Executor #58/INFO] [nlogin]: The user Agent_007 has successfully logged in.
-[04:25:26] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:59496) has connected
-[04:25:26] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[04:25:26] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has connected
-[04:25:26] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[04:25:27] [nLogin - Task Executor #61/INFO] [nlogin]: The user WaveFire0110 has successfully logged in.
-[04:25:28] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has connected
-[04:25:28] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has disconnected
-[04:25:32] [nLogin - Task Executor #58/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[04:25:32] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[04:25:32] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[04:25:45] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:39500) has connected
-[04:25:45] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
-[04:26:04] [nLogin - Task Executor #58/INFO] [nlogin]: The user Vyqzren has successfully registered.
-[04:26:04] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
-[04:26:04] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
-[04:27:25] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:39500) has disconnected
-[04:27:25] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
-[04:27:27] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:54054) has connected
-[04:27:27] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
-[04:27:35] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:54054) has disconnected
-[04:27:35] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
-[04:27:38] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:44086) has connected
-[04:27:38] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
-[04:27:48] [nLogin - Task Executor #58/INFO] [nlogin]: The user Vyqzren has successfully logged in.
-[04:27:49] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
-[04:27:49] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
-[04:29:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:41172) has disconnected
-[04:29:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[04:29:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58704) has disconnected: An internal error occurred in your connection.
-[04:29:47] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58704): read timed out
-[04:29:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[04:31:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:47768) has connected
-[04:31:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:31:07] [nLogin - Task Executor #58/INFO] [nlogin]: The user isaacman has successfully logged in.
-[04:31:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[04:31:07] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:31:07] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:44086) has disconnected
-[04:31:07] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
-[04:31:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:33620) has disconnected
-[04:31:08] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has disconnected
-[04:32:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:58350) has connected
-[04:32:50] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has connected
-[04:32:56] [nLogin - Task Executor #62/INFO] [nlogin]: The user WaveFire0110 has successfully logged in.
-[04:32:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has connected
-[04:32:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has disconnected
-[04:35:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] mythicalrocket (/[0:0:0:0:0:0:0:1]:48458) has connected
-[04:35:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] mythicalrocket -> auth has connected
-[04:35:39] [nLogin - Task Executor #63/INFO] [nlogin]: The user mythicalrocket has successfully logged in.
-[04:35:40] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] mythicalrocket -> survival has connected
-[04:35:40] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] mythicalrocket -> auth has disconnected
-[04:35:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] mythicalrocket (/[0:0:0:0:0:0:0:1]:48458) has disconnected
-[04:35:56] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] mythicalrocket -> survival has disconnected
-[04:38:53] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56806) has connected
-[04:38:54] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:38:59] [nLogin - Task Executor #64/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[04:39:00] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[04:39:00] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:39:30] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:43918) has connected
-[04:39:30] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has connected
-[04:39:36] [nLogin - Task Executor #63/INFO] [nlogin]: The user ThisNotAlex has successfully logged in.
-[04:39:37] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has connected
-[04:39:37] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> auth has disconnected
-[04:40:12] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ThisNotAlex (/[0:0:0:0:0:0:0:1]:43918) has disconnected
-[04:40:12] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ThisNotAlex -> survival has disconnected
-[04:40:40] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56806) has disconnected: An internal error occurred in your connection.
-[04:40:40] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56806): read timed out
-[04:40:40] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[04:41:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:33424) has connected
-[04:41:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
-[04:41:23] [nLogin - Task Executor #65/INFO] [nlogin]: The user Vyqzren has successfully logged in.
-[04:41:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
-[04:41:23] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
-[04:42:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:58350) has disconnected
-[04:42:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has disconnected
-[04:42:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:59636) has connected
-[04:42:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has connected
-[04:43:11] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:34760) has connected
-[04:43:11] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:43:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:59496) has disconnected
-[04:43:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[04:43:16] [nLogin - Task Executor #65/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[04:43:16] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[04:43:17] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:43:30] [nLogin - Task Executor #65/INFO] [nlogin]: The user WaveFire0110 has successfully logged in.
-[04:43:31] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has connected
-[04:43:31] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> auth has disconnected
-[04:44:37] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] WaveFire0110 (/[0:0:0:0:0:0:0:1]:59636) has disconnected
-[04:44:37] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] WaveFire0110 -> survival has disconnected
-[04:44:38] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:51804) has connected
-[04:44:38] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[04:44:45] [nLogin - Task Executor #65/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[04:44:45] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[04:44:45] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[04:45:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] A_Bell_01 (/[0:0:0:0:0:0:0:1]:33606): kicked from server survival: Server is restarting
-[04:45:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> survival has disconnected
-[04:45:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:47768): kicked from server survival: Server is restarting
-[04:45:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has disconnected
-[04:45:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has connected
-[04:45:15] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:45:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:55928): kicked from server survival: Server is restarting
-[04:45:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has disconnected
-[04:45:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:51804): kicked from server survival: Server is restarting
-[04:45:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has disconnected
-[04:45:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:33424): kicked from server survival: Server is restarting
-[04:45:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
-[04:45:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[04:45:15] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
-[04:45:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:34760): kicked from server survival: Server is restarting
-[04:45:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
-[04:45:15] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[04:45:15] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:45:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:51804) has disconnected
-[04:45:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[04:45:58] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:55928) has disconnected
-[04:45:58] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[04:46:01] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:33424) has disconnected
-[04:46:01] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
-[04:46:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:47768) has disconnected
-[04:46:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:46:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] A_Bell_01 (/[0:0:0:0:0:0:0:1]:33606) has disconnected
-[04:46:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has disconnected
-[04:46:02] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] isaacman (/[0:0:0:0:0:0:0:1]:52034) has connected
-[04:46:02] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has connected
-[04:46:08] [nLogin - Task Executor #65/INFO] [nlogin]: The user isaacman has successfully logged in.
-[04:46:08] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> survival has connected
-[04:46:08] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] isaacman -> auth has disconnected
-[04:46:13] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:34760) has disconnected
-[04:46:13] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:46:14] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41152) has connected
-[04:46:14] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
-[04:46:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YuviPRO1123 (/[0:0:0:0:0:0:0:1]:41178) has connected
-[04:46:20] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has connected
-[04:46:25] [nLogin - Task Executor #67/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
-[04:46:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
-[04:46:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
-[04:46:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Agent_007 (/[0:0:0:0:0:0:0:1]:44682) has connected
-[04:46:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has connected
-[04:46:30] [nLogin - Task Executor #65/INFO] [nlogin]: The user YuviPRO1123 has successfully logged in.
-[04:46:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> survival has connected
-[04:46:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YuviPRO1123 -> auth has disconnected
-[04:46:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] A_Bell_01 (/[0:0:0:0:0:0:0:1]:51320) has connected
-[04:46:39] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has connected
-[04:46:41] [nLogin - Task Executor #65/INFO] [nlogin]: The user Agent_007 has successfully logged in.
-[04:46:41] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> survival has connected
-[04:46:41] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Agent_007 -> auth has disconnected
-[04:46:49] [nLogin - Task Executor #65/INFO] [nlogin]: The user A_Bell_01 has successfully logged in.
-[04:46:49] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> survival has connected
-[04:46:49] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] A_Bell_01 -> auth has disconnected
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.19 by NickUC
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viaversion 5.11.0 by _MylesC, creeper123123321, Gerrygames, kennytv, Matsv, EnZaXD, RK_01
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin viabackwards 5.11.0 by Matsv, kennytv, Gerrygames, creeper123123321, ForceUpdate1, EnZaXD
+[08:38:44] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 7 plugins
+[08:38:45] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[08:38:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[08:38:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
+[08:38:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
+[08:38:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[08:38:45] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[08:38:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[08:38:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[08:38:46] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 1654ms)
+[08:38:46] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[08:38:46] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
+[08:38:46] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[08:38:46] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[08:38:46] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/server/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[08:38:46] [EaglercraftXServer - Task Executor #0/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[08:38:47] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 0.82s)
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
+[08:38:48] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.89s)
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.19
+[08:38:51] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
+[08:38:52] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.13.0...
+[08:38:53] [pool-7-thread-2/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 4.82s)
+[08:38:54] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[08:38:54] [LuckPerms - Task Executor #0/INFO] [viaversion]: Replacing channel initializers; you can safely ignore the following two warnings.
+[08:38:54] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[08:38:54] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The backend channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[08:38:55] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Loading translations...
+[08:38:55] [LuckPerms - Task Executor #0/INFO] [viabackwards]: Registering protocols...
+[08:38:55] [LuckPerms - Task Executor #0/INFO] [viaversion]: ViaVersion detected lowest supported version by the proxy: 1.13 (393)
+[08:38:55] [LuckPerms - Task Executor #0/INFO] [viaversion]: Highest supported version by the proxy: 26.2 (776)
+[08:38:55] [ViaVersion - Task Executor #2/INFO] [viaversion]: Finished mapping loading, shutting down loader executor.
+[08:38:55] [main/INFO] [nantibot]: Injecting channel initializers
+[08:38:55] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[08:38:55] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xc717bfdb, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
+[08:38:55] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[08:38:55] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[08:38:55] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (13.7s)!
+[08:39:09] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:52438) has connected
+[08:39:10] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[08:39:17] [nLogin - Task Executor #2/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[08:39:18] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[08:39:18] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[08:44:08] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:52438) has disconnected: An internal error occurred in your connection.
+[08:44:08] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:52438): read timed out
+[08:44:08] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[08:53:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:60422) has connected
+[08:53:22] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[08:53:28] [nLogin - Task Executor #5/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[08:53:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[08:53:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[08:55:05] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:60422) has disconnected: An internal error occurred in your connection.
+[08:55:05] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:60422): read timed out
+[08:55:05] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[08:55:11] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58934) has connected
+[08:55:11] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[08:55:15] [nLogin - Task Executor #5/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[08:55:16] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[08:55:16] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[09:02:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58934) has disconnected: An internal error occurred in your connection.
+[09:02:13] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:58934): read timed out
+[09:02:13] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[09:03:44] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53478) has connected
+[09:03:44] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[09:03:50] [nLogin - Task Executor #5/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[09:03:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[09:03:50] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[09:07:16] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:53478) has disconnected
+[09:07:16] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[09:09:08] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:33096) has connected
+[09:09:08] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[09:09:13] [nLogin - Task Executor #10/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[09:09:14] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[09:09:14] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[09:12:02] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:33096) has disconnected: An internal error occurred in your connection.
+[09:12:02] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:33096): read timed out
+[09:12:02] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[09:12:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41384) has connected
+[09:12:51] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[09:12:56] [nLogin - Task Executor #11/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[09:12:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[09:12:57] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[09:18:36] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41384) has disconnected: An internal error occurred in your connection.
+[09:18:36] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:41384): read timed out
+[09:18:36] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[09:26:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:51402) has connected
+[09:26:08] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[09:26:14] [nLogin - Task Executor #14/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[09:26:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[09:26:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[09:27:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:51402) has disconnected: An internal error occurred in your connection.
+[09:27:46] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:51402): read timed out
+[09:27:46] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[09:28:40] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:43512) has connected
+[09:28:40] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[09:28:50] [nLogin - Task Executor #15/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[09:28:50] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[09:28:50] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[09:33:10] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:43512) has disconnected: An internal error occurred in your connection.
+[09:33:10] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:43512): read timed out
+[09:33:10] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected

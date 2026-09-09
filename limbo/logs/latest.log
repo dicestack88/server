@@ -1,644 +1,112 @@
-[01:46:21] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1052-azure (amd64)
-[01:46:21] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[01:46:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:46:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[01:46:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[08:36:58] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1052-azure (amd64)
+[08:36:58] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[08:36:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[08:36:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[08:36:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ViaBackwards (5.11.0), ViaVersion (5.11.0), nLogin (2.0.19)
-[01:46:26] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:46:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:46:27] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 961.7ms
-[01:46:30] [ServerMain/INFO]: Loaded 1585 recipes
-[01:46:30] [ServerMain/INFO]: Loaded 1688 advancements
-[01:46:30] [Server thread/INFO]: Starting minecraft server version 26.2
-[01:46:30] [Server thread/INFO]: Loading properties
-[01:46:30] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[01:46:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:46:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:46:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:46:31] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:46:31] [Server thread/INFO]: Default game type: SURVIVAL
-[01:46:31] [Server thread/INFO]: Generating keypair
-[01:46:31] [Server thread/INFO]: Starting Minecraft server on *:65535
-[01:46:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:46:31] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:46:32] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[01:46:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[01:46:33] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:46:33] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:46:33] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.19
-[01:46:33] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[01:46:33] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.19
-[01:46:34] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.08s)
-[01:46:34] [Server thread/INFO]: [nLogin]           __             _       
-[01:46:34] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[01:46:34] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[01:46:34] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[01:46:34] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[01:46:34] [Server thread/INFO]: [nLogin]                   |___/            
-[01:46:34] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.19
-[01:46:34] [Server thread/INFO]: [nLogin]  
-[01:46:35] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.13.0...
-[01:46:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:46:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:46:36] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[01:46:36] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[01:46:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:46:36] [Server thread/INFO]: Preparing level "world"
-[01:46:37] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[01:46:37] [Server thread/INFO]: Preparing spawn area: 100%
-[01:46:37] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:46:37] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[01:46:37] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:46:37] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[01:46:37] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:46:37] [Server thread/INFO]: Done preparing level "world" (0.350s)
-[01:46:37] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[01:46:37] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[01:46:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[01:46:37] [Server thread/INFO]: [spark] Starting background profiler...
-[01:46:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:46:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:46:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:46:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:46:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:46:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:46:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:46:37] [Server thread/INFO]: Running delayed init tasks
-[01:46:37] [Server thread/INFO]: Done (17.286s)! For help, type "help"
-[01:46:37] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[01:46:38] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 10 builds behind ***
-[01:46:38] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:48:28] [User Authenticator #0/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[01:48:29] [Server thread/INFO]: YuviPRO1123 joined the game
-[01:48:29] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:37034] logged in with entity id 1 at ([minecraft:overworld]14.47740573803332, -1821.4642645325707, 5.672487144664573)
-[01:48:42] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[01:48:42] [Server thread/INFO]: YuviPRO1123 left the game
-[01:50:51] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[01:50:52] [Server thread/INFO]: dicestack88YT joined the game
-[01:50:52] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:49810] logged in with entity id 2 at ([minecraft:overworld]8.5, -295.6485069233508, 8.5)
-[01:50:59] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[01:50:59] [Server thread/INFO]: dicestack88YT left the game
-[01:53:05] [User Authenticator #2/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[01:53:06] [Server thread/INFO]: isaacman joined the game
-[01:53:06] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:34874] logged in with entity id 3 at ([minecraft:overworld]8.5, -1881.7549129105655, 8.5)
-[01:53:12] [Server thread/INFO]: isaacman lost connection: Disconnected
-[01:53:12] [Server thread/INFO]: isaacman left the game
-[01:54:27] [User Authenticator #3/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[01:54:27] [Server thread/INFO]: YuviPRO1123 joined the game
-[01:54:27] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:50120] logged in with entity id 4 at ([minecraft:overworld]14.47740573803332, -2630.1128251233154, 5.672487144664573)
-[01:54:31] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[01:54:31] [Server thread/INFO]: YuviPRO1123 left the game
-[01:55:25] [User Authenticator #4/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[01:55:26] [Server thread/INFO]: isaacman joined the game
-[01:55:26] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:46726] logged in with entity id 5 at ([minecraft:overworld]8.5, -2191.4412004732644, 8.5)
-[01:55:34] [Server thread/INFO]: isaacman lost connection: Disconnected
-[01:55:34] [Server thread/INFO]: isaacman left the game
-[01:56:29] [User Authenticator #5/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[01:56:29] [Server thread/INFO]: isaacman joined the game
-[01:56:29] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:37478] logged in with entity id 6 at ([minecraft:overworld]8.5, -2656.7959487754006, 8.5)
-[01:56:35] [Server thread/INFO]: isaacman lost connection: Disconnected
-[01:56:35] [Server thread/INFO]: isaacman left the game
-[01:58:10] [User Authenticator #6/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[01:58:11] [Server thread/INFO]: YuviPRO1123 joined the game
-[01:58:11] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:49248] logged in with entity id 7 at ([minecraft:overworld]14.47740573803332, -2799.3063063744808, 5.672487144664573)
-[01:58:15] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[01:58:15] [Server thread/INFO]: YuviPRO1123 left the game
-[02:05:42] [User Authenticator #7/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:05:43] [Server thread/INFO]: isaacman joined the game
-[02:05:43] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53700] logged in with entity id 8 at ([minecraft:overworld]8.5, -2920.277088274752, 8.5)
-[02:05:54] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:05:54] [Server thread/INFO]: isaacman left the game
-[02:06:26] [User Authenticator #8/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[02:06:27] [Server thread/INFO]: dicestack88YT joined the game
-[02:06:27] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:54820] logged in with entity id 9 at ([minecraft:overworld]8.5, -627.3091176464751, 8.5)
-[02:06:33] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[02:06:33] [Server thread/INFO]: dicestack88YT left the game
-[02:09:15] [User Authenticator #9/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[02:09:16] [Server thread/INFO]: YuviPRO1123 joined the game
-[02:09:16] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:49462] logged in with entity id 10 at ([minecraft:overworld]14.47740573803332, -2991.2024405625552, 5.672487144664573)
-[02:09:21] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[02:09:21] [Server thread/INFO]: YuviPRO1123 left the game
-[02:10:32] [User Authenticator #10/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[02:10:33] [Server thread/INFO]: ironmanLJM joined the game
-[02:10:33] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:44840] logged in with entity id 11 at ([minecraft:overworld]8.500165339035448, -1486.2852075653045, 9.03333230108023)
-[02:10:39] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[02:10:39] [Server thread/INFO]: ironmanLJM left the game
-[02:11:07] [User Authenticator #11/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:11:07] [Server thread/INFO]: isaacman joined the game
-[02:11:07] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:46380] logged in with entity id 12 at ([minecraft:overworld]8.5, -3604.4802294326005, 8.5)
-[02:11:13] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:11:13] [Server thread/INFO]: isaacman left the game
-[02:17:30] [User Authenticator #12/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:17:31] [Server thread/INFO]: isaacman joined the game
-[02:17:31] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:49990] logged in with entity id 13 at ([minecraft:overworld]8.5, -3843.5762479134664, 8.5)
-[02:17:38] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:17:38] [Server thread/INFO]: isaacman left the game
-[02:31:44] [User Authenticator #13/INFO]: UUID of player YeelerYeer4562 is fe2105e1-36ca-3446-b24d-a018d7f141bd
-[02:31:44] [Server thread/INFO]: YeelerYeer4562 joined the game
-[02:31:44] [Server thread/INFO]: YeelerYeer4562[/[0:0:0:0:0:0:0:1]:58978] logged in with entity id 14 at ([minecraft:overworld]8.5, -1678.058884659492, 8.5)
-[02:31:51] [Server thread/INFO]: YeelerYeer4562 lost connection: Disconnected
-[02:31:51] [Server thread/INFO]: YeelerYeer4562 left the game
-[02:32:49] [User Authenticator #14/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:32:50] [Server thread/INFO]: isaacman joined the game
-[02:32:50] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:57348] logged in with entity id 15 at ([minecraft:overworld]8.5, -4263.732870703506, 8.5)
-[02:32:55] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:32:55] [Server thread/INFO]: isaacman left the game
-[02:34:55] [User Authenticator #15/INFO]: UUID of player YeelerYeer4562 is fe2105e1-36ca-3446-b24d-a018d7f141bd
-[02:35:02] [Server thread/INFO]: YeelerYeer4562 (fe2105e1-36ca-3446-b24d-a018d7f141bd) lost connection: Disconnected
-[02:35:35] [User Authenticator #16/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[02:35:36] [Server thread/INFO]: dicestack88YT joined the game
-[02:35:36] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:56622] logged in with entity id 16 at ([minecraft:overworld]8.5, -890.7472564116886, 8.5)
-[02:35:42] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[02:35:42] [Server thread/INFO]: dicestack88YT left the game
-[02:44:12] [User Authenticator #17/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:44:13] [Server thread/INFO]: isaacman joined the game
-[02:44:13] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:60004] logged in with entity id 17 at ([minecraft:overworld]8.5, -4527.11729401766, 8.5)
-[02:44:23] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:44:23] [Server thread/INFO]: isaacman left the game
-[02:51:41] [User Authenticator #18/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:51:42] [Server thread/INFO]: isaacman joined the game
-[02:51:42] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53494] logged in with entity id 18 at ([minecraft:overworld]8.5, -5122.429310211204, 8.5)
-[02:52:16] [Server thread/WARN]: isaacman moved too quickly! 0.0,-11.75999709424741,0.0
-[02:52:20] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.2623589993118,0.0
-[02:52:24] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.2623589993118,0.0
-[02:52:28] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.2623589993118,0.0
-[02:52:32] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.032610980257232,0.0
-[02:52:36] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.032610980257232,0.0
-[02:52:40] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.2623589993118,0.0
-[02:52:43] [Server thread/WARN]: isaacman moved too quickly! 0.0,-11.19886200217752,0.0
-[02:52:46] [Server thread/WARN]: isaacman moved too quickly! 0.0,-11.19886200217752,0.0
-[02:53:11] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:53:11] [Server thread/INFO]: isaacman left the game
-[02:59:30] [User Authenticator #19/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:59:30] [Server thread/INFO]: isaacman joined the game
-[02:59:30] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:58984] logged in with entity id 19 at ([minecraft:overworld]8.5, -7901.250666679262, 8.5)
-[02:59:38] [Server thread/INFO]: isaacman fell out of the world
-[02:59:41] [Server thread/WARN]: isaacman moved too quickly! 0.0,-10.188594643186804,0.0
-[02:59:45] [Server thread/INFO]: isaacman fell out of the world
-[02:59:48] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:59:48] [Server thread/INFO]: isaacman left the game
-[02:59:50] [User Authenticator #20/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:59:50] [Server thread/INFO]: isaacman joined the game
-[02:59:50] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:50434] logged in with entity id 20 at ([minecraft:overworld]8.5, -89.77686863315421, 8.5)
-[02:59:58] [Server thread/INFO]: isaacman fell out of the world
-[03:00:00] [Server thread/INFO]: isaacman issued server command: /rtprtp
-[03:00:02] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:00:04] [Server thread/INFO]: isaacman fell out of the world
-[03:00:07] [Server thread/INFO]: isaacman issued server command: /seed
-[03:00:10] [Server thread/INFO]: isaacman fell out of the world
-[03:00:17] [Server thread/INFO]: isaacman fell out of the world
-[03:00:20] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:00:20] [Server thread/INFO]: isaacman left the game
-[03:00:24] [User Authenticator #21/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:00:24] [Server thread/INFO]: isaacman joined the game
-[03:00:24] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:49884] logged in with entity id 21 at ([minecraft:overworld]8.5, -78.90945864925914, 8.5)
-[03:00:28] [Server thread/WARN]: isaacman moved too quickly! 0.0,-11.503964473674046,0.0
-[03:00:32] [Server thread/INFO]: isaacman fell out of the world
-[03:00:38] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:00:38] [Server thread/INFO]: isaacman left the game
-[03:00:49] [User Authenticator #22/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:00:49] [Server thread/INFO]: dicestack88YT joined the game
-[03:00:49] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:59974] logged in with entity id 22 at ([minecraft:overworld]8.5, -1175.375728703793, 8.5)
-[03:00:54] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:00:54] [Server thread/INFO]: dicestack88YT left the game
-[03:02:09] [User Authenticator #23/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:02:10] [Server thread/INFO]: isaacman joined the game
-[03:02:10] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53820] logged in with entity id 23 at ([minecraft:overworld]8.5, -231.46740535903785, 8.5)
-[03:02:14] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:02:14] [Server thread/INFO]: isaacman left the game
-[03:03:55] [User Authenticator #24/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:03:55] [Server thread/INFO]: dicestack88YT joined the game
-[03:03:55] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:44914] logged in with entity id 24 at ([minecraft:overworld]8.5, -1387.160206109948, 8.5)
-[03:03:58] [Server thread/INFO]: dicestack88YT fell out of the world
-[03:05:19] [Server thread/INFO]: dicestack88YT lost connection: Timed out
-[03:05:19] [Server thread/INFO]: dicestack88YT left the game
-[03:05:29] [User Authenticator #25/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:05:29] [Server thread/INFO]: dicestack88YT joined the game
-[03:05:29] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:50802] logged in with entity id 25 at ([minecraft:overworld]8.5, -1469.5084604400477, 8.5)
-[03:05:34] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:05:34] [Server thread/INFO]: dicestack88YT left the game
-[03:07:39] [User Authenticator #26/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:07:40] [Server thread/INFO]: isaacman joined the game
-[03:07:40] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:38884] logged in with entity id 26 at ([minecraft:overworld]8.5, -439.8942767626301, 8.5)
-[03:07:46] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:07:46] [Server thread/INFO]: isaacman left the game
-[03:08:08] [User Authenticator #27/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:08:09] [Server thread/INFO]: isaacman joined the game
-[03:08:09] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:50484] logged in with entity id 27 at ([minecraft:overworld]8.5, -745.9385542268532, 8.5)
-[03:08:17] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:08:17] [Server thread/INFO]: isaacman left the game
-[03:09:19] [User Authenticator #28/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[03:09:20] [Server thread/INFO]: Agent_007 joined the game
-[03:09:20] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:56686] logged in with entity id 28 at ([minecraft:overworld]8.5, -1524.288725353291, 8.5)
-[03:09:28] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[03:09:28] [Server thread/INFO]: Agent_007 left the game
-[03:10:28] [User Authenticator #30/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[03:10:28] [User Authenticator #29/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:10:28] [Server thread/INFO]: Agent_007 joined the game
-[03:10:28] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:52788] logged in with entity id 29 at ([minecraft:overworld]8.5, -1982.0808646106996, 8.5)
-[03:10:29] [Server thread/INFO]: isaacman joined the game
-[03:10:29] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:52792] logged in with entity id 30 at ([minecraft:overworld]8.5, -1241.635787741478, 8.5)
-[03:10:31] [Server thread/INFO]: Agent_007 fell out of the world
-[03:10:32] [Server thread/INFO]: isaacman fell out of the world
-[03:10:36] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[03:10:36] [Server thread/INFO]: Agent_007 left the game
-[03:10:38] [Server thread/INFO]: isaacman fell out of the world
-[03:10:41] [Async Chat Thread - #0/INFO]: [Not Secure] <isaacman> ?
-[03:10:44] [Server thread/INFO]: isaacman fell out of the world
-[03:10:47] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:10:47] [Server thread/INFO]: isaacman left the game
-[03:10:49] [User Authenticator #31/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:10:49] [Server thread/INFO]: isaacman joined the game
-[03:10:49] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:36360] logged in with entity id 31 at ([minecraft:overworld]8.5, -139.33298193876888, 8.5)
-[03:10:56] [Server thread/INFO]: isaacman fell out of the world
-[03:10:59] [User Authenticator #32/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[03:10:59] [Server thread/INFO]: Agent_007 joined the game
-[03:10:59] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:41976] logged in with entity id 32 at ([minecraft:overworld]8.5, -147.11920063380168, 8.5)
-[03:11:03] [Server thread/INFO]: isaacman fell out of the world
-[03:11:09] [Server thread/INFO]: isaacman fell out of the world
-[03:11:09] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:11] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:11:11] [Server thread/INFO]: isaacman left the game
-[03:11:12] [User Authenticator #33/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:11:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Agent_007> u gotta give me a new nigga
-[03:11:13] [Server thread/INFO]: isaacman joined the game
-[03:11:13] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:58670] logged in with entity id 33 at ([minecraft:overworld]8.5, -77.55414116287497, 8.5)
-[03:11:15] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:20] [Server thread/INFO]: isaacman fell out of the world
-[03:11:21] [Async Chat Thread - #0/INFO]: [Not Secure] <Agent_007> i mean trial chamber
-[03:11:23] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:26] [Server thread/INFO]: isaacman fell out of the world
-[03:11:30] [Async Chat Thread - #1/INFO]: [Not Secure] <isaacman> what is this
-[03:11:31] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:32] [Server thread/INFO]: isaacman fell out of the world
-[03:11:37] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:39] [Server thread/INFO]: isaacman fell out of the world
-[03:11:44] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:45] [Server thread/INFO]: isaacman fell out of the world
-[03:11:47] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:11:47] [Server thread/INFO]: isaacman left the game
-[03:11:49] [User Authenticator #34/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:11:49] [Server thread/INFO]: isaacman joined the game
-[03:11:49] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:46278] logged in with entity id 34 at ([minecraft:overworld]8.5, -73.80652611000899, 8.5)
-[03:11:50] [Server thread/INFO]: Agent_007 fell out of the world
-[03:11:52] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[03:11:52] [Server thread/INFO]: Agent_007 left the game
-[03:11:54] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:11:54] [Server thread/INFO]: isaacman left the game
-[03:12:10] [User Authenticator #35/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:12:11] [Server thread/INFO]: dicestack88YT joined the game
-[03:12:11] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:54558] logged in with entity id 35 at ([minecraft:overworld]8.5, -271.3716197455956, 8.5)
-[03:12:17] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:12:17] [Server thread/INFO]: dicestack88YT left the game
-[03:15:58] [User Authenticator #36/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:16:13] [Server thread/INFO]: dicestack88YT joined the game
-[03:16:13] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:43186] logged in with entity id 36 at ([minecraft:overworld]8.5, -566.7661406512691, 8.5)
-[03:16:17] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:16:17] [Server thread/INFO]: dicestack88YT left the game
-[03:17:40] [User Authenticator #37/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:17:40] [User Authenticator #38/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[03:17:41] [Server thread/INFO]: Agent_007 joined the game
-[03:17:41] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:53740] logged in with entity id 37 at ([minecraft:overworld]8.5, -63.768476202412984, 8.5)
-[03:17:41] [Server thread/INFO]: isaacman joined the game
-[03:17:41] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53736] logged in with entity id 38 at ([minecraft:overworld]8.5, -319.81265245565453, 8.5)
-[03:17:43] [Server thread/INFO]: isaacman fell out of the world
-[03:17:46] [Server thread/INFO]: Agent_007 fell out of the world
-[03:17:52] [Server thread/INFO]: isaacman fell out of the world
-[03:17:52] [Server thread/INFO]: Agent_007 fell out of the world
-[03:17:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Agent_007> hi isaac
-[03:17:59] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:05] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:12] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:18] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:24] [Server thread/INFO]: isaacman fell out of the world
-[03:18:27] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:33] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:40] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:48] [Server thread/INFO]: Agent_007 fell out of the world
-[03:18:54] [Server thread/INFO]: Agent_007 fell out of the world
-[03:19:01] [Server thread/INFO]: Agent_007 fell out of the world
-[03:19:26] [Server thread/INFO]: Agent_007 fell out of the world
-[03:19:41] [User Authenticator #39/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:19:41] [Server thread/INFO]: dicestack88YT joined the game
-[03:19:41] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:38348] logged in with entity id 39 at ([minecraft:overworld]8.5, -666.7876755091838, 8.5)
-[03:19:46] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:19:46] [Server thread/INFO]: dicestack88YT left the game
-[03:19:56] [Server thread/INFO]: isaacman lost connection: Timed out
-[03:19:56] [Server thread/INFO]: isaacman left the game
-[03:20:08] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[03:20:08] [Server thread/INFO]: Agent_007 left the game
-[03:20:16] [User Authenticator #40/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[03:20:17] [Server thread/INFO]: Agent_007 joined the game
-[03:20:17] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:57974] logged in with entity id 40 at ([minecraft:overworld]8.5, -89.77686863315421, 8.5)
-[03:20:19] [Server thread/WARN]: Agent_007 moved too quickly! 0.0,-12.879292998462603,0.0
-[03:20:24] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[03:20:24] [Server thread/INFO]: Agent_007 left the game
-[03:21:47] [User Authenticator #41/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:21:48] [Server thread/INFO]: isaacman joined the game
-[03:21:48] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:46464] logged in with entity id 41 at ([minecraft:overworld]8.5, -277.31928579314297, 8.5)
-[03:21:56] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:21:56] [Server thread/INFO]: isaacman left the game
-[03:29:04] [User Authenticator #42/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
-[03:29:05] [Server thread/INFO]: ironmanLJM joined the game
-[03:29:05] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:49148] logged in with entity id 42 at ([minecraft:overworld]8.500165339035448, -1799.5777754742833, 9.03333230108023)
-[03:29:09] [Server thread/WARN]: ironmanLJM moved too quickly! 0.0,-11.749549438753093,0.0
-[03:29:15] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
-[03:29:15] [Server thread/INFO]: ironmanLJM left the game
-[03:30:19] [User Authenticator #43/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:30:20] [Server thread/INFO]: dicestack88YT joined the game
-[03:30:20] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:47994] logged in with entity id 43 at ([minecraft:overworld]8.5, -882.0137698206194, 8.5)
-[03:30:26] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:30:26] [Server thread/INFO]: dicestack88YT left the game
-[03:37:12] [User Authenticator #44/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[03:37:12] [Server thread/INFO]: dicestack88YT joined the game
-[03:37:12] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:53918] logged in with entity id 44 at ([minecraft:overworld]8.5, -1202.4983842583338, 8.5)
-[03:37:18] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:37:18] [Server thread/INFO]: dicestack88YT left the game
-[03:49:58] [User Authenticator #45/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
-[03:49:59] [Server thread/INFO]: ThisNotAlex joined the game
-[03:49:59] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:38288] logged in with entity id 45 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[03:50:10] [Server thread/WARN]: ThisNotAlex moved too quickly! 0.0,-11.531160221877258,0.0
-[03:50:21] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
-[03:50:21] [Server thread/INFO]: ThisNotAlex left the game
-[03:51:22] [User Authenticator #46/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[03:51:23] [Server thread/INFO]: HACKER1original1 joined the game
-[03:51:23] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:53574] logged in with entity id 46 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[03:51:42] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[03:51:42] [Server thread/INFO]: HACKER1original1 left the game
-[03:54:53] [User Authenticator #47/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[03:54:54] [Server thread/INFO]: dark67 joined the game
-[03:54:54] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:59692] logged in with entity id 47 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[03:55:06] [Server thread/INFO]: dark67 lost connection: Disconnected
-[03:55:06] [Server thread/INFO]: dark67 left the game
-[04:01:23] [User Authenticator #48/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:01:24] [Server thread/INFO]: isaacman joined the game
-[04:01:24] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:44698] logged in with entity id 48 at ([minecraft:overworld]8.5, -486.9051309826716, 8.5)
-[04:01:36] [Server thread/WARN]: isaacman moved too quickly! 0.0,-11.634838939229667,0.0
-[04:01:36] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:01:36] [Server thread/INFO]: isaacman left the game
-[04:02:10] [User Authenticator #49/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
-[04:02:11] [Server thread/INFO]: ThisNotAlex joined the game
-[04:02:11] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:40430] logged in with entity id 49 at ([minecraft:overworld]8.5, -1288.396014155664, 8.5)
-[04:02:20] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
-[04:02:20] [Server thread/INFO]: ThisNotAlex left the game
-[04:03:36] [User Authenticator #50/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:03:37] [Server thread/INFO]: dicestack88YT joined the game
-[04:03:37] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:48576] logged in with entity id 50 at ([minecraft:overworld]8.5, -1427.8920021127724, 8.5)
-[04:03:42] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:03:42] [Server thread/INFO]: dicestack88YT left the game
-[04:05:13] [User Authenticator #51/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[04:05:13] [Server thread/INFO]: Agent_007 joined the game
-[04:05:13] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:43700] logged in with entity id 51 at ([minecraft:overworld]8.5, -362.4407315931481, 8.5)
-[04:05:17] [Server thread/WARN]: Agent_007 moved too quickly! 0.0,-11.331774294023546,0.0
-[04:05:19] [User Authenticator #52/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:05:19] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:05:19] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:43712] logged in with entity id 52 at ([minecraft:overworld]14.47740573803332, -3220.007185134049, 5.672487144664573)
-[04:05:27] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:05:27] [Server thread/INFO]: YuviPRO1123 left the game
-[04:05:35] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[04:05:35] [Server thread/INFO]: Agent_007 left the game
-[04:08:14] [User Authenticator #53/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
-[04:08:15] [Server thread/INFO]: A_Bell_01 joined the game
-[04:08:15] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:57232] logged in with entity id 53 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[04:08:28] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
-[04:08:28] [Server thread/INFO]: A_Bell_01 left the game
-[04:13:15] [User Authenticator #54/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
-[04:13:15] [Server thread/INFO]: ThisNotAlex joined the game
-[04:13:16] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:59714] logged in with entity id 54 at ([minecraft:overworld]8.5, -1795.5327579536288, 8.5)
-[04:13:23] [Server thread/WARN]: ThisNotAlex moved too quickly! 0.0,-11.050609255357813,0.0
-[04:13:30] [Server thread/WARN]: ThisNotAlex moved too quickly! 0.0,-10.739487944965276,0.0
-[04:13:37] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
-[04:13:37] [Server thread/INFO]: ThisNotAlex left the game
-[04:15:57] [User Authenticator #55/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
-[04:15:58] [Server thread/INFO]: WaveFire0110 joined the game
-[04:15:58] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:40162] logged in with entity id 55 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[04:16:07] [Server thread/WARN]: WaveFire0110 moved too quickly! 0.0,-11.365146149706902,0.0
-[04:16:15] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
-[04:16:16] [Server thread/INFO]: WaveFire0110 left the game
-[04:16:33] [User Authenticator #56/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[04:16:34] [Server thread/INFO]: dark67 joined the game
-[04:16:34] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:45610] logged in with entity id 56 at ([minecraft:overworld]8.5, -723.9741409872853, 8.5)
-[04:16:45] [Server thread/INFO]: dark67 lost connection: Disconnected
-[04:16:45] [Server thread/INFO]: dark67 left the game
-[04:18:03] [User Authenticator #57/INFO]: UUID of player TADA_WAZZAM is 141b5241-2647-3606-9be7-14fef476406f
-[04:18:03] [Server thread/INFO]: TADA_WAZZAM joined the game
-[04:18:03] [Server thread/INFO]: TADA_WAZZAM[/[0:0:0:0:0:0:0:1]:35310] logged in with entity id 57 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[04:18:13] [Server thread/WARN]: TADA_WAZZAM moved too quickly! 0.0,-11.3730434480633,0.0
-[04:18:16] [Server thread/WARN]: TADA_WAZZAM moved too quickly! 0.0,-13.01370739177571,0.0
-[04:18:29] [Server thread/WARN]: TADA_WAZZAM moved too quickly! 0.0,-11.649427451635802,0.0
-[04:18:36] [Server thread/INFO]: TADA_WAZZAM lost connection: Disconnected
-[04:18:36] [Server thread/INFO]: TADA_WAZZAM left the game
-[04:18:54] [User Authenticator #58/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:18:56] [Server thread/INFO]: isaacman joined the game
-[04:18:56] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:44940] logged in with entity id 58 at ([minecraft:overworld]8.5, -1140.1392875358229, 8.5)
-[04:19:02] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:19:02] [Server thread/INFO]: isaacman left the game
-[04:21:13] [User Authenticator #59/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:21:13] [Server thread/INFO]: isaacman joined the game
-[04:21:13] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:47228] logged in with entity id 59 at ([minecraft:overworld]8.5, -1379.2354083411576, 8.5)
-[04:21:18] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:21:18] [Server thread/INFO]: isaacman left the game
-[04:23:06] [User Authenticator #60/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
-[04:23:06] [User Authenticator #62/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[04:23:06] [User Authenticator #61/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:23:07] [Server thread/INFO]: dark67 joined the game
-[04:23:07] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:44266] logged in with entity id 60 at ([minecraft:overworld]8.5, -1446.985954193289, 8.5)
-[04:23:07] [Server thread/INFO]: WaveFire0110 joined the game
-[04:23:07] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:44268] logged in with entity id 61 at ([minecraft:overworld]8.5, -982.4336166711244, 8.5)
-[04:23:07] [Server thread/INFO]: dicestack88YT joined the game
-[04:23:07] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:44276] logged in with entity id 62 at ([minecraft:overworld]8.5, -1656.6959179126675, 8.5)
-[04:23:07] [Server thread/INFO]: dicestack88YT fell out of the world
-[04:23:09] [Server thread/INFO]: dark67 fell out of the world
-[04:23:10] [Server thread/INFO]: WaveFire0110 fell out of the world
-[04:23:16] [Server thread/INFO]: dark67 fell out of the world
-[04:23:16] [Server thread/INFO]: WaveFire0110 fell out of the world
-[04:23:19] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
-[04:23:19] [Server thread/INFO]: WaveFire0110 left the game
-[04:23:23] [Server thread/INFO]: dark67 fell out of the world
-[04:23:29] [Server thread/INFO]: dark67 fell out of the world
-[04:23:35] [Server thread/INFO]: dark67 fell out of the world
-[04:23:41] [Server thread/INFO]: dark67 fell out of the world
-[04:23:48] [Server thread/INFO]: dark67 fell out of the world
-[04:23:51] [Server thread/INFO]: dark67 lost connection: Disconnected
-[04:23:51] [Server thread/INFO]: dark67 left the game
-[04:24:02] [Server thread/INFO]: [Not Secure] [Server] ok guys
-[04:24:04] [Server thread/INFO]: [Not Secure] [Server] join
-[04:24:06] [Server thread/INFO]: There are 1 of a max of 20 players online: dicestack88YT
-[04:24:15] [Server thread/INFO]: dicestack88YT fell out of the world
-[04:24:20] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:24:20] [Server thread/INFO]: dicestack88YT left the game
-[04:24:22] [User Authenticator #63/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:24:22] [Server thread/INFO]: dicestack88YT joined the game
-[04:24:22] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:58566] logged in with entity id 63 at ([minecraft:overworld]8.5, -232.19120176310793, 8.5)
-[04:24:27] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:24:27] [Server thread/INFO]: dicestack88YT left the game
-[04:24:58] [User Authenticator #64/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:24:59] [Server thread/INFO]: isaacman joined the game
-[04:24:59] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:39452] logged in with entity id 64 at ([minecraft:overworld]8.5, -1581.0593715003831, 8.5)
-[04:25:05] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:25:05] [Server thread/INFO]: isaacman left the game
-[04:25:12] [User Authenticator #65/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[04:25:13] [Server thread/INFO]: Agent_007 joined the game
-[04:25:13] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:41156] logged in with entity id 65 at ([minecraft:overworld]8.5, -1673.6255634251133, 8.5)
-[04:25:16] [User Authenticator #66/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
-[04:25:17] [Server thread/INFO]: A_Bell_01 joined the game
-[04:25:17] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:44976] logged in with entity id 66 at ([minecraft:overworld]8.5, -840.4935266148447, 8.5)
-[04:25:21] [User Authenticator #67/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
-[04:25:21] [Server thread/INFO]: WaveFire0110 joined the game
-[04:25:21] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:44986] logged in with entity id 67 at ([minecraft:overworld]8.5, -86.43523910201617, 8.5)
-[04:25:25] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
-[04:25:25] [Server thread/INFO]: A_Bell_01 left the game
-[04:25:26] [User Authenticator #68/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:25:26] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[04:25:26] [Server thread/INFO]: Agent_007 left the game
-[04:25:26] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:25:26] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:51740] logged in with entity id 68 at ([minecraft:overworld]14.47740573803332, -3666.4748919755857, 5.672487144664573)
-[04:25:28] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
-[04:25:28] [Server thread/INFO]: WaveFire0110 left the game
-[04:25:32] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:25:32] [Server thread/INFO]: YuviPRO1123 left the game
-[04:25:45] [User Authenticator #69/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:25:51] [Server thread/INFO]: Vyqzren joined the game
-[04:25:51] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:54508] logged in with entity id 69 at ([minecraft:overworld]8.5, -63.0, 8.5)
-[04:26:04] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:26:05] [Server thread/INFO]: Vyqzren left the game
-[04:27:27] [User Authenticator #70/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:27:31] [Server thread/INFO]: Vyqzren joined the game
-[04:27:31] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:50974] logged in with entity id 70 at ([minecraft:overworld]8.5, -906.7410804615258, 8.5)
-[04:27:35] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:27:35] [Server thread/INFO]: Vyqzren left the game
-[04:27:38] [User Authenticator #71/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:27:41] [Server thread/INFO]: Vyqzren joined the game
-[04:27:41] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:33712] logged in with entity id 71 at ([minecraft:overworld]8.5, -1098.6377801946446, 8.5)
-[04:27:49] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:27:49] [Server thread/INFO]: Vyqzren left the game
-[04:31:01] [User Authenticator #72/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:31:02] [Server thread/INFO]: isaacman joined the game
-[04:31:02] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:36196] logged in with entity id 72 at ([minecraft:overworld]8.5, -1858.5930376010444, 8.5)
-[04:31:07] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:31:07] [Server thread/INFO]: isaacman left the game
-[04:32:50] [User Authenticator #73/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
-[04:32:51] [Server thread/INFO]: WaveFire0110 joined the game
-[04:32:51] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:38500] logged in with entity id 73 at ([minecraft:overworld]8.5, -410.5835747825935, 8.5)
-[04:32:57] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
-[04:32:57] [Server thread/INFO]: WaveFire0110 left the game
-[04:35:05] [User Authenticator #74/INFO]: UUID of player mythicalrocket is 16a6bccb-50d8-3c8e-9bdc-293c23fd4b1a
-[04:35:06] [Server thread/INFO]: mythicalrocket joined the game
-[04:35:06] [Server thread/INFO]: mythicalrocket[/[0:0:0:0:0:0:0:1]:60052] logged in with entity id 74 at ([minecraft:overworld]8.5, -402.04163330206023, 8.5)
-[04:35:40] [Server thread/INFO]: mythicalrocket lost connection: Disconnected
-[04:35:40] [Server thread/INFO]: mythicalrocket left the game
-[04:38:54] [User Authenticator #75/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:38:54] [Server thread/INFO]: dicestack88YT joined the game
-[04:38:54] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:52408] logged in with entity id 75 at ([minecraft:overworld]8.5, -450.7944092536497, 8.5)
-[04:39:00] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:39:00] [Server thread/INFO]: dicestack88YT left the game
-[04:39:30] [User Authenticator #76/INFO]: UUID of player ThisNotAlex is 014e105a-2f7c-315c-9249-d97c288a3fec
-[04:39:30] [Server thread/INFO]: ThisNotAlex joined the game
-[04:39:30] [Server thread/INFO]: ThisNotAlex[/[0:0:0:0:0:0:0:1]:41064] logged in with entity id 76 at ([minecraft:overworld]8.5, -2878.9589637580116, 8.5)
-[04:39:37] [Server thread/INFO]: ThisNotAlex lost connection: Disconnected
-[04:39:37] [Server thread/INFO]: ThisNotAlex left the game
-[04:41:13] [User Authenticator #77/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:41:16] [Server thread/INFO]: Vyqzren joined the game
-[04:41:16] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:46454] logged in with entity id 77 at ([minecraft:overworld]8.5, -1515.0492287749616, 8.5)
-[04:41:23] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:41:24] [Server thread/INFO]: Vyqzren left the game
-[04:42:42] [User Authenticator #78/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
-[04:42:42] [Server thread/INFO]: WaveFire0110 joined the game
-[04:42:42] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:54674] logged in with entity id 78 at ([minecraft:overworld]8.5, -716.6200361271605, 8.5)
-[04:43:11] [User Authenticator #79/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:43:12] [Server thread/INFO]: dicestack88YT joined the game
-[04:43:12] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:59660] logged in with entity id 79 at ([minecraft:overworld]8.5, -717.7446698876707, 8.5)
-[04:43:17] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:43:17] [Server thread/INFO]: dicestack88YT left the game
-[04:43:31] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
-[04:43:31] [Server thread/INFO]: WaveFire0110 left the game
-[04:44:38] [User Authenticator #80/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:44:38] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:44:38] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:42938] logged in with entity id 80 at ([minecraft:overworld]14.47740573803332, -3943.9686849360396, 5.672487144664573)
-[04:44:45] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:44:45] [Server thread/INFO]: YuviPRO1123 left the game
-[04:45:15] [User Authenticator #81/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
-[04:45:15] [User Authenticator #82/INFO]: UUID of player Vyqzren is f7b02e42-9974-3b87-83a1-7ff87122c29a
-[04:45:15] [User Authenticator #83/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[04:45:15] [User Authenticator #84/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:45:15] [User Authenticator #85/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:45:15] [User Authenticator #86/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:45:15] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:45:15] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:57626] logged in with entity id 81 at ([minecraft:overworld]14.47740573803332, -4282.673850373639, 5.672487144664573)
-[04:45:16] [Server thread/INFO]: isaacman joined the game
-[04:45:16] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:57620] logged in with entity id 82 at ([minecraft:overworld]8.5, -2090.818142379164, 8.5)
-[04:45:16] [Server thread/INFO]: dicestack88YT joined the game
-[04:45:16] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:57658] logged in with entity id 83 at ([minecraft:overworld]8.5, -913.00285341173, 8.5)
-[04:45:16] [Server thread/INFO]: A_Bell_01 joined the game
-[04:45:16] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:57608] logged in with entity id 84 at ([minecraft:overworld]8.5, -1283.1943714424972, 8.5)
-[04:45:16] [Server thread/INFO]: Agent_007 joined the game
-[04:45:16] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:57638] logged in with entity id 85 at ([minecraft:overworld]8.5, -2529.058268195893, 8.5)
-[04:45:16] [Server thread/INFO]: dicestack88YT fell out of the world
-[04:45:18] [Server thread/INFO]: YuviPRO1123 fell out of the world
-[04:45:18] [Server thread/INFO]: isaacman fell out of the world
-[04:45:18] [Server thread/INFO]: A_Bell_01 fell out of the world
-[04:45:19] [Server thread/INFO]: Vyqzren joined the game
-[04:45:19] [Server thread/INFO]: Vyqzren[/[0:0:0:0:0:0:0:1]:57650] logged in with entity id 86 at ([minecraft:overworld]8.5, -1894.2376611241123, 8.5)
-[04:45:19] [Async Chat Thread - #5/INFO]: [Not Secure] <dicestack88YT> tf
-[04:45:20] [Server thread/INFO]: Agent_007 fell out of the world
-[04:45:22] [Server thread/INFO]: Vyqzren fell out of the world
-[04:45:22] [Async Chat Thread - #6/INFO]: [Not Secure] <dicestack88YT> nigger
-[04:45:22] [Async Chat Thread - #5/INFO]: [Not Secure] <isaacman> wtf
-[04:45:23] [Server thread/INFO]: dicestack88YT fell out of the world
-[04:45:25] [Server thread/INFO]: isaacman fell out of the world
-[04:45:28] [Async Chat Thread - #5/INFO]: [Not Secure] <isaacman> titis
-[04:45:30] [Async Chat Thread - #5/INFO]: [Not Secure] <isaacman> titsi
-[04:45:31] [Server thread/INFO]: isaacman fell out of the world
-[04:45:32] [Server thread/INFO]: Vyqzren fell out of the world
-[04:45:35] [Async Chat Thread - #5/INFO]: [Not Secure] <isaacman> tits
-[04:45:37] [Async Chat Thread - #5/INFO]: [Not Secure] <Vyqzren> niggwwhat the
-[04:45:37] [Server thread/INFO]: isaacman fell out of the world
-[04:45:38] [Server thread/INFO]: Vyqzren fell out of the world
-[04:45:45] [Server thread/INFO]: Vyqzren fell out of the world
-[04:45:49] [Async Chat Thread - #5/INFO]: [Not Secure] <Vyqzren> nigger
-[04:45:50] [Async Chat Thread - #5/INFO]: [Not Secure] <YuviPRO1123> bro
-[04:45:51] [Server thread/INFO]: YuviPRO1123 fell out of the world
-[04:45:52] [Server thread/INFO]: Vyqzren fell out of the world
-[04:45:55] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:45:55] [Server thread/INFO]: YuviPRO1123 left the game
-[04:45:58] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[04:45:58] [Server thread/INFO]: Agent_007 left the game
-[04:45:58] [Server thread/INFO]: Vyqzren fell out of the world
-[04:46:01] [Server thread/INFO]: Vyqzren lost connection: Disconnected
-[04:46:01] [Server thread/INFO]: Vyqzren left the game
-[04:46:01] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:46:01] [Server thread/INFO]: isaacman left the game
-[04:46:01] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
-[04:46:01] [Server thread/INFO]: A_Bell_01 left the game
-[04:46:02] [Async Chat Thread - #6/INFO]: [Not Secure] <dicestack88YT> alr guys
-[04:46:02] [User Authenticator #87/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[04:46:03] [Server thread/INFO]: isaacman joined the game
-[04:46:03] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:45228] logged in with entity id 87 at ([minecraft:overworld]8.5, -185.63930601705258, 8.5)
-[04:46:05] [Server thread/INFO]: dicestack88YT fell out of the world
-[04:46:08] [Server thread/INFO]: isaacman lost connection: Disconnected
-[04:46:08] [Server thread/INFO]: isaacman left the game
-[04:46:12] [Async Chat Thread - #6/INFO]: [Not Secure] <dicestack88YT> gusy ti started
-[04:46:13] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:46:13] [Server thread/INFO]: dicestack88YT left the game
-[04:46:14] [User Authenticator #88/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[04:46:15] [Server thread/INFO]: dicestack88YT joined the game
-[04:46:15] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:33832] logged in with entity id 88 at ([minecraft:overworld]8.5, -261.07491244297734, 8.5)
-[04:46:18] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-11.980692056701628,0.0
-[04:46:20] [User Authenticator #89/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:46:20] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:46:20] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:33836] logged in with entity id 89 at ([minecraft:overworld]8.5, -174.51624359197294, 8.5)
-[04:46:25] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[04:46:25] [Server thread/INFO]: dicestack88YT left the game
-[04:46:30] [User Authenticator #90/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[04:46:30] [Server thread/INFO]: Agent_007 joined the game
-[04:46:30] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:47840] logged in with entity id 90 at ([minecraft:overworld]8.5, -241.84032539365683, 8.5)
-[04:46:31] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:46:31] [Server thread/INFO]: YuviPRO1123 left the game
-[04:46:35] [Server thread/WARN]: Agent_007 moved too quickly! 0.0,-13.492251296736129,0.0
-[04:46:39] [User Authenticator #91/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
-[04:46:40] [Server thread/INFO]: A_Bell_01 joined the game
-[04:46:40] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:50932] logged in with entity id 91 at ([minecraft:overworld]8.5, -98.89493143742108, 8.5)
-[04:46:41] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[04:46:41] [Server thread/INFO]: Agent_007 left the game
-[04:46:49] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
-[04:46:49] [Server thread/INFO]: A_Bell_01 left the game
+[08:37:03] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[08:37:03] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:37:04] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 664.0ms
+[08:37:09] [ServerMain/INFO]: Loaded 1585 recipes
+[08:37:09] [ServerMain/INFO]: Loaded 1688 advancements
+[08:37:09] [Server thread/INFO]: Starting minecraft server version 26.2
+[08:37:09] [Server thread/INFO]: Loading properties
+[08:37:10] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[08:37:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[08:37:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:37:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:37:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[08:37:12] [Server thread/INFO]: Default game type: SURVIVAL
+[08:37:12] [Server thread/INFO]: Generating keypair
+[08:37:12] [Server thread/INFO]: Starting Minecraft server on *:65535
+[08:37:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[08:37:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[08:37:16] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[08:37:16] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[08:37:17] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[08:37:17] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[08:37:18] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.19
+[08:37:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[08:37:20] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.19
+[08:37:21] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.66s)
+[08:37:21] [Server thread/INFO]: [nLogin]           __             _       
+[08:37:21] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[08:37:21] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[08:37:21] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[08:37:21] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[08:37:21] [Server thread/INFO]: [nLogin]                   |___/            
+[08:37:21] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.19
+[08:37:21] [Server thread/INFO]: [nLogin]  
+[08:37:22] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.13.0...
+[08:37:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:37:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:37:25] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[08:37:25] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[08:37:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:37:25] [Server thread/INFO]: Preparing level "world"
+[08:37:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[08:37:25] [Server thread/INFO]: Preparing spawn area: 100%
+[08:37:25] [Server thread/INFO]: Prepared spawn area in 4 ms
+[08:37:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[08:37:25] [Server thread/INFO]: Prepared spawn area in 0 ms
+[08:37:25] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[08:37:25] [Server thread/INFO]: Prepared spawn area in 3 ms
+[08:37:25] [Server thread/INFO]: Done preparing level "world" (0.430s)
+[08:37:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[08:37:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[08:37:25] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[08:37:25] [Server thread/INFO]: [spark] Starting background profiler...
+[08:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:37:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:37:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:37:27] [Server thread/INFO]: Running delayed init tasks
+[08:37:27] [Server thread/INFO]: Done (30.602s)! For help, type "help"
+[08:37:27] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[08:37:27] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 10 builds behind ***
+[08:37:27] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[08:39:10] [User Authenticator #0/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[08:39:12] [Server thread/INFO]: dicestack88YT joined the game
+[08:39:12] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:50176] logged in with entity id 1 at ([minecraft:overworld]8.5, -312.75340374816557, 8.5)
+[08:39:17] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-13.210316637639892,0.0
+[08:39:18] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[08:39:18] [Server thread/INFO]: dicestack88YT left the game
+[08:53:22] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[08:53:23] [Server thread/INFO]: dicestack88YT joined the game
+[08:53:23] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:38678] logged in with entity id 2 at ([minecraft:overworld]8.5, -532.7292176580802, 8.5)
+[08:53:28] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[08:53:28] [Server thread/INFO]: dicestack88YT left the game
+[08:55:11] [User Authenticator #2/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[08:55:11] [Server thread/INFO]: dicestack88YT joined the game
+[08:55:11] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:37892] logged in with entity id 3 at ([minecraft:overworld]8.5, -778.8138912672132, 8.5)
+[08:55:16] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[08:55:16] [Server thread/INFO]: dicestack88YT left the game
+[09:03:44] [User Authenticator #3/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[09:03:45] [Server thread/INFO]: dicestack88YT joined the game
+[09:03:45] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:60488] logged in with entity id 4 at ([minecraft:overworld]8.5, -967.3277834988974, 8.5)
+[09:03:50] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[09:03:50] [Server thread/INFO]: dicestack88YT left the game
+[09:09:08] [User Authenticator #4/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[09:09:08] [Server thread/INFO]: dicestack88YT joined the game
+[09:09:08] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:48908] logged in with entity id 5 at ([minecraft:overworld]8.5, -1209.8743590412887, 8.5)
+[09:09:14] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[09:09:14] [Server thread/INFO]: dicestack88YT left the game
+[09:12:51] [User Authenticator #5/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[09:12:52] [Server thread/INFO]: dicestack88YT joined the game
+[09:12:52] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:57596] logged in with entity id 6 at ([minecraft:overworld]8.5, -1452.3704993044862, 8.5)
+[09:12:57] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[09:12:57] [Server thread/INFO]: dicestack88YT left the game
+[09:26:08] [User Authenticator #6/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[09:26:09] [Server thread/INFO]: dicestack88YT joined the game
+[09:26:09] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:40438] logged in with entity id 7 at ([minecraft:overworld]8.5, -1681.1746355419748, 8.5)
+[09:26:14] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[09:26:14] [Server thread/INFO]: dicestack88YT left the game
+[09:28:40] [User Authenticator #7/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[09:28:40] [Server thread/INFO]: dicestack88YT joined the game
+[09:28:40] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:46722] logged in with entity id 8 at ([minecraft:overworld]8.5, -1930.6486414978247, 8.5)
+[09:28:46] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-12.127185117209592,0.0
+[09:28:51] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[09:28:51] [Server thread/INFO]: dicestack88YT left the game
