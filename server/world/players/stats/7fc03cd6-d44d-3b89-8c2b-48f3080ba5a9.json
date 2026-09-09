@@ -1,33 +1,53 @@
 {
   "stats": {
+    "minecraft:dropped": {
+      "minecraft:raw_iron": 2,
+      "minecraft:iron_ingot": 24,
+      "minecraft:mace": 1,
+      "minecraft:porkchop": 10,
+      "minecraft:sweet_berries": 2,
+      "minecraft:saddle": 2,
+      "minecraft:stonecutter": 2,
+      "minecraft:diamond_pickaxe": 2,
+      "minecraft:diamond_spear": 2,
+      "minecraft:stick": 128,
+      "minecraft:slime_block": 1,
+      "minecraft:lingering_potion": 1
+    },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 1,
+      "minecraft:time_since_rest": 4023,
+      "minecraft:walk_one_cm": 79816,
+      "minecraft:leave_game": 7,
+      "minecraft:walk_under_water_one_cm": 2854,
+      "minecraft:mob_kills": 4,
+      "minecraft:damage_taken": 160,
+      "minecraft:play_time": 131101,
+      "minecraft:damage_dealt": 873,
+      "minecraft:jump": 384,
+      "minecraft:time_since_death": 4003,
+      "minecraft:drop": 21,
+      "minecraft:sprint_one_cm": 110002,
+      "minecraft:fall_one_cm": 2472,
+      "minecraft:total_world_time": 131101,
+      "minecraft:swim_one_cm": 9045,
+      "minecraft:fly_one_cm": 496671,
+      "minecraft:walk_on_water_one_cm": 4909,
+      "minecraft:crouch_one_cm": 8629,
+      "minecraft:sneak_time": 5228,
+      "minecraft:deaths": 4,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 4,
+      "minecraft:tall_grass": 1,
+      "minecraft:dirt": 1,
+      "minecraft:grass_block": 1
+    },
     "minecraft:killed": {
       "minecraft:zombie": 1,
       "minecraft:creeper": 1,
       "minecraft:chicken": 2
-    },
-    "minecraft:custom": {
-      "minecraft:talked_to_villager": 1,
-      "minecraft:time_since_rest": 94994,
-      "minecraft:walk_one_cm": 79690,
-      "minecraft:leave_game": 6,
-      "minecraft:walk_under_water_one_cm": 2854,
-      "minecraft:mob_kills": 4,
-      "minecraft:damage_taken": 160,
-      "minecraft:play_time": 126489,
-      "minecraft:damage_dealt": 873,
-      "minecraft:jump": 380,
-      "minecraft:time_since_death": 94974,
-      "minecraft:drop": 21,
-      "minecraft:sprint_one_cm": 109752,
-      "minecraft:fall_one_cm": 2472,
-      "minecraft:total_world_time": 126489,
-      "minecraft:swim_one_cm": 9045,
-      "minecraft:fly_one_cm": 471204,
-      "minecraft:walk_on_water_one_cm": 4909,
-      "minecraft:crouch_one_cm": 8629,
-      "minecraft:sneak_time": 5164,
-      "minecraft:deaths": 3,
-      "minecraft:player_kills": 1
     },
     "minecraft:used": {
       "minecraft:grass_block": 36,
@@ -53,8 +73,8 @@
       "minecraft:potent_sulfur": 1,
       "minecraft:amethyst_block": 27,
       "minecraft:deepslate_tiles": 97,
-      "minecraft:calcite": 16,
       "minecraft:acacia_wood": 1,
+      "minecraft:calcite": 16,
       "minecraft:polished_blackstone_wall": 62
     },
     "minecraft:picked_up": {
@@ -78,26 +98,6 @@
       "minecraft:wheat_seeds": 1,
       "minecraft:pink_petals": 29,
       "minecraft:wooden_spear": 1
-    },
-    "minecraft:dropped": {
-      "minecraft:raw_iron": 2,
-      "minecraft:iron_ingot": 24,
-      "minecraft:mace": 1,
-      "minecraft:porkchop": 10,
-      "minecraft:sweet_berries": 2,
-      "minecraft:saddle": 2,
-      "minecraft:stonecutter": 2,
-      "minecraft:diamond_pickaxe": 2,
-      "minecraft:diamond_spear": 2,
-      "minecraft:stick": 128,
-      "minecraft:slime_block": 1,
-      "minecraft:lingering_potion": 1
-    },
-    "minecraft:mined": {
-      "minecraft:short_grass": 4,
-      "minecraft:tall_grass": 1,
-      "minecraft:dirt": 1,
-      "minecraft:grass_block": 1
     }
   },
   "DataVersion": 4903
