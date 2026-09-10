@@ -39,8 +39,10 @@ tablist:
 groups:
   
   default:
-    chat-format: '[ &7&lPlayer &r]'
-    tablist-format: '[ &7&lPlayer &r] &f{name}'
+    chat-format: '&#d7d7d7&l(&#bebebe&lP&#a5a5a5&ll&#8c8c8c&la&#747474&ly&#5b5b5b&le&#424242&lr&#292929&l)
+      &r&f| &7{name} >> {message}'
+    tablist-format: '&#d7d7d7&l(&#bebebe&lP&#a5a5a5&ll&#8c8c8c&la&#747474&ly&#5b5b5b&le&#424242&lr&#292929&l)
+      &r&f| &7{name}'
     priority: 0
   
   vip:
@@ -74,10 +76,10 @@ groups:
     priority: 80
   
   owner:
-    chat-format: '&#FF0055&l(O&#FF2277&lw&#FF4499&ln&#FF66BB&le&#FF88DD&lr) &r| &c{name}&r:
-      {message}'
-    tablist-format: '&#FF0055&l(O&#FF2277&lw&#FF4499&ln&#FF66BB&le&#FF88DD&lr) &r|
-      &c{name}'
+    chat-format: '&#2e23f1&l(&#4d25db&lO&#6d27c5&lw&#8c29af&ln&#ab2b98&le&#cb2d82&lr&#ea2f6c&l)
+      &r&f| &c&l{name} &r&f>> {message}'
+    tablist-format: '&#2e23f1&l(&#4d25db&lO&#6d27c5&lw&#8c29af&ln&#ab2b98&le&#cb2d82&lr&#ea2f6c&l)
+      &r&f| &c&l{name}'
     rank-tag: Owner
     priority: 100
 
