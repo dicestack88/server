@@ -1,0 +1,50 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1789112427243
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1789112564398
+  login: 1789111518573
+  kits:
+    starter: 1789092281180
+money: '0'
+last-account-name: isaacman
+logoutlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: 2042.300000011921
+  y: 89.5
+  z: -25958.954551114428
+  yaw: 50.2503662109375
+  pitch: 68.39997863769531
+lastlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: 1973.5036967247338
+  y: -41.0
+  z: -26123.69999998808
+  yaw: -134.550048828125
+  pitch: 53.40007400512695
+homes:
+  home:
+    world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+    world-name: world
+    x: 2056.4963180908926
+    y: 86.0
+    z: -25953.5406119592
+    yaw: 64.95020294189453
+    pitch: 32.399993896484375

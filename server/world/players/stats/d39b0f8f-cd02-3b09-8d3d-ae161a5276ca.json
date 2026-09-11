@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 156,
+      "minecraft:time_since_rest": 20,
+      "minecraft:walk_one_cm": 992,
+      "minecraft:total_world_time": 2905,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 80,
+      "minecraft:damage_taken": 338,
+      "minecraft:play_time": 2905,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 5,
+      "minecraft:time_since_death": 0
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:iron_spear": 1
+    }
+  },
+  "DataVersion": 4903
+}

@@ -1,0 +1,50 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1789102288235
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1789102501002
+  login: 1789101397166
+  kits:
+    starter: 1789102014757
+money: '0'
+last-account-name: YuviPRO1123
+homes:
+  home:
+    world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+    world-name: world
+    x: 3681.638632007838
+    y: 20.0
+    z: 239.28006082079543
+    yaw: -19.187604904174805
+    pitch: -4.200009822845459
+lastlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: 3686.4682033289782
+  y: 20.0
+  z: 242.59879081149987
+  yaw: 150.1624298095703
+  pitch: 35.39999771118164
+logoutlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -15.901635092076683
+  y: 63.0
+  z: -83.36920676581286
+  yaw: -77.5137939453125
+  pitch: -1.9499965906143188

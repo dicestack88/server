@@ -1,71 +1,667 @@
-[02:35:09] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[02:35:09] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[02:35:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:35:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[02:35:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - ViaBackwards (5.11.0), ViaVersion (5.11.0), nLogin (2.0.19)
-[02:35:20] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[02:35:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[02:35:21] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,589.5ms
-[02:35:27] [ServerMain/INFO]: Loaded 1585 recipes
-[02:35:27] [ServerMain/INFO]: Loaded 1688 advancements
-[02:35:28] [Server thread/INFO]: Starting minecraft server version 26.2
-[02:35:28] [Server thread/INFO]: Loading properties
-[02:35:28] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[02:35:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:35:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:35:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:35:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[02:35:30] [Server thread/INFO]: Default game type: SURVIVAL
-[02:35:30] [Server thread/INFO]: Generating keypair
-[02:35:30] [Server thread/INFO]: Starting Minecraft server on *:65535
-[02:35:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:35:30] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[02:35:32] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[02:35:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[02:35:33] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[02:35:33] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[02:35:34] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.19
-[02:35:35] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[02:35:35] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.19
-[02:35:36] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.36s)
-[02:35:36] [Server thread/INFO]: [nLogin]           __             _       
-[02:35:36] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[02:35:36] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[02:35:36] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[02:35:36] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[02:35:36] [Server thread/INFO]: [nLogin]                   |___/            
-[02:35:36] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.19
-[02:35:36] [Server thread/INFO]: [nLogin]  
-[02:35:36] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.13.0...
-[02:35:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:35:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:35:40] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[02:35:40] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[02:35:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:35:40] [Server thread/INFO]: Preparing level "world"
-[02:35:41] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[02:35:41] [Server thread/INFO]: Preparing spawn area: 100%
-[02:35:41] [Server thread/INFO]: Prepared spawn area in 6 ms
-[02:35:41] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[02:35:41] [Server thread/INFO]: Prepared spawn area in 1 ms
-[02:35:41] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[02:35:41] [Server thread/INFO]: Prepared spawn area in 0 ms
-[02:35:41] [Server thread/INFO]: Done preparing level "world" (1.082s)
-[02:35:41] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[02:35:41] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[02:35:41] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[02:35:42] [Server thread/INFO]: [spark] Starting background profiler...
-[02:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:35:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:35:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:35:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:35:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:35:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:35:44] [Server thread/INFO]: Running delayed init tasks
-[02:35:44] [Server thread/INFO]: Done (47.646s)! For help, type "help"
-[02:35:44] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[02:35:45] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 12 builds behind ***
-[02:35:45] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[02:40:41] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[00:07:42] [User Authenticator #13/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:07:43] [Server thread/INFO]: isaacman joined the game
+[00:07:43] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:58448] logged in with entity id 14 at ([minecraft:overworld]8.5, -6716.011951310875, 8.5)
+[00:07:50] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:07:50] [Server thread/INFO]: isaacman left the game
+[00:07:53] [User Authenticator #14/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:07:53] [Server thread/INFO]: isaacman joined the game
+[00:07:53] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:56680] logged in with entity id 15 at ([minecraft:overworld]8.5, -7102.594914717404, 8.5)
+[00:07:59] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:07:59] [Server thread/INFO]: isaacman left the game
+[00:09:53] [User Authenticator #15/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:09:53] [Server thread/INFO]: dicestack88YT joined the game
+[00:09:53] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:55414] logged in with entity id 16 at ([minecraft:overworld]8.5, -2092.338276070933, 8.5)
+[00:10:08] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-11.725750040902312,0.0
+[00:10:10] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:10:10] [Server thread/INFO]: dicestack88YT left the game
+[00:28:04] [User Authenticator #16/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:28:05] [Server thread/INFO]: dicestack88YT joined the game
+[00:28:05] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:47702] logged in with entity id 17 at ([minecraft:overworld]8.5, -3095.40336802024, 8.5)
+[00:28:11] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:28:11] [Server thread/INFO]: dicestack88YT left the game
+[00:36:43] [User Authenticator #17/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:36:44] [Server thread/INFO]: dicestack88YT joined the game
+[00:36:44] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:58470] logged in with entity id 18 at ([minecraft:overworld]8.5, -3325.855562890087, 8.5)
+[00:36:48] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:36:48] [Server thread/INFO]: dicestack88YT left the game
+[00:38:26] [User Authenticator #18/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:38:26] [Server thread/INFO]: dicestack88YT joined the game
+[00:38:26] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:36382] logged in with entity id 19 at ([minecraft:overworld]8.5, -3524.3577360418158, 8.5)
+[00:38:31] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:38:31] [Server thread/INFO]: dicestack88YT left the game
+[00:41:36] [User Authenticator #19/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:41:37] [Server thread/INFO]: dicestack88YT joined the game
+[00:41:37] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:40146] logged in with entity id 20 at ([minecraft:overworld]8.5, -3732.6720125177494, 8.5)
+[00:41:39] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:41:39] [Server thread/INFO]: dicestack88YT left the game
+[00:42:40] [User Authenticator #20/INFO]: UUID of player Dicestack87 is 22912532-02a2-3172-852f-2e5a77266a8e
+[00:42:40] [Server thread/INFO]: Dicestack87 joined the game
+[00:42:40] [Server thread/INFO]: Dicestack87[/[0:0:0:0:0:0:0:1]:60560] logged in with entity id 21 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[00:42:51] [User Authenticator #21/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:42:52] [Server thread/INFO]: dicestack88YT joined the game
+[00:42:52] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:34994] logged in with entity id 22 at ([minecraft:overworld]8.5, -3778.2576554168472, 8.5)
+[00:42:57] [Server thread/INFO]: Dicestack87 lost connection: Disconnected
+[00:42:57] [Server thread/INFO]: Dicestack87 left the game
+[00:42:58] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:42:58] [Server thread/INFO]: dicestack88YT left the game
+[00:44:06] [User Authenticator #22/INFO]: UUID of player Dicestack87 is 22912532-02a2-3172-852f-2e5a77266a8e
+[00:44:06] [Server thread/INFO]: Dicestack87 joined the game
+[00:44:06] [Server thread/INFO]: Dicestack87[/[0:0:0:0:0:0:0:1]:48246] logged in with entity id 23 at ([minecraft:overworld]8.504055150941179, -1149.1190730294336, 8.519583678250886)
+[00:44:15] [Server thread/INFO]: Dicestack87 lost connection: Disconnected
+[00:44:15] [Server thread/INFO]: Dicestack87 left the game
+[00:46:37] [User Authenticator #23/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:46:38] [Server thread/INFO]: isaacman joined the game
+[00:46:38] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53078] logged in with entity id 24 at ([minecraft:overworld]8.5, -7369.544311762479, 8.5)
+[00:46:43] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:46:43] [Server thread/INFO]: isaacman left the game
+[00:47:01] [User Authenticator #24/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:47:01] [Server thread/INFO]: dicestack88YT joined the game
+[00:47:01] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:41374] logged in with entity id 25 at ([minecraft:overworld]8.5, -4080.751174514279, 8.5)
+[00:47:06] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:47:06] [Server thread/INFO]: dicestack88YT left the game
+[00:49:19] [User Authenticator #25/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:49:20] [Server thread/INFO]: isaacman joined the game
+[00:49:20] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53934] logged in with entity id 26 at ([minecraft:overworld]8.5, -7622.495734651948, 8.5)
+[00:49:21] [Server thread/INFO]: isaacman fell out of the world
+[00:49:23] [User Authenticator #26/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:49:24] [Server thread/INFO]: dicestack88YT joined the game
+[00:49:24] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:53942] logged in with entity id 27 at ([minecraft:overworld]8.5, -4312.976018833731, 8.5)
+[00:49:28] [Server thread/INFO]: isaacman fell out of the world
+[00:49:31] [Async Chat Thread - #0/INFO]: [Not Secure] <isaacman> ?
+[00:49:31] [Server thread/INFO]: dicestack88YT fell out of the world
+[00:49:34] [Server thread/INFO]: isaacman fell out of the world
+[00:49:38] [Server thread/INFO]: dicestack88YT fell out of the world
+[00:49:42] [Server thread/INFO]: isaacman fell out of the world
+[00:49:52] [Server thread/INFO]: isaacman fell out of the world
+[00:49:55] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:49:55] [Server thread/INFO]: isaacman left the game
+[00:49:57] [User Authenticator #27/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:49:57] [Server thread/INFO]: isaacman joined the game
+[00:49:57] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:38260] logged in with entity id 28 at ([minecraft:overworld]8.5, -115.53794371794226, 8.5)
+[00:50:04] [Server thread/INFO]: isaacman fell out of the world
+[00:50:09] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:50:09] [Server thread/INFO]: dicestack88YT left the game
+[00:50:09] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:50:09] [Server thread/INFO]: isaacman left the game
+[00:50:30] [User Authenticator #28/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:50:30] [Server thread/INFO]: dicestack88YT joined the game
+[00:50:30] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:57172] logged in with entity id 29 at ([minecraft:overworld]8.5, -281.44096967896314, 8.5)
+[00:50:36] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:50:36] [Server thread/INFO]: dicestack88YT left the game
+[00:53:12] [User Authenticator #29/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:53:12] [Server thread/INFO]: isaacman joined the game
+[00:53:13] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:37412] logged in with entity id 30 at ([minecraft:overworld]9.507715030151674, -203.8302210773471, 8.460985088947387)
+[00:53:23] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:53:23] [Server thread/INFO]: isaacman left the game
+[00:53:27] [User Authenticator #30/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:53:27] [Server thread/INFO]: isaacman joined the game
+[00:53:27] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:46818] logged in with entity id 31 at ([minecraft:overworld]9.507715030151674, -841.5766257075205, 8.460985088947387)
+[00:53:30] [Server thread/INFO]: isaacman fell out of the world
+[00:53:36] [Server thread/INFO]: isaacman fell out of the world
+[00:53:39] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:53:39] [Server thread/INFO]: isaacman left the game
+[00:53:59] [User Authenticator #31/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:54:01] [Server thread/INFO]: dicestack88YT joined the game
+[00:54:01] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:35344] logged in with entity id 32 at ([minecraft:overworld]8.5, -530.9149756348131, 8.5)
+[00:54:07] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-12.05467845018461,0.0
+[00:54:10] [Server thread/INFO]: dicestack88YT fell out of the world
+[00:54:13] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-11.433643280623414,0.0
+[00:54:17] [Server thread/INFO]: dicestack88YT fell out of the world
+[00:54:21] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:54:21] [Server thread/INFO]: dicestack88YT left the game
+[00:55:46] [User Authenticator #32/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:55:46] [Server thread/INFO]: dicestack88YT (7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9) lost connection: Disconnected
+[00:55:55] [User Authenticator #33/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:55:55] [Server thread/INFO]: dicestack88YT joined the game
+[00:55:55] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:47914] logged in with entity id 33 at ([minecraft:overworld]8.5, -262.20785282246004, 8.5)
+[00:55:59] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:55:59] [Server thread/INFO]: dicestack88YT left the game
+[00:57:06] [User Authenticator #34/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[00:57:06] [Server thread/INFO]: isaacman joined the game
+[00:57:06] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53840] logged in with entity id 34 at ([minecraft:overworld]8.5, -78.90945864925914, 8.5)
+[00:57:17] [Server thread/INFO]: isaacman lost connection: Disconnected
+[00:57:17] [Server thread/INFO]: isaacman left the game
+[01:03:28] [User Authenticator #35/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:03:28] [Server thread/INFO]: dicestack88YT joined the game
+[01:03:28] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:46324] logged in with entity id 35 at ([minecraft:overworld]8.5, -382.20661122892847, 8.5)
+[01:03:36] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:03:36] [Server thread/INFO]: dicestack88YT left the game
+[01:09:09] [User Authenticator #36/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:09:10] [Server thread/INFO]: dicestack88YT joined the game
+[01:09:10] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:41464] logged in with entity id 36 at ([minecraft:overworld]8.5, -739.5650328332371, 8.5)
+[01:09:17] [User Authenticator #37/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:09:17] [Server thread/INFO]: HACKER1original1 joined the game
+[01:09:17] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:58832] logged in with entity id 37 at ([minecraft:overworld]8.5, -1329.268098180223, 8.5)
+[01:09:20] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-11.535737241956667,0.0
+[01:09:27] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:09:27] [Server thread/INFO]: HACKER1original1 left the game
+[01:09:42] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:09:42] [Server thread/INFO]: dicestack88YT left the game
+[01:09:45] [User Authenticator #38/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:09:45] [Server thread/INFO]: dicestack88YT joined the game
+[01:09:45] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:46848] logged in with entity id 38 at ([minecraft:overworld]8.5, -2860.0548033329114, 8.5)
+[01:09:50] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-12.892049378968295,0.0
+[01:09:50] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:09:50] [Server thread/INFO]: dicestack88YT left the game
+[01:09:53] [User Authenticator #39/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:09:53] [Server thread/INFO]: dicestack88YT joined the game
+[01:09:53] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:51424] logged in with entity id 39 at ([minecraft:overworld]8.5, -3038.8954991428122, 8.5)
+[01:09:58] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:09:58] [Server thread/INFO]: dicestack88YT left the game
+[01:15:45] [User Authenticator #40/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:15:45] [Server thread/INFO]: dicestack88YT joined the game
+[01:15:45] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:34854] logged in with entity id 40 at ([minecraft:overworld]8.5, -3271.120603920932, 8.5)
+[01:15:52] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:15:52] [Server thread/INFO]: dicestack88YT left the game
+[01:15:55] [User Authenticator #41/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:15:55] [Server thread/INFO]: dicestack88YT joined the game
+[01:15:55] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:57882] logged in with entity id 41 at ([minecraft:overworld]8.5, -3566.4471152554033, 8.5)
+[01:16:00] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:16:00] [Server thread/INFO]: dicestack88YT left the game
+[01:18:51] [User Authenticator #42/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:18:51] [Server thread/INFO]: HACKER1original1 joined the game
+[01:18:51] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:54776] logged in with entity id 42 at ([minecraft:overworld]8.5, -1847.8483595365483, 8.5)
+[01:18:57] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:18:57] [Server thread/INFO]: HACKER1original1 left the game
+[01:19:40] [User Authenticator #43/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:19:40] [Server thread/INFO]: HACKER1original1 joined the game
+[01:19:40] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:50238] logged in with entity id 43 at ([minecraft:overworld]8.5, -2093.854043372138, 8.5)
+[01:19:49] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:19:49] [Server thread/INFO]: HACKER1original1 left the game
+[01:19:52] [User Authenticator #44/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:19:53] [Server thread/INFO]: HACKER1original1 joined the game
+[01:19:53] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:43984] logged in with entity id 44 at ([minecraft:overworld]8.5, -2544.093906076325, 8.5)
+[01:20:02] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:20:02] [Server thread/INFO]: HACKER1original1 left the game
+[01:20:37] [User Authenticator #45/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:20:38] [Server thread/INFO]: rememberins joined the game
+[01:20:38] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:58110] logged in with entity id 45 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[01:20:50] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:20:50] [Server thread/INFO]: rememberins left the game
+[01:22:50] [User Authenticator #46/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[01:22:51] [Server thread/INFO]: Thundra1 joined the game
+[01:22:51] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:39120] logged in with entity id 46 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[01:23:02] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[01:23:02] [Server thread/INFO]: Thundra1 left the game
+[01:30:47] [User Authenticator #47/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:30:48] [Server thread/INFO]: KILLER_EXE joined the game
+[01:30:48] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:53360] logged in with entity id 47 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[01:31:07] [User Authenticator #48/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:31:07] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:31:07] [Server thread/INFO]: KILLER_EXE left the game
+[01:31:07] [Server thread/INFO]: rememberins joined the game
+[01:31:07] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:50900] logged in with entity id 48 at ([minecraft:overworld]8.5, -817.1441523471523, 8.5)
+[01:31:13] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:31:13] [Server thread/INFO]: rememberins left the game
+[01:31:30] [User Authenticator #49/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:31:31] [Server thread/INFO]: KILLER_EXE joined the game
+[01:31:31] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:49858] logged in with entity id 49 at ([minecraft:overworld]8.5, -1309.678086857867, 8.5)
+[01:31:37] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:31:37] [Server thread/INFO]: KILLER_EXE left the game
+[01:35:13] [User Authenticator #50/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:35:14] [Server thread/INFO]: dicestack88YT joined the game
+[01:35:14] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:35810] logged in with entity id 50 at ([minecraft:overworld]8.5, -3788.3607244423215, 8.5)
+[01:35:25] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:35:25] [Server thread/INFO]: dicestack88YT left the game
+[01:35:47] [User Authenticator #51/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[01:35:47] [Server thread/INFO]: isaacman joined the game
+[01:35:47] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:59748] logged in with entity id 51 at ([minecraft:overworld]8.5, -681.914053715111, 8.5)
+[01:35:53] [Server thread/WARN]: isaacman moved too quickly! 0.0,-13.492251296736185,0.0
+[01:35:54] [Server thread/INFO]: isaacman lost connection: Disconnected
+[01:35:54] [Server thread/INFO]: isaacman left the game
+[01:36:24] [User Authenticator #52/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[01:36:25] [Server thread/INFO]: Thundra1 joined the game
+[01:36:25] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:56090] logged in with entity id 52 at ([minecraft:overworld]8.5, -63.17059840332031, 8.5)
+[01:36:43] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[01:36:43] [Server thread/INFO]: Thundra1 left the game
+[01:37:54] [User Authenticator #53/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
+[01:37:54] [Server thread/INFO]: A_Bell_01 joined the game
+[01:37:54] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:40130] logged in with entity id 53 at ([minecraft:overworld]6.196413542569023, -1177.5791027077767, 11.346519199475363)
+[01:38:04] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
+[01:38:04] [Server thread/INFO]: A_Bell_01 left the game
+[01:43:55] [User Authenticator #54/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[01:43:55] [Server thread/INFO]: Thundra1 joined the game
+[01:43:55] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:48822] logged in with entity id 54 at ([minecraft:overworld]8.5, -1302.0133593673922, 8.5)
+[01:43:59] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[01:43:59] [Server thread/INFO]: Thundra1 left the game
+[01:44:09] [User Authenticator #55/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
+[01:44:10] [Server thread/INFO]: A_Bell_01 joined the game
+[01:44:10] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:47510] logged in with entity id 55 at ([minecraft:overworld]6.196413542569023, -1772.8776621853826, 11.346519199475363)
+[01:44:15] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
+[01:44:15] [Server thread/INFO]: A_Bell_01 left the game
+[01:44:24] [User Authenticator #56/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:44:24] [Server thread/INFO]: dicestack88YT joined the game
+[01:44:24] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:36076] logged in with entity id 56 at ([minecraft:overworld]8.5, -4499.72010901409, 8.5)
+[01:44:31] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:44:31] [Server thread/INFO]: dicestack88YT left the game
+[01:44:43] [User Authenticator #57/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:44:43] [Server thread/INFO]: HACKER1original1 joined the game
+[01:44:43] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:59844] logged in with entity id 57 at ([minecraft:overworld]8.494483287302696, -3081.7884782041615, 8.518807602136636)
+[01:44:50] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-11.050609255357813,0.0
+[01:44:52] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:44:52] [Server thread/INFO]: HACKER1original1 left the game
+[01:49:24] [User Authenticator #58/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
+[01:49:24] [Server thread/INFO]: A_Bell_01 joined the game
+[01:49:24] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:39532] logged in with entity id 58 at ([minecraft:overworld]6.196413542569023, -1994.7790267917462, 11.346519199475363)
+[01:49:39] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
+[01:49:39] [Server thread/INFO]: A_Bell_01 left the game
+[01:54:26] [User Authenticator #59/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:54:27] [Server thread/INFO]: KILLER_EXE joined the game
+[01:54:27] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:50870] logged in with entity id 59 at ([minecraft:overworld]8.5, -1663.0272992661448, 8.5)
+[01:55:13] [User Authenticator #60/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:55:13] [User Authenticator #61/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[01:55:13] [Server thread/INFO]: Thundra1 joined the game
+[01:55:13] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:48068] logged in with entity id 60 at ([minecraft:overworld]8.581784156529789, -1474.8705192165926, 8.433776880879195)
+[01:55:14] [Server thread/INFO]: HACKER1original1 joined the game
+[01:55:14] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:48066] logged in with entity id 61 at ([minecraft:overworld]8.494483287302696, -3474.6888194609637, 8.518807602136636)
+[01:55:15] [User Authenticator #62/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[01:55:15] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:55:15] [Server thread/INFO]: KILLER_EXE left the game
+[01:55:16] [Server thread/INFO]: isaacman joined the game
+[01:55:16] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:48072] logged in with entity id 62 at ([minecraft:overworld]8.5, -917.8342224212114, 8.5)
+[01:55:16] [Server thread/INFO]: Thundra1 fell out of the world
+[01:55:16] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:55:23] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:55:23] [Server thread/INFO]: isaacman fell out of the world
+[01:55:30] [Server thread/INFO]: isaacman fell out of the world
+[01:55:30] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[01:55:30] [Server thread/INFO]: Thundra1 left the game
+[01:55:36] [Server thread/INFO]: isaacman lost connection: Disconnected
+[01:55:36] [Server thread/INFO]: isaacman left the game
+[01:55:37] [User Authenticator #63/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[01:55:38] [Server thread/INFO]: isaacman joined the game
+[01:55:38] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:44620] logged in with entity id 63 at ([minecraft:overworld]8.5, -115.53794371794226, 8.5)
+[01:55:42] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:55:46] [Server thread/INFO]: isaacman fell out of the world
+[01:55:49] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:55:51] [Server thread/WARN]: isaacman moved too quickly! 0.0,-12.336393201887176,0.0
+[01:55:52] [Server thread/INFO]: isaacman fell out of the world
+[01:55:55] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:55:58] [Server thread/INFO]: isaacman lost connection: Disconnected
+[01:55:58] [Server thread/INFO]: isaacman left the game
+[01:55:58] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:55:58] [Server thread/INFO]: HACKER1original1 left the game
+[01:58:01] [User Authenticator #64/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:58:01] [Server thread/INFO]: dicestack88YT joined the game
+[01:58:01] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:40216] logged in with entity id 64 at ([minecraft:overworld]8.5, -4816.578793901029, 8.5)
+[01:58:07] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:58:07] [Server thread/INFO]: dicestack88YT left the game
+[01:59:19] [User Authenticator #65/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[01:59:19] [User Authenticator #66/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:59:19] [User Authenticator #67/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:59:20] [Server thread/INFO]: HACKER1original1 joined the game
+[01:59:20] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:53930] logged in with entity id 65 at ([minecraft:overworld]8.5, -84.83350882234917, 8.5)
+[01:59:20] [Server thread/INFO]: dicestack88YT joined the game
+[01:59:20] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:53950] logged in with entity id 66 at ([minecraft:overworld]8.5, -5052.2346288003655, 8.5)
+[01:59:20] [Server thread/INFO]: isaacman joined the game
+[01:59:20] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53936] logged in with entity id 67 at ([minecraft:overworld]8.5, -245.08432080231114, 8.5)
+[01:59:20] [Server thread/INFO]: dicestack88YT fell out of the world
+[01:59:23] [Server thread/INFO]: isaacman fell out of the world
+[01:59:24] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:59:30] [Server thread/INFO]: isaacman fell out of the world
+[01:59:36] [Server thread/INFO]: isaacman fell out of the world
+[01:59:38] [Async Chat Thread - #2/INFO]: [Not Secure] <HACKER1original1> FUFUCk
+[01:59:39] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:59:40] [Async Chat Thread - #3/INFO]: [Not Secure] <dicestack88YT> guys
+[01:59:42] [Server thread/INFO]: isaacman fell out of the world
+[01:59:43] [Server thread/INFO]: dicestack88YT fell out of the world
+[01:59:45] [Server thread/INFO]: HACKER1original1 fell out of the world
+[01:59:46] [Async Chat Thread - #2/INFO]: [Not Secure] <dicestack88YT> rejoin
+[01:59:47] [Server thread/INFO]: isaacman lost connection: Disconnected
+[01:59:47] [Server thread/INFO]: isaacman left the game
+[01:59:48] [User Authenticator #68/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[01:59:48] [Server thread/INFO]: isaacman joined the game
+[01:59:48] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:43682] logged in with entity id 68 at ([minecraft:overworld]8.5, -171.67216278325085, 8.5)
+[01:59:49] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:59:49] [Server thread/INFO]: HACKER1original1 left the game
+[01:59:50] [Server thread/INFO]: dicestack88YT fell out of the world
+[01:59:51] [User Authenticator #69/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:59:51] [Server thread/INFO]: HACKER1original1 joined the game
+[01:59:51] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:43698] logged in with entity id 69 at ([minecraft:overworld]8.5, -71.58435413921252, 8.5)
+[01:59:52] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:59:52] [Server thread/INFO]: dicestack88YT left the game
+[01:59:56] [Server thread/INFO]: isaacman fell out of the world
+[01:59:57] [User Authenticator #70/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:59:57] [Server thread/INFO]: dicestack88YT joined the game
+[01:59:57] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:38248] logged in with entity id 70 at ([minecraft:overworld]8.5, -80.31606981329213, 8.5)
+[02:00:02] [Server thread/INFO]: isaacman fell out of the world
+[02:00:04] [Server thread/INFO]: HACKER1original1 fell out of the world
+[02:00:04] [Server thread/INFO]: dicestack88YT fell out of the world
+[02:00:06] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:00:06] [Server thread/INFO]: HACKER1original1 left the game
+[02:00:06] [Server thread/INFO]: isaacman lost connection: Disconnected
+[02:00:06] [Server thread/INFO]: isaacman left the game
+[02:00:06] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[02:00:06] [Server thread/INFO]: dicestack88YT left the game
+[02:04:14] [User Authenticator #71/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:04:14] [Server thread/INFO]: HACKER1original1 joined the game
+[02:04:14] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:39704] logged in with entity id 71 at ([minecraft:overworld]8.5, -849.0517054619443, 8.5)
+[02:04:27] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:04:27] [Server thread/INFO]: HACKER1original1 left the game
+[02:06:34] [User Authenticator #72/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[02:06:34] [Server thread/INFO]: KILLER_EXE joined the game
+[02:06:34] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:39558] logged in with entity id 72 at ([minecraft:overworld]8.5, -5245.910599664908, 8.5)
+[02:06:43] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[02:06:43] [Server thread/INFO]: KILLER_EXE left the game
+[02:07:51] [Server thread/INFO]: [Not Secure] [Server] bigger
+[02:08:37] [User Authenticator #73/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[02:08:37] [Server thread/INFO]: KILLER_EXE joined the game
+[02:08:37] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:41302] logged in with entity id 73 at ([minecraft:overworld]8.5, -5718.839397648978, 8.5)
+[02:08:58] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[02:08:58] [Server thread/INFO]: KILLER_EXE left the game
+[02:09:04] [User Authenticator #74/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[02:09:04] [Server thread/INFO]: dicestack88YT joined the game
+[02:09:04] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:39138] logged in with entity id 74 at ([minecraft:overworld]8.5, -412.1878301487071, 8.5)
+[02:09:12] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[02:09:12] [Server thread/INFO]: dicestack88YT left the game
+[02:09:45] [User Authenticator #75/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[02:09:45] [Server thread/INFO]: KILLER_EXE joined the game
+[02:09:45] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:39728] logged in with entity id 75 at ([minecraft:overworld]8.5, -7181.039516775771, 8.5)
+[02:10:42] [Server thread/WARN]: KILLER_EXE moved too quickly! 0.0,-11.760011442700488,0.0
+[02:10:56] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[02:10:56] [Server thread/INFO]: KILLER_EXE left the game
+[02:11:03] [User Authenticator #76/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:11:04] [Server thread/INFO]: HACKER1original1 joined the game
+[02:11:04] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:38406] logged in with entity id 76 at ([minecraft:overworld]8.5, -1610.9495098480008, 8.5)
+[02:11:13] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:11:13] [Server thread/INFO]: HACKER1original1 left the game
+[02:16:13] [User Authenticator #77/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[02:16:13] [Server thread/INFO]: dicestack88YT joined the game
+[02:16:13] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:50486] logged in with entity id 77 at ([minecraft:overworld]8.5, -836.0675414115955, 8.5)
+[02:16:18] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[02:16:18] [Server thread/INFO]: dicestack88YT left the game
+[02:19:21] [User Authenticator #78/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:19:21] [Server thread/INFO]: HACKER1original1 joined the game
+[02:19:21] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:41604] logged in with entity id 78 at ([minecraft:overworld]8.5, -2133.349175335319, 8.5)
+[02:19:31] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:19:31] [Server thread/INFO]: HACKER1original1 left the game
+[02:20:25] [User Authenticator #79/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
+[02:20:25] [Server thread/INFO]: A_Bell_01 joined the game
+[02:20:25] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:38140] logged in with entity id 79 at ([minecraft:overworld]6.196413542569023, -2983.057820620282, 11.346519199475363)
+[02:20:29] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
+[02:20:29] [Server thread/INFO]: A_Bell_01 left the game
+[02:23:28] [User Authenticator #80/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:23:29] [Server thread/INFO]: HACKER1original1 joined the game
+[02:23:29] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:59178] logged in with entity id 80 at ([minecraft:overworld]8.5, -2651.9113594498076, 8.5)
+[02:23:44] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:23:44] [Server thread/INFO]: HACKER1original1 left the game
+[02:24:05] [User Authenticator #81/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[02:24:05] [Server thread/INFO]: KILLER_EXE joined the game
+[02:24:05] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:43076] logged in with entity id 81 at ([minecraft:overworld]8.5, -12356.02677656746, 8.5)
+[02:24:13] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[02:24:13] [Server thread/INFO]: KILLER_EXE left the game
+[02:25:35] [User Authenticator #82/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:25:35] [Server thread/INFO]: HACKER1original1 joined the game
+[02:25:35] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:42762] logged in with entity id 82 at ([minecraft:overworld]8.5, -3648.013658382417, 8.5)
+[02:26:14] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:26:14] [Server thread/INFO]: HACKER1original1 left the game
+[02:27:26] [User Authenticator #83/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[02:27:27] [Server thread/INFO]: KILLER_EXE joined the game
+[02:27:27] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:55224] logged in with entity id 83 at ([minecraft:overworld]8.5, -12742.60926111373, 8.5)
+[02:27:31] [User Authenticator #84/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[02:27:31] [Server thread/INFO]: rememberins joined the game
+[02:27:31] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:55232] logged in with entity id 84 at ([minecraft:overworld]8.5, -1091.1424367455184, 8.5)
+[02:27:34] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[02:27:34] [Server thread/INFO]: KILLER_EXE left the game
+[02:27:38] [Server thread/INFO]: rememberins lost connection: Disconnected
+[02:27:38] [Server thread/INFO]: rememberins left the game
+[02:28:05] [User Authenticator #85/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[02:28:05] [Server thread/INFO]: KILLER_EXE joined the game
+[02:28:05] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:39936] logged in with entity id 85 at ([minecraft:overworld]8.5, -13136.625200273673, 8.5)
+[02:28:12] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[02:28:12] [Server thread/INFO]: KILLER_EXE left the game
+[02:28:18] [User Authenticator #86/INFO]: UUID of player magneticmaggot is b8dad029-33c6-31a3-9924-55b642d3040b
+[02:28:19] [Server thread/INFO]: magneticmaggot joined the game
+[02:28:19] [Server thread/INFO]: magneticmaggot[/[0:0:0:0:0:0:0:1]:36012] logged in with entity id 86 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[02:28:29] [Server thread/INFO]: magneticmaggot lost connection: Disconnected
+[02:28:29] [Server thread/INFO]: magneticmaggot left the game
+[02:34:27] [User Authenticator #87/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[02:34:28] [Server thread/INFO]: dicestack88YT joined the game
+[02:34:28] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:54184] logged in with entity id 87 at ([minecraft:overworld]8.5, -1031.353431490582, 8.5)
+[02:34:34] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[02:34:34] [Server thread/INFO]: dicestack88YT left the game
+[02:36:07] [User Authenticator #88/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[02:36:07] [Server thread/INFO]: rememberins joined the game
+[02:36:07] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:47292] logged in with entity id 88 at ([minecraft:overworld]8.5, -1426.1997861998948, 8.5)
+[02:36:14] [Server thread/INFO]: rememberins lost connection: Disconnected
+[02:36:14] [Server thread/INFO]: rememberins left the game
+[02:42:57] [User Authenticator #89/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[02:42:58] [Server thread/INFO]: isaacman joined the game
+[02:42:58] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:54004] logged in with entity id 89 at ([minecraft:overworld]8.5, -278.2242386078576, 8.5)
+[02:43:03] [User Authenticator #90/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:43:03] [Server thread/INFO]: HACKER1original1 joined the game
+[02:43:03] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:54010] logged in with entity id 90 at ([minecraft:overworld]8.5, -6470.415918293988, 8.5)
+[02:43:04] [Server thread/INFO]: isaacman lost connection: Disconnected
+[02:43:04] [Server thread/INFO]: isaacman left the game
+[02:43:22] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:43:22] [Server thread/INFO]: HACKER1original1 left the game
+[02:46:31] [User Authenticator #91/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:46:31] [Server thread/INFO]: HACKER1original1 joined the game
+[02:46:31] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:40446] logged in with entity id 91 at ([minecraft:overworld]8.5, -7791.5366501859635, 8.5)
+[02:46:33] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:46:33] [Server thread/INFO]: HACKER1original1 left the game
+[02:46:35] [User Authenticator #92/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:46:35] [Server thread/INFO]: HACKER1original1 joined the game
+[02:46:35] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:40452] logged in with entity id 92 at ([minecraft:overworld]8.5, -7825.524130531683, 8.5)
+[02:46:41] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:46:41] [Server thread/INFO]: HACKER1original1 left the game
+[02:46:43] [User Authenticator #93/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:46:44] [Server thread/INFO]: HACKER1original1 joined the game
+[02:46:44] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:58966] logged in with entity id 93 at ([minecraft:overworld]8.5, -8099.522217979377, 8.5)
+[02:46:53] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:46:53] [Server thread/INFO]: HACKER1original1 left the game
+[02:48:36] [User Authenticator #94/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:48:37] [Server thread/INFO]: HACKER1original1 joined the game
+[02:48:37] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:33838] logged in with entity id 94 at ([minecraft:overworld]8.5, -8614.286044325096, 8.5)
+[02:48:40] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-11.152484234728036,0.0
+[02:48:46] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:48:46] [Server thread/INFO]: HACKER1original1 left the game
+[02:51:16] [User Authenticator #95/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
+[02:51:17] [Server thread/INFO]: A_Bell_01 joined the game
+[02:51:17] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:46276] logged in with entity id 95 at ([minecraft:overworld]6.196413542569023, -3152.2498078065337, 11.346519199475363)
+[02:51:24] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
+[02:51:24] [Server thread/INFO]: A_Bell_01 left the game
+[02:54:23] [User Authenticator #96/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:54:23] [Server thread/INFO]: HACKER1original1 joined the game
+[02:54:23] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:43972] logged in with entity id 96 at ([minecraft:overworld]8.5, -8990.555298645493, 8.5)
+[02:54:32] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:54:32] [Server thread/INFO]: HACKER1original1 left the game
+[02:55:56] [User Authenticator #97/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[02:55:56] [Server thread/INFO]: HACKER1original1 joined the game
+[02:55:56] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:36114] logged in with entity id 97 at ([minecraft:overworld]8.5, -9448.321025105954, 8.5)
+[02:56:04] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[02:56:04] [Server thread/INFO]: HACKER1original1 left the game
+[02:59:01] [User Authenticator #98/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[02:59:02] [Server thread/INFO]: isaacman joined the game
+[02:59:02] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:45952] logged in with entity id 98 at ([minecraft:overworld]8.5, -605.9521686487304, 8.5)
+[02:59:07] [Server thread/INFO]: isaacman lost connection: Disconnected
+[02:59:07] [Server thread/INFO]: isaacman left the game
+[03:01:56] [User Authenticator #99/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
+[03:01:57] [Server thread/INFO]: Agent_007 joined the game
+[03:01:57] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:58714] logged in with entity id 99 at ([minecraft:overworld]8.5, -613.3553428572424, 8.5)
+[03:02:07] [Server thread/INFO]: Agent_007 lost connection: Disconnected
+[03:02:07] [Server thread/INFO]: Agent_007 left the game
+[03:06:44] [User Authenticator #100/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[03:06:45] [Server thread/INFO]: KILLER_EXE joined the game
+[03:06:45] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:48602] logged in with entity id 100 at ([minecraft:overworld]8.5, -13493.62748936772, 8.5)
+[03:06:52] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[03:06:52] [Server thread/INFO]: KILLER_EXE left the game
+[03:12:27] [User Authenticator #101/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[03:12:27] [Server thread/INFO]: isaacman joined the game
+[03:12:27] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:54592] logged in with entity id 101 at ([minecraft:overworld]8.5, -841.5223765151453, 8.5)
+[03:12:33] [Server thread/INFO]: isaacman lost connection: Disconnected
+[03:12:33] [Server thread/INFO]: isaacman left the game
+[03:13:49] [User Authenticator #102/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[03:13:49] [Server thread/INFO]: isaacman joined the game
+[03:13:49] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:60614] logged in with entity id 102 at ([minecraft:overworld]8.5, -1101.4567175247953, 8.5)
+[03:13:56] [Server thread/INFO]: isaacman lost connection: Disconnected
+[03:13:56] [Server thread/INFO]: isaacman left the game
+[03:14:30] [User Authenticator #103/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[03:14:30] [Server thread/INFO]: KILLER_EXE joined the game
+[03:14:30] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:55114] logged in with entity id 103 at ([minecraft:overworld]8.5, -13857.977272462103, 8.5)
+[03:14:42] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[03:14:42] [Server thread/INFO]: KILLER_EXE left the game
+[03:24:31] [User Authenticator #104/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[03:24:32] [Server thread/INFO]: KILLER_EXE joined the game
+[03:24:32] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:58228] logged in with entity id 104 at ([minecraft:overworld]8.5, -14584.878101136996, 8.5)
+[03:24:34] [Server thread/WARN]: KILLER_EXE moved too quickly! 0.0,-11.314849834017878,0.0
+[03:24:50] [Server thread/WARN]: KILLER_EXE moved too quickly! 0.0,-11.736782858662991,0.0
+[03:24:50] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[03:24:50] [Server thread/INFO]: KILLER_EXE left the game
+[03:29:02] [User Authenticator #105/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[03:29:03] [Server thread/INFO]: HACKER1original1 joined the game
+[03:29:03] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:45082] logged in with entity id 105 at ([minecraft:overworld]8.5, -9894.78919212, 8.5)
+[03:29:08] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-13.308116610711295,0.0
+[03:29:14] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-10.653594869956578,0.0
+[03:29:16] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[03:29:16] [Server thread/INFO]: HACKER1original1 left the game
+[03:29:35] [User Authenticator #106/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[03:29:35] [Server thread/INFO]: KILLER_EXE joined the game
+[03:29:35] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:47426] logged in with entity id 106 at ([minecraft:overworld]8.5, -15646.671229578018, 8.5)
+[03:29:42] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[03:29:42] [Server thread/INFO]: KILLER_EXE left the game
+[03:29:55] [User Authenticator #107/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[03:29:56] [Server thread/INFO]: rememberins joined the game
+[03:29:56] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:35640] logged in with entity id 107 at ([minecraft:overworld]8.5, -1743.1051580153983, 8.5)
+[03:30:05] [Server thread/INFO]: rememberins lost connection: Disconnected
+[03:30:05] [Server thread/INFO]: rememberins left the game
+[03:30:30] [User Authenticator #108/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
+[03:30:30] [Server thread/INFO]: dark67 joined the game
+[03:30:30] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:36060] logged in with entity id 108 at ([minecraft:overworld]8.772807139025991, -2233.811987166189, 8.984293160719172)
+[03:30:37] [User Authenticator #109/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
+[03:30:37] [Server thread/INFO]: Thundra1 joined the game
+[03:30:37] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:36384] logged in with entity id 109 at ([minecraft:overworld]8.5, -235.54296867652786, 8.5)
+[03:30:38] [Server thread/INFO]: dark67 lost connection: Disconnected
+[03:30:38] [Server thread/INFO]: dark67 left the game
+[03:30:42] [Server thread/INFO]: Thundra1 lost connection: Disconnected
+[03:30:42] [Server thread/INFO]: Thundra1 left the game
+[03:34:11] [User Authenticator #110/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
+[03:34:12] [Server thread/INFO]: dark67 joined the game
+[03:34:12] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:37786] logged in with entity id 110 at ([minecraft:overworld]8.772807139025991, -2616.684047884915, 8.984293160719172)
+[03:34:19] [Server thread/INFO]: dark67 lost connection: Disconnected
+[03:34:19] [Server thread/INFO]: dark67 left the game
+[03:35:47] [User Authenticator #111/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
+[03:35:47] [Server thread/INFO]: dark67 joined the game
+[03:35:47] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:35166] logged in with entity id 111 at ([minecraft:overworld]8.772807139025991, -2969.989368006415, 8.984293160719172)
+[03:35:56] [Server thread/INFO]: dark67 lost connection: Disconnected
+[03:35:56] [Server thread/INFO]: dark67 left the game
+[03:38:20] [User Authenticator #112/INFO]: UUID of player ironmanLJM is d00c14c9-9ee3-3788-b053-a1de57b43b72
+[03:38:20] [Server thread/INFO]: ironmanLJM joined the game
+[03:38:20] [Server thread/INFO]: ironmanLJM[/[0:0:0:0:0:0:0:1]:44772] logged in with entity id 112 at ([minecraft:overworld]8.500165339035448, -2826.6842402284697, 9.03333230108023)
+[03:38:24] [Server thread/INFO]: ironmanLJM lost connection: Disconnected
+[03:38:24] [Server thread/INFO]: ironmanLJM left the game
+[03:53:41] [User Authenticator #113/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[03:53:42] [Server thread/INFO]: KILLER_EXE joined the game
+[03:53:42] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:35030] logged in with entity id 113 at ([minecraft:overworld]8.5, -16014.744947459183, 8.5)
+[03:53:50] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[03:53:50] [Server thread/INFO]: KILLER_EXE left the game
+[03:54:50] [User Authenticator #114/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[03:54:51] [Server thread/INFO]: rememberins joined the game
+[03:54:51] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:40840] logged in with entity id 114 at ([minecraft:overworld]8.5, -2242.6230250045555, 8.5)
+[03:54:59] [Server thread/INFO]: rememberins lost connection: Disconnected
+[03:54:59] [Server thread/INFO]: rememberins left the game
+[03:55:29] [User Authenticator #115/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[03:55:30] [Server thread/INFO]: rememberins joined the game
+[03:55:30] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:53056] logged in with entity id 115 at ([minecraft:overworld]8.5, -2662.761112995181, 8.5)
+[03:55:42] [Server thread/INFO]: rememberins lost connection: Disconnected
+[03:55:42] [Server thread/INFO]: rememberins left the game
+[03:55:57] [User Authenticator #116/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[03:55:58] [Server thread/INFO]: rememberins joined the game
+[03:55:58] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:33038] logged in with entity id 116 at ([minecraft:overworld]8.5, -3416.8776899889986, 8.5)
+[03:56:25] [Server thread/INFO]: rememberins lost connection: Disconnected
+[03:56:25] [Server thread/INFO]: rememberins left the game
+[03:58:33] [User Authenticator #117/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[03:58:33] [Server thread/INFO]: rememberins joined the game
+[03:58:33] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:53252] logged in with entity id 117 at ([minecraft:overworld]8.5, -5333.763001046462, 8.5)
+[03:58:39] [Server thread/INFO]: rememberins lost connection: Disconnected
+[03:58:39] [Server thread/INFO]: rememberins left the game
+[04:02:22] [User Authenticator #118/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[04:02:23] [Server thread/INFO]: KILLER_EXE joined the game
+[04:02:23] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:50062] logged in with entity id 118 at ([minecraft:overworld]8.5, -16476.31701849133, 8.5)
+[04:02:31] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[04:02:31] [Server thread/INFO]: KILLER_EXE left the game
+[04:04:32] [User Authenticator #119/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[04:04:33] [Server thread/INFO]: HACKER1original1 joined the game
+[04:04:33] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:50716] logged in with entity id 119 at ([minecraft:overworld]8.5, -10401.733789583668, 8.5)
+[04:04:42] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[04:04:42] [Server thread/INFO]: HACKER1original1 left the game
+[04:11:54] [User Authenticator #120/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
+[04:11:55] [Server thread/INFO]: dark67 joined the game
+[04:11:55] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:52140] logged in with entity id 120 at ([minecraft:overworld]8.772807139025991, -3469.507234995571, 8.984293160719172)
+[04:12:04] [Server thread/INFO]: dark67 lost connection: Disconnected
+[04:12:04] [Server thread/INFO]: dark67 left the game
+[04:17:13] [User Authenticator #121/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
+[04:17:14] [Server thread/INFO]: YuviPRO1123 joined the game
+[04:17:14] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:50848] logged in with entity id 121 at ([minecraft:overworld]6.294707034337909, -4054.898987509121, 8.873134251774264)
+[04:17:23] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
+[04:17:23] [Server thread/INFO]: YuviPRO1123 left the game
+[04:18:13] [User Authenticator #122/INFO]: UUID of player HACKER1original2 is d39b0f8f-cd02-3b09-8d3d-ae161a5276ca
+[04:18:14] [Server thread/INFO]: HACKER1original2 joined the game
+[04:18:14] [Server thread/INFO]: HACKER1original2[/[0:0:0:0:0:0:0:1]:33126] logged in with entity id 122 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[04:18:33] [Server thread/WARN]: HACKER1original2 moved too quickly! 0.0,-11.75151171759444,0.0
+[04:18:33] [Server thread/INFO]: HACKER1original2 lost connection: Disconnected
+[04:18:33] [Server thread/INFO]: HACKER1original2 left the game
+[04:18:36] [User Authenticator #123/INFO]: UUID of player HACKER1original2 is d39b0f8f-cd02-3b09-8d3d-ae161a5276ca
+[04:18:36] [Server thread/INFO]: HACKER1original2 joined the game
+[04:18:36] [Server thread/INFO]: HACKER1original2[/[0:0:0:0:0:0:0:1]:41142] logged in with entity id 123 at ([minecraft:overworld]8.5, -1275.1882781401753, 8.5)
+[04:18:51] [Server thread/INFO]: HACKER1original2 lost connection: Disconnected
+[04:18:51] [Server thread/INFO]: HACKER1original2 left the game
+[04:19:04] [User Authenticator #124/INFO]: UUID of player HACKER1original3 is 91157811-cc2a-39eb-9baf-d97486ed091a
+[04:19:05] [Server thread/INFO]: HACKER1original3 joined the game
+[04:19:05] [Server thread/INFO]: HACKER1original3[/[0:0:0:0:0:0:0:1]:43084] logged in with entity id 124 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[04:19:13] [Server thread/INFO]: HACKER1original3 lost connection: Disconnected
+[04:19:13] [Server thread/INFO]: HACKER1original3 left the game
+[04:19:42] [User Authenticator #125/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[04:19:43] [Server thread/INFO]: KILLER_EXE joined the game
+[04:19:43] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:42262] logged in with entity id 125 at ([minecraft:overworld]8.5, -16949.24631241548, 8.5)
+[04:19:52] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[04:19:52] [Server thread/INFO]: KILLER_EXE left the game
+[04:22:34] [User Authenticator #126/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[04:22:35] [Server thread/INFO]: rememberins joined the game
+[04:22:35] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:38874] logged in with entity id 126 at ([minecraft:overworld]8.5, -5590.202301070747, 8.5)
+[04:22:41] [Server thread/INFO]: rememberins lost connection: Disconnected
+[04:22:41] [Server thread/INFO]: rememberins left the game
+[04:36:30] [User Authenticator #127/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
+[04:36:30] [Server thread/INFO]: YuviPRO1123 joined the game
+[04:36:30] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:40104] logged in with entity id 127 at ([minecraft:overworld]6.294707034337909, -4600.252580179114, 8.873134251774264)
+[04:36:36] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
+[04:36:36] [Server thread/INFO]: YuviPRO1123 left the game
+[04:43:10] [User Authenticator #128/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[04:43:11] [Server thread/INFO]: rememberins joined the game
+[04:43:11] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:36048] logged in with entity id 128 at ([minecraft:overworld]8.5, -5889.109313173146, 8.5)
+[04:43:17] [Server thread/INFO]: rememberins lost connection: Disconnected
+[04:43:17] [Server thread/INFO]: rememberins left the game
+[05:01:50] [User Authenticator #129/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[05:01:50] [Server thread/INFO]: HACKER1original1 joined the game
+[05:01:50] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:41342] logged in with entity id 129 at ([minecraft:overworld]8.5, -10954.745904230971, 8.5)
+[05:01:55] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-13.308116610711295,0.0
+[05:01:57] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-11.19886200217843,0.0
+[05:02:00] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[05:02:00] [Server thread/INFO]: HACKER1original1 left the game
+[05:03:23] [User Authenticator #130/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[05:03:23] [Server thread/INFO]: HACKER1original1 (cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db) lost connection: Disconnected
+[05:32:58] [User Authenticator #131/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[05:32:59] [Server thread/INFO]: HACKER1original1 joined the game
+[05:32:59] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:51082] logged in with entity id 130 at ([minecraft:overworld]8.5, -11278.764079951048, 8.5)
+[05:33:06] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[05:33:06] [Server thread/INFO]: HACKER1original1 left the game
+[06:09:17] [User Authenticator #132/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[06:09:17] [Server thread/INFO]: isaacman joined the game
+[06:09:17] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:39142] logged in with entity id 131 at ([minecraft:overworld]8.5, -1429.191731354211, 8.5)
+[06:09:25] [Server thread/INFO]: isaacman lost connection: Disconnected
+[06:09:25] [Server thread/INFO]: isaacman left the game
+[06:46:07] [User Authenticator #133/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[06:46:08] [Server thread/INFO]: HACKER1original1 joined the game
+[06:46:08] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:60092] logged in with entity id 132 at ([minecraft:overworld]8.5, -11676.50397281457, 8.5)
+[06:46:22] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[06:46:22] [Server thread/INFO]: HACKER1original1 left the game
+[07:10:31] [User Authenticator #134/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[07:10:33] [Server thread/INFO]: isaacman joined the game
+[07:10:33] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:56320] logged in with entity id 133 at ([minecraft:overworld]8.5, -1819.4888899112366, 8.5)
+[07:10:38] [Server thread/INFO]: isaacman lost connection: Disconnected
+[07:10:38] [Server thread/INFO]: isaacman left the game
+[07:25:11] [User Authenticator #135/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
+[07:25:11] [Server thread/INFO]: isaacman joined the game
+[07:25:11] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:42636] logged in with entity id 134 at ([minecraft:overworld]8.5, -2086.395322790955, 8.5)
+[07:25:17] [Server thread/INFO]: isaacman lost connection: Disconnected
+[07:25:17] [Server thread/INFO]: isaacman left the game
