@@ -1,0 +1,74 @@
+{
+  debug: false,
+  messages: {
+    kick: [
+      '<red>This %block_type% is %not_allowed_alt%!</red>',
+      '<dark_gray>»</dark_gray> <gray>%blocked_value%</gray> <dark_gray>«</dark_gray>',
+      '',
+      '%action%',
+      '',
+      '<aqua>Think this is a mistake? Join our discord:</aqua>',
+      '<blue>%discord_invite%</blue>'
+    ],
+    actions: {
+      generic: '<gold>Please switch to a different %block_type%.</gold>',
+      player_name: '<gold>Please change your %block_type%.</gold>',
+      ip_address: '<gold>Please contact staff for assistance.</gold>'
+    }
+  },
+  motd: {
+    enabled: true,
+    text: [
+      '<red>This %block_type% is %not_allowed%!</red>',
+      '<dark_gray>»</dark_gray> <gray>%blocked_value%</gray>'
+    ],
+    players: {
+      online: 0,
+      max: 0,
+      hover: [
+        '<blue>Join our discord</blue>',
+        '<blue>%discord_invite%</blue>'
+      ]
+    }
+  },
+  blacklist: {
+    origins: [
+      '.*dicestack88\\.github\\.io.*'
+    ],
+    brands: [
+      '.*dragonx.*',
+      '.*piclient.*',
+      '.*justin.*',
+      '.*wurstx.*',
+      '.*moonlight.*'
+    ],
+    player_names: [
+      'Admin'
+    ],
+    ip_addresses: [
+      '192.0.2.0/24'
+    ],
+    subscriptions: [
+    ]
+  },
+  discord: {
+    invite: 'discord.gg/changeme',
+    webhook: {
+      enabled: false,
+      webhook_urls: [
+      ],
+      send_ips: true
+    }
+  },
+  update_checker: {
+    enabled: true,
+    allow_snapshots: false,
+    auto_update: false
+  },
+  blacklist_http_api: false,
+  blacklist_to_whitelist: true,
+  block_undefined_origin: true,
+  bStats: true,
+  logFile: true,
+  config_version: 2
+}

@@ -1,1391 +1,242 @@
-[01:59:38] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[01:59:38] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[01:59:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:59:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
-[01:59:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+[11:38:17] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[11:38:17] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[11:38:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:38:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[11:38:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
  - AxSmithing (1.9), Essentials (2.22.0), EssentialsSpawn (2.22.0), InstantRestock (2.6.4), LockiPrefixes (3.0.5), LuckPerms (5.5.71), MinerTrack (2.1.1.2), NightVision (1.0), Simple_RTP (1.0.9), TuffXPlus (1.1.1), UnstableSMPFarlands (1.2.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.18+2392-fa605e6)
-[01:59:44] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:59:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:59:45] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 962.1ms
-[01:59:48] [ServerMain/INFO]: Loaded 1585 recipes
-[01:59:48] [ServerMain/INFO]: Loaded 1688 advancements
-[01:59:48] [Server thread/INFO]: Starting minecraft server version 26.2
-[01:59:48] [Server thread/INFO]: Loading properties
-[01:59:49] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[01:59:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:59:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:59:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:59:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:59:50] [Server thread/INFO]: Default game type: SURVIVAL
-[01:59:50] [Server thread/INFO]: Generating keypair
-[01:59:50] [Server thread/INFO]: Starting Minecraft server on *:25567
-[01:59:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:59:50] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:59:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[01:59:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[01:59:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[01:59:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[01:59:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.71
-[01:59:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:59:53] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
-[01:59:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3a9c7655]
-[01:59:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[01:59:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
-[01:59:53] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
-[01:59:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
-[01:59:53] [Server thread/INFO]: [NightVision] Loading server plugin NightVision v1.0
-[01:59:53] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
-[01:59:54] [Server thread/INFO]: [packetevents] Loading packetevents...
-[01:59:56] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
-[01:59:56] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0
-[01:59:56] [Server thread/INFO]: [MinerTrack] Loading server plugin MinerTrack v2.1.1.2
-[01:59:56] [Server thread/INFO]: [LockiPrefixes] Loading server plugin LockiPrefixes v3.0.5
-[01:59:56] [Server thread/INFO]: [UnstableSMPFarlands] Loading server plugin UnstableSMPFarlands v1.2.5
-[01:59:56] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.6.4
-[01:59:56] [Server thread/INFO]: [Simple_RTP] Loading server plugin Simple_RTP v1.0.9
-[01:59:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.71
-[01:59:56] [Server thread/INFO]:         __    
-[01:59:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.71
-[01:59:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:59:56] [Server thread/INFO]: 
-[01:59:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:59:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:59:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:59:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1289ms)
-[01:59:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
-[01:59:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:59:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:59:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
-[01:59:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:59:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:59:59] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[01:59:59] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
-[01:59:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:59:59] [Server thread/INFO]: Preparing level "world"
-[01:59:59] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[01:59:59] [Server thread/INFO]: Preparing spawn area: 100%
-[01:59:59] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:59:59] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[01:59:59] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:59:59] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[01:59:59] [Server thread/INFO]: Preparing spawn area: 100%
-[01:59:59] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:59:59] [Server thread/INFO]: Done preparing level "world" (0.900s)
-[01:59:59] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[01:59:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[01:59:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[02:00:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
-[02:00:00] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[02:00:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[02:00:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[02:00:00] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[02:00:00] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[02:00:01] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
-[02:00:01] [Server thread/INFO]: [Essentials] Using locale en
-[02:00:01] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[02:00:01] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[02:00:01] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[02:00:01] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[02:00:01] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[02:00:01] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
-[02:00:01] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[02:00:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[02:00:02] [Server thread/INFO]: [WorldGuard] Loading region data...
-[02:00:02] [Server thread/INFO]: [NightVision] Enabling NightVision v1.0
-[02:00:02] [Server thread/INFO]: [NightVision] NightVision plugin has been enabled!
-[02:00:02] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
-[02:00:02] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
-[02:00:02] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
-[02:00:02] [Server thread/INFO]: [TuffXPlus] 
-[02:00:02] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
-[02:00:02] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
-[02:00:02] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
-[02:00:02] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
-[02:00:02] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
-[02:00:02] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
-[02:00:02] [Server thread/INFO]: [TuffXPlus] 
-[02:00:02] [Server thread/INFO]: [TuffXPlus] CREDITS
-[02:00:02] [Server thread/INFO]: [TuffXPlus] 
-[02:00:02] [Server thread/INFO]: [TuffXPlus] Y0 support:
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
-[02:00:02] [Server thread/INFO]: [TuffXPlus] 
-[02:00:02] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
-[02:00:02] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
-[02:00:02] [Server thread/INFO]: [TuffXPlus] 
-[02:00:02] [Server thread/INFO]: [TuffXPlus] Other:
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
-[02:00:02] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
-[02:00:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0
-[02:00:02] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[02:00:02] [Server thread/INFO]: [MinerTrack] Enabling MinerTrack v2.1.1.2
-[02:00:03] [Server thread/INFO]: [MinerTrack] Loaded group configuration: end (end.yml)
-[02:00:03] [Server thread/INFO]: [MinerTrack] Loaded group configuration: overworld (overworld.yml)
-[02:00:03] [Server thread/INFO]: [MinerTrack] Loaded group configuration: nether (nether.yml)
-[02:00:03] [Server thread/INFO]: [MinerTrack] Built world-to-group mapping from xray.worlds: {minecraft:overworld=overworld, minecraft:the_nether=nether, minecraft:the_end=end} (default unnamed -> overworld)
-[02:00:03] [Server thread/INFO]: [MinerTrack] Loaded group configurations (3 active):
-[02:00:03] [Server thread/INFO]: [MinerTrack]  - nether: worlds=[minecraft:the_nether], patterns=[]
-[02:00:03] [Server thread/INFO]: [MinerTrack]  - end: worlds=[minecraft:the_end], patterns=[]
-[02:00:03] [Server thread/INFO]: [MinerTrack]  - overworld: worlds=[minecraft:overworld], patterns=[]
-[02:00:03] [Server thread/INFO]: [MinerTrack] Default unnamed group (all_unnamed_world): overworld
-[02:00:03] [Server thread/WARN]: [MinerTrack] Could not save de.yml to plugins/MinerTrack/Translations/de.yml because de.yml already exists.
-[02:00:03] [Server thread/WARN]: [MinerTrack] Could not save fr.yml to plugins/MinerTrack/Translations/fr.yml because fr.yml already exists.
-[02:00:03] [Server thread/WARN]: [MinerTrack] Could not save ru.yml to plugins/MinerTrack/Translations/ru.yml because ru.yml already exists.
-[02:00:03] [Server thread/WARN]: [MinerTrack] Could not save zh_cn.yml to plugins/MinerTrack/Translations/zh_cn.yml because zh_cn.yml already exists.
-[02:00:03] [Server thread/INFO]: [MinerTrack] Core initialized for version 2.1.1.2
-[02:00:03] [Server thread/INFO]: ----[MinerTrack v2.1.1.2 ]-----------
-[02:00:03] [Server thread/INFO]: MinerTrack Anti-XRay Enabled!
-[02:00:03] [Server thread/INFO]: 
-[02:00:03] [Server thread/INFO]: Authors: Author87668
-[02:00:03] [Server thread/INFO]: Original Author: Author87668
-[02:00:03] [Server thread/INFO]: Contributors: Author87668, Zhang12334, Thomas, xiaoyueyoqwq
-[02:00:03] [Server thread/INFO]: 
-[02:00:03] [Server thread/INFO]: Thanks for your use!
-[02:00:03] [Server thread/INFO]: -----------------------------------------
-[02:00:03] [Server thread/INFO]: [MinerTrack] MinerTrack (BukkitPlatform) enabled.
-[02:00:03] [Server thread/INFO]: [LockiPrefixes] Enabling LockiPrefixes v3.0.5
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] PlaceholderAPI not found. PAPI placeholders will not be available.
-[02:00:03] [Server thread/INFO]: [LockiPrefixes] LuckPerms rank change listener registered.
-[02:00:03] [Server thread/INFO]: [LockiPrefixes] Tablist animation started.
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ======================================
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] LockiPrefixes - Missing Dependencies!
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ======================================
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] - PlaceholderAPI (optional) is not installed!
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] PlaceholderAPI placeholders are not available.
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ======================================
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] 
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ╔════════════════════════════════════════════════════════════╗
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ║  IMPORTANT: Secure Chat must be disabled for chat to work! ║
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ╠════════════════════════════════════════════════════════════╣
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ║  1. Open your server.properties file                       ║
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ║  2. Find: enforce-secure-profile=true                      ║
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ║  3. Change to: enforce-secure-profile=false                ║
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ║  4. Restart the server                                     ║
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] ╚════════════════════════════════════════════════════════════╝
-[02:00:03] [Server thread/WARN]: [LockiPrefixes] 
-[02:00:03] [Server thread/INFO]: [LockiPrefixes] LockiPrefixes (Latest 1.20-1.21 with Adventure API) enabled!
-[02:00:03] [Server thread/INFO]: [UnstableSMPFarlands] Enabling UnstableSMPFarlands v1.2.5
-[02:00:03] [Server thread/INFO]: [UnstableSMPFarlands] Generator swapped for 'world' (1 references replaced): X [64000, 1500000) -> farlands generator
-[02:00:03] [Server thread/INFO]: [UnstableSMPFarlands] UnstableSMP Farlands enabled for 26.2.build.111 (StartX: 12550821).
-[02:00:03] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.6.4
-[02:00:03] [Server thread/INFO]: [InstantRestock] Enabled InstantRestock!
-[02:00:03] [Server thread/INFO]: [Simple_RTP] Enabling Simple_RTP v1.0.9
-[02:00:03] [Server thread/INFO]: [Simple_RTP] Plugin has been enabled!
-[02:00:03] [Server thread/INFO]: [Simple_RTP] Thank you for using Simple RTP! by Jaeden
-[02:00:04] [Server thread/INFO]: [spark] Starting background profiler...
-[02:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:00:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:00:04] [User Authenticator #1/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:00:04] [User Authenticator #2/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[02:00:04] [User Authenticator #0/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:00:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:00:04] [Server thread/INFO]: Running delayed init tasks
-[02:00:04] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[02:00:04] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[02:00:04] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
-[02:00:05] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
-[02:00:05] [Server thread/INFO]: Done (28.362s)! For help, type "help"
-[02:00:05] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
-[02:00:05] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 12 builds behind ***
-[02:00:05] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[02:00:08] [Server thread/INFO]: isaacman joined the game
-[02:00:08] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:33642] logged in with entity id 2 at ([minecraft:overworld]25.17314621275117, 104.0, -26.502249129276677)
-[02:00:08] [Server thread/INFO]: dicestack88YT joined the game
-[02:00:08] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:58428] logged in with entity id 3 at ([minecraft:overworld]21001.467162832963, 70.86796358127685, 550.189048184092)
-[02:00:09] [Server thread/INFO]: HACKER1original1 joined the game
-[02:00:09] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:58414] logged in with entity id 1 at ([minecraft:overworld]-291.9564291232439, 117.0, 117.04391192683917)
-[02:00:13] [Server thread/INFO]: dicestack88YT issued server command: /rtp
-[02:00:13] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[02:00:14] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:00:18] [Server thread/INFO]: dicestack88YT issued server command: /clear
-[02:00:23] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:00:28] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:00:35] [Server thread/INFO]: Villager Villager['Villager'/148, uuid='ebb8ca7d-7db6-4da0-b277-e06d84958315', l='ServerLevel[world]', x=-306.02, y=120.00, z=100.55, cpos=[-20, 6], tl=425, v=true] died, message: 'Villager was slain by HACKER1original1'
-[02:00:37] [Async Chat Thread - #0/INFO]: (Owner) | dicestack88YT >> i had to disable rtp in nether + end
-[02:00:39] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> my bad
-[02:00:42] [Server thread/INFO]: dicestack88YT issued server command: /tp isaacman
-[02:00:46] [Server thread/INFO]: Villager Villager['Villager'/171, uuid='2bc9a342-d00f-429f-8436-756f9f0cd5d8', l='ServerLevel[world]', x=-290.52, y=113.00, z=119.33, cpos=[-19, 7], tl=663, v=true] died, message: 'Villager was slain by HACKER1original1'
-[02:00:47] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[02:00:59] [Async Chat Thread - #0/INFO]: (Player) | isaacman >> i need food
-[02:01:00] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> wait issac
-[02:01:06] [Async Chat Thread - #0/INFO]: (Owner) | dicestack88YT >> do /kit starter
-[02:01:10] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> there is food in that kit
-[02:01:11] [Async Chat Thread - #0/INFO]: (Owner) | dicestack88YT >> also
-[02:01:15] [Server thread/INFO]: isaacman issued server command: /kit starter
-[02:01:15] [Server thread/INFO]: HACKER1original1 issued server command: /kits
-[02:01:17] [Async Chat Thread - #0/INFO]: (Owner) | dicestack88YT >> just rtp and find food brto
-[02:01:20] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[02:01:20] [Server thread/INFO]: isaacman issued server command: /kits
-[02:01:28] [Server thread/INFO]: isaacman issued server command: /kit starter
-[02:01:36] [Async Chat Thread - #0/INFO]: (Player) | isaacman >> it says i need permision
-[02:01:41] [Async Chat Thread - #0/INFO]: (Player) | HACKER1original1 >> we dont have permission
-[02:01:43] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:01:44] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> alr
-[02:01:46] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> give me a sec
-[02:02:05] [Server thread/INFO]: dicestack88YT issued server command: /lp group default permission set essentials.kits true
-[02:02:05] [luckperms-command-executor/INFO]: [LP] LOG > (dicestack88YT) [G] (default)
-[02:02:05] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.kits true
-[02:02:07] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> try now
-[02:02:11] [Server thread/INFO]: HACKER1original1 issued server command: /kits
-[02:02:15] [Server thread/INFO]: isaacman issued server command: /kit starter
-[02:02:20] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[02:02:22] [Async Chat Thread - #1/INFO]: (Player) | isaacman >> still not
-[02:02:22] [Async Chat Thread - #1/INFO]: (Player) | HACKER1original1 >> nope
-[02:02:24] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> it work?
-[02:02:24] [Server thread/INFO]: isaacman issued server command: /kits
-[02:02:26] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> bruh
-[02:02:27] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> hold upp
-[02:02:44] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:02:57] [Server thread/INFO]: dicestack88YT issued server command: /lp group default permission set essentials.kit
-[02:03:03] [Server thread/INFO]: dicestack88YT issued server command: /lp group default permission set essentials.kit true
-[02:03:05] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> alr
-[02:03:07] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> try now?
-[02:03:12] [Server thread/INFO]: isaacman issued server command: /kit starter
-[02:03:14] [Server thread/INFO]: isaacman issued server command: /kits
-[02:03:17] [Async Chat Thread - #1/INFO]: (Player) | isaacman >> no...
-[02:03:26] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> bruhh
-[02:03:28] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:04:06] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:04:06] [Server thread/INFO]: HACKER1original1 left the game
-[02:04:14] [Server thread/INFO]: dicestack88YT issued server command: /lp group default permission set essentials.kits.starter true
-[02:04:14] [luckperms-command-executor/INFO]: [LP] LOG > (dicestack88YT) [G] (default)
-[02:04:14] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials.kits.starter true
-[02:04:15] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> now try
-[02:04:24] [Server thread/INFO]: isaacman issued server command: /kit starter
-[02:04:27] [User Authenticator #3/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:04:27] [Server thread/INFO]: HACKER1original1 joined the game
-[02:04:27] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:54694] logged in with entity id 190081 at ([minecraft:overworld]-325.5539478716168, 87.0, 98.69999998807907)
-[02:04:32] [Async Chat Thread - #1/INFO]: (Owner) | dicestack88YT >> hacker now try
-[02:04:38] [Server thread/INFO]: HACKER1original1 issued server command: /kits
-[02:04:41] [Server thread/INFO]: isaacman issued server command: /kit starter
-[02:04:41] [Server thread/INFO]: isaacman has made the advancement [Isn't It Iron Pick]
-[02:04:43] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[02:04:48] [Async Chat Thread - #0/INFO]: (Player) | isaacman >> nice
-[02:05:07] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:05:08] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[02:05:08] [Server thread/INFO]: HACKER1original1 has made the advancement [Isn't It Iron Pick]
-[02:05:14] [Async Chat Thread - #0/INFO]: (Player) | HACKER1original1 >> w
-[02:05:15] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:05:18] [Server thread/INFO]: HACKER1original1 issued server command: /kit start
-[02:05:23] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[02:05:30] [Server thread/INFO]: isaacman issued server command: /rtp
-[02:05:37] [Server thread/INFO]: HACKER1original1 issued server command: /ec
-[02:05:37] [Server thread/INFO]: [Essentials] HACKER1original1 was denied access to command.
-[02:05:47] [Async Chat Thread - #1/INFO]: (Player) | HACKER1original1 >> turn on /ec
-[02:05:49] [Server thread/INFO]: isaacman issued server command: /ec
-[02:05:49] [Server thread/INFO]: [Essentials] isaacman was denied access to command.
-[02:06:38] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[02:06:43] [User Authenticator #4/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[02:06:44] [Server thread/INFO]: KILLER_EXE joined the game
-[02:06:44] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:51916] logged in with entity id 288938 at ([minecraft:overworld]-4849.415129138616, 78.0, -1492.3652439143614)
-[02:07:17] [Server thread/INFO]: dicestack88YT lost connection: Timed out
-[02:07:17] [Server thread/INFO]: dicestack88YT left the game
-[02:07:33] [Server thread/INFO]: [Not Secure] [Server] tf
-[02:07:35] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
-[02:07:35] [Server thread/INFO]: There are 3 out of maximum 500 players online.
-[02:07:35] [Server thread/INFO]: default: HACKER1original1, isaacman, KILLER_EXE
-[02:07:40] [Server thread/INFO]: [Not Secure] [Server] who is killer_exe
-[02:07:40] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[02:07:40] [Server thread/INFO]: KILLER_EXE left the game
-[02:07:43] [Server thread/INFO]: Unknown or incomplete command. See below for error
-...<--[HERE]
-[02:07:46] [Server thread/INFO]: [Not Secure] [Server] ....
-[02:08:43] [Server thread/INFO]: isaacman has made the advancement [Sweet Dreams]
-[02:08:58] [Server thread/INFO]: isaacman issued server command: /sethome 1
-[02:08:58] [User Authenticator #5/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[02:08:59] [Server thread/INFO]: KILLER_EXE joined the game
-[02:08:59] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:56242] logged in with entity id 312845 at ([minecraft:overworld]-4850.235666975823, 75.0, -1493.300000011921)
-[02:09:12] [User Authenticator #6/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[02:09:13] [Server thread/INFO]: dicestack88YT joined the game
-[02:09:13] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:48584] logged in with entity id 313282 at ([minecraft:overworld]12.272536813843441, 106.04497782317006, -63.30000001192093)
-[02:09:18] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[02:09:18] [Server thread/INFO]: KILLER_EXE left the game
-[02:09:27] [Async Chat Thread - #3/INFO]: (Owner) | dicestack88YT >> so does the kit work now?
-[02:09:44] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[02:10:08] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /msg HACKER1original1 i am watching you
-[02:10:08] [Server thread/INFO]: [me -> HACKER1original1] i am watching you
-[02:10:19] [Server thread/INFO]: HACKER1original1 issued server command: /r i dont care
-[02:10:19] [Server thread/INFO]: [HACKER1original1 -> me] i dont care
-[02:10:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /r yeah ik
-[02:10:26] [Server thread/INFO]: [me -> HACKER1original1] yeah ik
-[02:10:28] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:10:28] [Server thread/INFO]: HACKER1original1 left the game
-[02:10:42] [Server thread/INFO]: dicestack88YT issued server command: /spawn
-[02:10:47] [Server thread/INFO]: dicestack88YT issued server command: /setspawn
-[02:10:52] [Server thread/INFO]: dicestack88YT issued server command: /spawm
-[02:10:53] [Server thread/INFO]: dicestack88YT issued server command: /spawn
-[02:11:13] [User Authenticator #7/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:11:13] [Server thread/INFO]: HACKER1original1 joined the game
-[02:11:13] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:47558] logged in with entity id 387783 at ([minecraft:overworld]-653.4926517496756, 87.0, 328.5230599687144)
-[02:13:00] [Async Chat Thread - #5/INFO]: (Player) | isaacman >> whats the world border size
-[02:13:08] [Async Chat Thread - #6/INFO]: (Player) | isaacman >> how far is it
-[02:13:17] [Server thread/INFO]: dicestack88YT lost connection: Timed out
-[02:13:17] [Server thread/INFO]: dicestack88YT left the game
-[02:16:09] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:16:09] [Server thread/INFO]: HACKER1original1 left the game
-[02:16:18] [User Authenticator #8/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[02:16:18] [Server thread/INFO]: dicestack88YT joined the game
-[02:16:18] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:54760] logged in with entity id 455969 at ([minecraft:overworld]-24.474392375488243, 116.92193558641787, -58.99464999034871)
-[02:17:48] [Server thread/INFO]: isaacman has made the advancement [Sneak 100]
-[02:17:51] [Async Chat Thread - #7/INFO]: (Owner) | dicestack88YT >> ?
-[02:17:54] [Async Chat Thread - #7/INFO]: (Owner) | dicestack88YT >> u found a thing
-[02:17:56] [Async Chat Thread - #8/INFO]: (Owner) | dicestack88YT >> uhh
-[02:17:59] [Async Chat Thread - #8/INFO]: (Player) | isaacman >> yes
-[02:18:00] [Async Chat Thread - #8/INFO]: (Owner) | dicestack88YT >> deep dark
-[02:18:01] [Async Chat Thread - #8/INFO]: (Owner) | dicestack88YT >> nice
-[02:18:04] [Async Chat Thread - #8/INFO]: (Player) | isaacman >> yes
-[02:19:25] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:19:25] [Server thread/INFO]: isaacman left the game
-[02:19:30] [User Authenticator #9/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:19:31] [Server thread/INFO]: HACKER1original1 joined the game
-[02:19:31] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:51530] logged in with entity id 568282 at ([minecraft:overworld]-1036.299315203565, 63.0, 679.8660201755449)
-[02:20:29] [User Authenticator #10/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
-[02:20:30] [Server thread/INFO]: A_Bell_01 joined the game
-[02:20:30] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:53182] logged in with entity id 607992 at ([minecraft:overworld]-301.4532449431618, 120.0, 130.35070283824948)
-[02:22:01] [Server thread/INFO]: A_Bell_01 issued server command: /sethome 1
-[02:22:06] [Server thread/INFO]: A_Bell_01 issued server command: /spawn
-[02:22:14] [Server thread/INFO]: A_Bell_01 issued server command: /home 1
-[02:22:44] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:22:44] [Server thread/INFO]: HACKER1original1 left the game
-[02:23:13] [Server thread/INFO]: dicestack88YT issued server command: /spawn
-[02:23:13] [Server thread/INFO]: [@: Applied effect Night Vision to 2 targets]
-[02:23:23] [Server thread/INFO]: dicestack88YT issued server command: /spawn
-[02:23:44] [User Authenticator #11/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:23:44] [Server thread/INFO]: HACKER1original1 joined the game
-[02:23:44] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:42282] logged in with entity id 737694 at ([minecraft:overworld]-1458.699999988079, 73.0, 891.15989536834)
-[02:24:13] [User Authenticator #12/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[02:24:13] [Server thread/INFO]: KILLER_EXE joined the game
-[02:24:13] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:38030] logged in with entity id 756623 at ([minecraft:overworld]-4845.101897338466, 70.0, -1482.4417995135143)
-[02:24:37] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[02:24:37] [Server thread/INFO]: KILLER_EXE left the game
-[02:25:23] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:25:23] [Server thread/INFO]: HACKER1original1 left the game
-[02:26:14] [User Authenticator #13/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:26:14] [Server thread/INFO]: HACKER1original1 joined the game
-[02:26:14] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:44600] logged in with entity id 838360 at ([minecraft:overworld]-1557.9662314050358, 62.60994011149528, 960.5232727565857)
-[02:27:34] [User Authenticator #14/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[02:27:35] [Server thread/INFO]: KILLER_EXE joined the game
-[02:27:35] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:49504] logged in with entity id 890806 at ([minecraft:overworld]-4847.027365260287, 70.0, -1480.140552197242)
-[02:27:38] [User Authenticator #15/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[02:27:38] [Server thread/INFO]: rememberins joined the game
-[02:27:38] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:60054] logged in with entity id 893455 at ([minecraft:overworld]-4860.763614186889, 45.0, -1497.862500011921)
-[02:27:49] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[02:27:49] [Server thread/INFO]: KILLER_EXE left the game
-[02:27:57] [Server thread/INFO]: Villager Villager['Armorer'/608164, uuid='39095df9-1cfc-44da-aec7-bbd68f6414d1', l='ServerLevel[world]', x=-283.44, y=112.13, z=108.09, cpos=[-18, 6], tl=8936, v=true] died, message: 'Armorer was slain by A_Bell_01'
-[02:28:12] [User Authenticator #16/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[02:28:12] [Server thread/INFO]: KILLER_EXE joined the game
-[02:28:12] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:50914] logged in with entity id 913104 at ([minecraft:overworld]-4847.809702957023, 70.0, -1478.7902413016297)
-[02:28:29] [User Authenticator #17/INFO]: UUID of player magneticmaggot is b8dad029-33c6-31a3-9924-55b642d3040b
-[02:28:29] [Server thread/INFO]: magneticmaggot joined the game
-[02:28:29] [Server thread/INFO]: magneticmaggot[/[0:0:0:0:0:0:0:1]:47418] logged in with entity id 922077 at ([minecraft:overworld]-13.5, 115.0, -13.5)
-[02:28:29] [Server thread/INFO]: magneticmaggot has made the advancement [Getting an Upgrade]
-[02:28:30] [Server thread/INFO]: [@: Applied effect Night Vision to 6 targets]
-[02:28:56] [Server thread/INFO]: magneticmaggot issued server command: /rtp
-[02:29:01] [Server thread/INFO]: HACKER1original1 has made the advancement [Monster Hunter]
-[02:29:06] [Server thread/INFO]: HACKER1original1 issued server command: /sethome
-[02:29:20] [Async Chat Thread - #10/INFO]: (Player) | rememberins >> he dice
-[02:29:22] [Async Chat Thread - #10/INFO]: (Owner) | dicestack88YT >> hi
-[02:29:25] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
-[02:29:25] [Server thread/INFO]: A_Bell_01 left the game
-[02:29:35] [Async Chat Thread - #10/INFO]: (Player) | magneticmaggot >> hellpooo
-[02:29:50] [Server thread/INFO]: rememberins has made the advancement [Monster Hunter]
-[02:30:03] [Server thread/INFO]: magneticmaggot lost connection: Disconnected
-[02:30:03] [Server thread/INFO]: magneticmaggot left the game
-[02:30:05] [Async Chat Thread - #10/INFO]: (Player) | rememberins >> by
-[02:30:07] [Server thread/INFO]: rememberins lost connection: Disconnected
-[02:30:07] [Server thread/INFO]: rememberins left the game
-[02:30:13] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[02:30:13] [Server thread/INFO]: KILLER_EXE left the game
-[02:30:17] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:30:17] [Server thread/INFO]: HACKER1original1 left the game
-[02:32:49] [Server thread/INFO]: dicestack88YT lost connection: Timed out
-[02:32:49] [Server thread/INFO]: dicestack88YT left the game
-[02:34:34] [User Authenticator #18/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
-[02:34:34] [Server thread/INFO]: dicestack88YT joined the game
-[02:34:34] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:48054] logged in with entity id 1097433 at ([minecraft:overworld]-12.293409824194917, 111.6137910799286, -35.15425118025295)
-[02:35:39] [Server thread/INFO]: dicestack88YT issued server command: /spawn
-[02:35:39] [Server thread/INFO]: [@: Applied effect Night Vision to dicestack88YT]
-[02:36:14] [User Authenticator #19/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[02:36:14] [Server thread/INFO]: rememberins joined the game
-[02:36:14] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:43586] logged in with entity id 1154516 at ([minecraft:overworld]-4821.767584730219, 70.0, -1462.3341962763932)
-[02:36:27] [Async Chat Thread - #11/INFO]: (Player) | rememberins >> hi
-[02:36:43] [Server thread/INFO]: dicestack88YT issued server command: /weather clear
-[02:36:44] [Async Chat Thread - #11/INFO]: (Owner) | dicestack88YT >> hello
-[02:36:49] [Server thread/INFO]: dicestack88YT issued server command: /weather storm
-[02:36:52] [Server thread/INFO]: dicestack88YT issued server command: /weather clear
-[02:37:01] [Server thread/INFO]: [@: Applied effect Night Vision to 2 targets]
-[02:42:54] [Async Chat Thread - #13/INFO]: (Player) | rememberins >> r
-[02:43:04] [User Authenticator #20/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:43:05] [Server thread/INFO]: isaacman joined the game
-[02:43:05] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:53368] logged in with entity id 1392173 at ([minecraft:overworld]2382.300000011921, -30.0, -25958.331467723685)
-[02:43:22] [User Authenticator #21/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:43:23] [Server thread/INFO]: HACKER1original1 joined the game
-[02:43:23] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:34730] logged in with entity id 1402914 at ([minecraft:overworld]-1805.8426460095077, 70.55339727785513, 1489.1946010298816)
-[02:44:13] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[02:44:29] [Async Chat Thread - #15/INFO]: (Player) | rememberins >> c
-[02:44:42] [Server thread/INFO]: isaacman lost connection: Disconnected
-[02:44:42] [Server thread/INFO]: isaacman left the game
-[02:45:32] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:45:32] [Server thread/INFO]: HACKER1original1 left the game
-[02:45:38] [Server thread/INFO]: rememberins has made the advancement [Sweet Dreams]
-[02:46:53] [User Authenticator #22/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:46:53] [Server thread/INFO]: HACKER1original1 joined the game
-[02:46:53] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:50328] logged in with entity id 1540182 at ([minecraft:overworld]-1834.210950667365, 73.0, 1883.3665898847732)
-[02:47:25] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:47:25] [Server thread/INFO]: HACKER1original1 left the game
-[02:47:50] [Async Chat Thread - #16/INFO]: (Player) | rememberins >> tpa to me look what i found
-[02:47:53] [Server thread/INFO]: dicestack88YT issued server command: /clear
-[02:47:57] [Server thread/INFO]: dicestack88YT issued server command: /tpa rememberins
-[02:48:01] [Server thread/INFO]: dicestack88YT issued server command: /tp rememberins
-[02:48:02] [Server thread/INFO]: rememberins issued server command: /tpacc
-[02:48:12] [Async Chat Thread - #16/INFO]: (Owner) | dicestack88YT >> what
-[02:48:16] [Async Chat Thread - #16/INFO]: (Owner) | dicestack88YT >> bro its just an axolotl
-[02:48:18] [Async Chat Thread - #16/INFO]: (Owner) | dicestack88YT >> wait brown-
-[02:48:27] [Async Chat Thread - #16/INFO]: (Player) | rememberins >> axlotles and up there crieekin forest
-[02:48:46] [User Authenticator #23/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:48:46] [Server thread/INFO]: HACKER1original1 joined the game
-[02:48:46] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:57990] logged in with entity id 1581311 at ([minecraft:overworld]-1862.533073150824, 71.0, 1959.699999988079)
-[02:49:05] [Async Chat Thread - #16/INFO]: (Owner) | dicestack88YT >> oh i see it
-[02:49:22] [Server thread/INFO]: dicestack88YT issued server command: /time set night
-[02:49:25] [Server thread/INFO]: dicestack88YT issued server command: /gamemode survival
-[02:49:35] [Server thread/INFO]: HACKER1original1 has made the advancement [Sweet Dreams]
-[02:51:24] [User Authenticator #24/INFO]: UUID of player A_Bell_01 is cfa83abc-6096-3ae6-b933-fcd2c88c0c00
-[02:51:24] [Server thread/INFO]: A_Bell_01 joined the game
-[02:51:24] [Server thread/INFO]: A_Bell_01[/[0:0:0:0:0:0:0:1]:41200] logged in with entity id 1582702 at ([minecraft:overworld]-269.30130650395984, 111.0, 101.80894939475765)
-[02:51:52] [Server thread/INFO]: rememberins fell from a high place
-[02:51:53] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[02:52:03] [Server thread/INFO]: rememberins issued server command: /tpa dicestack88YT
-[02:52:08] [Server thread/INFO]: dicestack88YT issued server command: /tpdeny
-[02:52:21] [Server thread/INFO]: rememberins issued server command: /back
-[02:52:33] [Server thread/INFO]: rememberins issued server command: /ba
-[02:53:10] [Server thread/INFO]: HACKER1original1 issued server command: /sethome
-[02:53:12] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:53:12] [Server thread/INFO]: HACKER1original1 left the game
-[02:53:25] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[02:53:43] [Server thread/INFO]: rememberins issued server command: /rtp
-[02:54:07] [Server thread/INFO]: dicestack88YT fell from a high place
-[02:54:08] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[02:54:26] [Server thread/INFO]: A_Bell_01 issued server command: /rtp
-[02:54:28] [Server thread/INFO]: dicestack88YT issued server command: /gamemode creative
-[02:54:31] [User Authenticator #25/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:54:32] [Server thread/INFO]: HACKER1original1 joined the game
-[02:54:32] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:41120] logged in with entity id 1685665 at ([minecraft:overworld]-1828.4994643816174, 72.0, 2318.376942060107)
-[02:54:35] [Server thread/INFO]: A_Bell_01 issued server command: /rtp
-[02:54:36] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:54:36] [Server thread/INFO]: HACKER1original1 left the game
-[02:54:45] [Server thread/INFO]: dicestack88YT issued server command: /clear
-[02:54:48] [Async Chat Thread - #18/INFO]: (Player) | A_Bell_01 >> iga
-[02:54:56] [Async Chat Thread - #18/INFO]: (Player) | A_Bell_01 >> nigeria
-[02:55:03] [Server thread/INFO]: A_Bell_01 issued server command: /rtp
-[02:55:05] [Server thread/INFO]: dicestack88YT issued server command: /effect give dicestack88YT minecraft:invisibility infinite
-[02:55:05] [Server thread/INFO]: [dicestack88YT: Applied effect Invisibility to dicestack88YT]
-[02:55:25] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[02:55:27] [Server thread/INFO]: rememberins issued server command: /sethome 1
-[02:56:04] [User Authenticator #26/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[02:56:05] [Server thread/INFO]: HACKER1original1 joined the game
-[02:56:05] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:54400] logged in with entity id 1724313 at ([minecraft:overworld]-1822.9487914021518, 72.0, 2319.087726431923)
-[02:56:07] [Async Chat Thread - #20/INFO]: (Player) | A_Bell_01 >> dice
-[02:56:19] [Server thread/INFO]: A_Bell_01 fell from a high place
-[02:56:22] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[02:56:28] [Async Chat Thread - #20/INFO]: (Player) | A_Bell_01 >> wth
-[02:56:30] [Async Chat Thread - #21/INFO]: (Owner) | dicestack88YT >> what
-[02:56:34] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[02:56:42] [Async Chat Thread - #21/INFO]: (Owner) | dicestack88YT >> ur shi is here
-[02:57:01] [Server thread/INFO]: rememberins issued server command: /home 1
-[02:57:14] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[02:57:30] [Server thread/INFO]: dicestack88YT issued server command: /give dicestack88YT mace
-[02:57:33] [Async Chat Thread - #21/INFO]: (Player) | rememberins >> creper helpt me find dimonds
-[02:57:43] [Async Chat Thread - #21/INFO]: (Player) | rememberins >> i had a wood pick
-[02:57:44] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[02:57:44] [Server thread/INFO]: HACKER1original1 left the game
-[02:57:48] [Async Chat Thread - #21/INFO]: (Player) | A_Bell_01 >> bro
-[02:58:55] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[02:59:07] [User Authenticator #27/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[02:59:08] [Server thread/INFO]: rememberins issued server command: /home 1
-[02:59:08] [Server thread/INFO]: isaacman joined the game
-[02:59:08] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:54500] logged in with entity id 1732074 at ([minecraft:overworld]2379.387035673923, -38.0, -25961.697059777278)
-[02:59:12] [Server thread/INFO]: A_Bell_01 was doomed to fall by dicestack88YT
-[02:59:14] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[02:59:14] [Async Chat Thread - #22/INFO]: (Owner) | dicestack88YT >> AHHAHAHAHAHAHAA
-[02:59:15] [Async Chat Thread - #22/INFO]: (Owner) | dicestack88YT >> LMAO
-[02:59:24] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[02:59:28] [Async Chat Thread - #22/INFO]: (Owner) | dicestack88YT >> oops
-[02:59:31] [Async Chat Thread - #22/INFO]: (Owner) | dicestack88YT >> ur stuff here dw
-[03:01:04] [Server thread/INFO]: rememberins has made the advancement [Acquire Hardware]
-[03:01:17] [Server thread/INFO]: rememberins has made the advancement [Isn't It Iron Pick]
-[03:01:44] [Server thread/INFO]: rememberins was doomed to fall by Skeleton
-[03:01:46] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:01:50] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:02:07] [User Authenticator #28/INFO]: UUID of player Agent_007 is 4edda42d-ad85-3c02-b269-945701367eca
-[03:02:08] [Server thread/INFO]: Agent_007 joined the game
-[03:02:08] [Server thread/INFO]: Agent_007[/[0:0:0:0:0:0:0:1]:51580] logged in with entity id 1741234 at ([minecraft:overworld]3140.862500011921, -19.0, 29.69999998807907)
-[03:02:09] [Server thread/INFO]: rememberins has made the advancement [Not Today, Thank You]
-[03:02:17] [Async Chat Thread - #24/INFO]: (Player) | Agent_007 >> hello betas
-[03:02:17] [Server thread/INFO]: dicestack88YT issued server command: /locate structure ancient_city
-[03:02:23] [Async Chat Thread - #24/INFO]: (Player) | Agent_007 >> oh shi
-[03:02:33] [Async Chat Thread - #24/INFO]: (Player) | A_Bell_01 >> yo
-[03:02:33] [Server thread/INFO]: dicestack88YT issued server command: /minecraft:locate structure minecraft:ancient_city
-[03:02:33] [Server thread/INFO]: Locating element minecraft:ancient_city took 9 ms
-[03:02:35] [Async Chat Thread - #24/INFO]: (Player) | A_Bell_01 >> tp
-[03:02:38] [Async Chat Thread - #25/INFO]: (Owner) | dicestack88YT >> yo
-[03:02:40] [Async Chat Thread - #24/INFO]: (Owner) | dicestack88YT >> abelini
-[03:02:43] [Server thread/INFO]: A_Bell_01 issued server command: /tpa Agent_007
-[03:02:54] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT did u make moderator yet?
-[03:02:59] [Server thread/INFO]: rememberins has made the advancement [Diamonds!]
-[03:03:00] [Server thread/INFO]: dicestack88YT issued server command: /r Agent_007 i did make it
-[03:03:07] [Server thread/INFO]: Agent_007 issued server command: /tpa A_Bell_01
-[03:03:12] [Async Chat Thread - #24/INFO]: (Owner) | dicestack88YT >> abel
-[03:03:18] [Async Chat Thread - #24/INFO]: (Owner) | dicestack88YT >> come
-[03:03:18] [Server thread/INFO]: A_Bell_01 issued server command: /tpaccept
-[03:03:22] [Async Chat Thread - #25/INFO]: (Owner) | dicestack88YT >> guys
-[03:03:40] [Server thread/INFO]: A_Bell_01 fell from a high place
-[03:03:44] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
-[03:03:46] [Async Chat Thread - #24/INFO]: (Player) | A_Bell_01 >> laging
-[03:03:48] [Async Chat Thread - #25/INFO]: (Player) | A_Bell_01 >> nigga
-[03:03:51] [Async Chat Thread - #24/INFO]: (Player) | A_Bell_01 >> mb
-[03:03:54] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:03:55] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[03:04:05] [Async Chat Thread - #24/INFO]: (Owner) | dicestack88YT >> get ur shiot
-[03:04:12] [Async Chat Thread - #24/INFO]: (Owner) | dicestack88YT >> yo careful
-[03:04:20] [Server thread/INFO]: dicestack88YT issued server command: /clear
-[03:04:36] [Server thread/INFO]: dicestack88YT has made the advancement [Sneak 100]
-[03:04:39] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT bro did u mkae it yet?
-[03:04:46] [Server thread/INFO]: dicestack88YT issued server command: /r uhh
-[03:04:46] [Async Chat Thread - #24/INFO]: (Player) | A_Bell_01 >> oh shi-
-[03:04:48] [Server thread/INFO]: dicestack88YT issued server command: /r i did make it
-[03:04:52] [Server thread/INFO]: A_Bell_01 has made the advancement [Sneak 100]
-[03:04:53] [Async Chat Thread - #24/INFO]: (Owner) | dicestack88YT >> abel u good bro
-[03:04:56] [Server thread/INFO]: rememberins was slain by Zombie
-[03:04:57] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
-[03:05:03] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:05:03] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT tuffff
-[03:05:20] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT can u give it?
-[03:05:27] [Server thread/INFO]: dicestack88YT issued server command: /r u need to grind more
-[03:05:38] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT wdym?
-[03:05:52] [Server thread/INFO]: dicestack88YT issued server command: /gamemode survival
-[03:05:57] [Server thread/INFO]: dicestack88YT issued server command: /gamemode c
-[03:06:06] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[03:06:14] [Server thread/INFO]: dicestack88YT issued server command: /gamemode survival
-[03:06:16] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[03:06:19] [Server thread/INFO]: dicestack88YT issued server command: /gamemode survival
-[03:06:23] [Server thread/INFO]: dicestack88YT issued server command: /gamemode c
-[03:06:26] [Server thread/INFO]: dicestack88YT issued server command: /gamemode survival
-[03:06:35] [Server thread/INFO]: dicestack88YT issued server command: /gamemode c
-[03:06:36] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> abel wya?
-[03:06:41] [Server thread/INFO]: Agent_007 has made the advancement [Sneak 100]
-[03:06:49] [Server thread/INFO]: rememberins was slain by Zombie
-[03:06:50] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
-[03:06:52] [User Authenticator #29/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[03:06:52] [Server thread/INFO]: KILLER_EXE joined the game
-[03:06:52] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:57152] logged in with entity id 1753235 at ([minecraft:overworld]-4836.20546250401, 70.0, -1486.6918575006646)
-[03:06:54] [Server thread/INFO]: rememberins issued server command: /back
-[03:06:57] [Server thread/INFO]: dicestack88YT issued server command: /tp @a dicestack88YT
-[03:06:59] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:07:02] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[03:07:09] [Async Chat Thread - #27/INFO]: (Player) | KILLER_EXE >> tas where are you
-[03:07:11] [Server thread/INFO]: dicestack88YT issued server command: /tp Agent_007 dic
-[03:07:20] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
-[03:07:23] [Server thread/INFO]: dicestack88YT issued server command: /summon warden
-[03:07:23] [Server thread/INFO]: [dicestack88YT: Summoned new Warden]
-[03:07:27] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> why u walking normally abel?
-[03:07:34] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> JORDAN
-[03:07:39] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> ?
-[03:07:39] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> THERES A FUCKING EWARDEN BEHIND
-[03:07:41] [Async Chat Thread - #26/INFO]: (Player) | KILLER_EXE >> tas accept
-[03:07:46] [Async Chat Thread - #26/INFO]: (Player) | Agent_007 >> bro
-[03:08:00] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> SHIT RUN
-[03:08:01] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> RUN
-[03:08:05] [Server thread/INFO]: Agent_007 was slain by Warden
-[03:08:06] [Server thread/INFO]: [@: Applied effect Night Vision to 6 targets]
-[03:08:08] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> DUMASS
-[03:08:11] [Async Chat Thread - #26/INFO]: (Player) | Agent_007 >> bro my shift broke
-[03:08:13] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:08:15] [Async Chat Thread - #26/INFO]: (Player) | Agent_007 >> i couldnt run
-[03:08:17] [Async Chat Thread - #26/INFO]: (Player) | Agent_007 >> wtf
-[03:08:22] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> p Agent_007 dicestack88YT
-[03:08:28] [Server thread/INFO]: dicestack88YT issued server command: /tp Agent_007 dicestack88YT
-[03:08:34] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> why tf is the server called dicky smp?
-[03:08:39] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> good point
-[03:08:43] [Async Chat Thread - #27/INFO]: (Player) | KILLER_EXE >> TAS, I AM TPAing
-[03:08:47] [Server thread/INFO]: A_Bell_01 was obliterated by a sonically-charged shriek
-[03:08:49] [Server thread/INFO]: [@: Applied effect Night Vision to 6 targets]
-[03:08:49] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> OMFG
-[03:08:53] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> hehehah
-[03:08:58] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> tp me
-[03:09:05] [Server thread/INFO]: dicestack88YT issued server command: /effect give dicestack88YT strength infinte 255
-[03:09:07] [Server thread/INFO]: A_Bell_01 issued server command: /tpa Agent_007
-[03:09:11] [Server thread/INFO]: Agent_007 was obliterated by a sonically-charged shriek
-[03:09:13] [Server thread/INFO]: [@: Applied effect Night Vision to 6 targets]
-[03:09:16] [Server thread/INFO]: dicestack88YT issued server command: /effect give dicestack88YT strength 9999 255
-[03:09:16] [Server thread/INFO]: [dicestack88YT: Applied effect Strength to dicestack88YT]
-[03:09:17] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> Mdays
-[03:09:19] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> bro this guy lwk pmo
-[03:09:26] [Server thread/INFO]: A_Bell_01 issued server command: /back
-[03:09:28] [Server thread/INFO]: KILLER_EXE issued server command: /spawn
-[03:09:29] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[03:09:33] [Server thread/INFO]: rememberins was slain by Zombie
-[03:09:39] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:09:48] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> dice pls tp me
-[03:09:53] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> do /back
-[03:09:55] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> does /back work?
-[03:09:59] [Server thread/INFO]: Agent_007 issued server command: /back
-[03:10:02] [Async Chat Thread - #26/INFO]: (Player) | A_Bell_01 >> ye
-[03:10:05] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
-[03:10:08] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> yeah do that
-[03:10:11] [Server thread/INFO]: Agent_007 issued server command: /back
-[03:10:12] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> btw i killed that warden
-[03:10:16] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> altho it seems there is another one
-[03:10:16] [Server thread/INFO]: Agent_007 issued server command: /back
-[03:10:18] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> idk where
-[03:10:22] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> no it doesnt work
-[03:10:22] [Async Chat Thread - #26/INFO]: (Player) | KILLER_EXE >> TAS, ACCEPT MY TPA
-[03:10:23] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> jordan quickly back
-[03:10:23] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> not for me
-[03:10:36] [Server thread/INFO]: dicestack88YT issued server command: /tp Agent_007 dicestack88YT
-[03:10:49] [Server thread/INFO]: A_Bell_01 issued server command: /home 1
-[03:10:52] [Async Chat Thread - #26/INFO]: (Player) | A_Bell_01 >> im safe
-[03:10:55] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[03:10:58] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> ok good
-[03:11:02] [Server thread/INFO]: dicestack88YT issued server command: /tp Agent_007
-[03:11:05] [Async Chat Thread - #26/INFO]: (Owner) | dicestack88YT >> jordan
-[03:11:09] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> u should lwk find something
-[03:11:12] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> some loot
-[03:11:24] [Async Chat Thread - #27/INFO]: (Player) | Agent_007 >> is the warden gone?
-[03:11:27] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> can u tp to trial
-[03:11:28] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> yeah
-[03:11:32] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> that one is gone
-[03:11:35] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> abell find one urself
-[03:11:37] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> actually
-[03:11:38] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> sure
-[03:11:43] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[03:11:53] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[03:11:53] [Server thread/INFO]: KILLER_EXE left the game
-[03:11:55] [Server thread/INFO]: A_Bell_01 issued server command: /spawn
-[03:11:57] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:11:57] [Server thread/INFO]: isaacman left the game
-[03:12:00] [Server thread/INFO]: dicestack88YT issued server command: /minecraft:locate structure minecraft:trial_chambers
-[03:12:00] [Server thread/INFO]: Locating element minecraft:trial_chambers took 0 ms
-[03:12:05] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01
-[03:12:11] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> abel
-[03:12:11] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:12:14] [Server thread/INFO]: A_Bell_01 issued server command: /home 1
-[03:12:14] [Server thread/INFO]: dicestack88YT issued server command: /tp @s -224 ~ 208
-[03:12:15] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> ye
-[03:12:19] [Async Chat Thread - #27/INFO]: (Owner) | dicestack88YT >> tp
-[03:12:25] [Async Chat Thread - #27/INFO]: (Player) | A_Bell_01 >> one sec
-[03:12:26] [Server thread/INFO]: dicestack88YT issued server command: /tpahere A_Bell_01
-[03:12:31] [Server thread/INFO]: A_Bell_01 has made the advancement [Cover Me with Diamonds]
-[03:12:33] [User Authenticator #30/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:12:34] [Server thread/INFO]: isaacman joined the game
-[03:12:34] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:38634] logged in with entity id 1902364 at ([minecraft:overworld]2342.450656580006, -49.0, -25949.063957160666)
-[03:12:37] [Server thread/INFO]: isaacman issued server command: /spawn
-[03:13:12] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:13:12] [Server thread/INFO]: isaacman left the game
-[03:13:28] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[03:13:34] [Server thread/INFO]: Agent_007 issued server command: /rtp
-[03:13:34] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> go
-[03:13:35] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> go go go
-[03:13:39] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> wait
-[03:13:40] [Server thread/INFO]: A_Bell_01 was slain by dicestack88YT
-[03:13:42] [Server thread/INFO]: dicestack88YT has made the advancement [Diamonds!]
-[03:13:42] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:13:42] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> oh shit
-[03:13:48] [Server thread/INFO]: Agent_007 was obliterated by a sonically-charged shriek
-[03:13:48] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[03:13:49] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> migerian imbiicle
-[03:13:50] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:13:56] [User Authenticator #31/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[03:13:56] [Server thread/INFO]: isaacman joined the game
-[03:13:56] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:55268] logged in with entity id 1931627 at ([minecraft:overworld]-8.5, 106.5, -10.5)
-[03:13:59] [Async Chat Thread - #29/INFO]: (Player) | Agent_007 >> bro why is rtp not working?
-[03:14:04] [Async Chat Thread - #29/INFO]: (Player) | Agent_007 >> none of commands work
-[03:14:04] [Async Chat Thread - #29/INFO]: (Player) | isaacman >> hi
-[03:14:06] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> just wait for it to work
-[03:14:06] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> why is it half dura
-[03:14:13] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> oh shit
-[03:14:15] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
-[03:14:16] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> here
-[03:14:17] [Server thread/INFO]: Agent_007 issued server command: /back
-[03:14:17] [Server thread/INFO]: A_Bell_01 issued server command: /sethome 2
-[03:14:19] [Server thread/INFO]: Agent_007 issued server command: /back
-[03:14:22] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> give me ur dim armor
-[03:14:23] [Server thread/INFO]: A_Bell_01 issued server command: /delhome 1
-[03:14:23] [Server thread/INFO]: [Essentials] A_Bell_01 was denied access to command.
-[03:14:26] [Server thread/INFO]: A_Bell_01 issued server command: /homes
-[03:14:26] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> ill replace
-[03:14:27] [Async Chat Thread - #29/INFO]: (Player) | Agent_007 >> gng i need u to tp me back
-[03:14:30] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> ok nvm
-[03:14:33] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> agent do /back
-[03:14:33] [Server thread/INFO]: A_Bell_01 issued server command: /spawn
-[03:14:36] [Server thread/INFO]: Agent_007 issued server command: /back doesnt worrl
-[03:14:37] [Server thread/INFO]: dicestack88YT issued server command: /back Agent_007
-[03:14:42] [User Authenticator #32/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[03:14:42] [Server thread/INFO]: KILLER_EXE joined the game
-[03:14:42] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:54418] logged in with entity id 1963573 at ([minecraft:overworld]-37.30538194270412, 100.0, -170.49332381171035)
-[03:14:45] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> did that work
-[03:14:45] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> it doesnt work
-[03:14:47] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> no
-[03:14:56] [Server thread/INFO]: [@: Applied effect Night Vision to 6 targets]
-[03:14:56] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:15:04] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> ok now tp me dice
-[03:15:06] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> bro
-[03:15:11] [Server thread/INFO]: A_Bell_01 issued server command: /tpa dicestack88YT
-[03:15:11] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:15:11] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:15:15] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> wha
-[03:15:17] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:15:19] [Server thread/INFO]: dicestack88YT issued server command: /tpaccept
-[03:15:27] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:15:28] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:15:31] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> dice tp me back pls
-[03:15:33] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:15:35] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> oh
-[03:15:36] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:15:39] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> gng
-[03:15:39] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> it too close to the spawn
-[03:15:43] [Server thread/INFO]: isaacman issued server command: /
-[03:15:49] [Server thread/INFO]: A_Bell_01 has made the advancement [Minecraft: Trial(s) Edition]
-[03:16:01] [Async Chat Thread - #29/INFO]: (Player) | Agent_007 >> diceeeeee
-[03:16:04] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> what
-[03:16:08] [Async Chat Thread - #29/INFO]: (Player) | KILLER_EXE >> TAS
-[03:16:08] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> tp me back
-[03:16:08] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> cant you just do /bacl?
-[03:16:10] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:16:12] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:16:13] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:16:15] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:16:16] [Async Chat Thread - #29/INFO]: (Player) | Agent_007 >> no it doesnt work
-[03:16:16] [Server thread/INFO]: dicestack88YT issued server command: /back
-[03:16:22] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> bro
-[03:16:26] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> tp me to another oen
-[03:16:40] [Server thread/INFO]: KILLER_EXE issued server command: /spawn
-[03:16:40] [Server thread/INFO]: Agent_007 issued server command: /seed
-[03:16:42] [Server thread/INFO]: isaacman issued server command: /craft
-[03:16:42] [Server thread/INFO]: [Essentials] isaacman was denied access to command.
-[03:16:44] [Server thread/INFO]: dicestack88YT issued server command: /lp group default permission set essentials.back true
-[03:16:44] [Server thread/INFO]: isaacman issued server command: /craft
-[03:16:44] [Server thread/INFO]: [Essentials] isaacman was denied access to command.
-[03:16:46] [Server thread/INFO]: isaacman issued server command: /craft
-[03:16:46] [Server thread/INFO]: [Essentials] isaacman was denied access to command.
-[03:16:46] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> now try
-[03:16:54] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> nah
-[03:16:54] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> who is killer
-[03:17:02] [Server thread/INFO]: dicestack88YT issued server command: /tp Agent_007 dicestack88YT
-[03:17:04] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> here
-[03:17:12] [Async Chat Thread - #28/INFO]: (Player) | KILLER_EXE >> half a heart
-[03:17:17] [Async Chat Thread - #28/INFO]: (Player) | isaacman >> whos killerexe
-[03:17:20] [Server thread/INFO]: KILLER_EXE fell from a high place
-[03:17:21] [Server thread/INFO]: [@: Applied effect Night Vision to 6 targets]
-[03:17:25] [Async Chat Thread - #28/INFO]: (Player) | rememberins >> mathu
-[03:17:30] [Server thread/INFO]: isaacman issued server command: /spawn
-[03:17:36] [Server thread/INFO]: rememberins has made the advancement [Suit Up]
-[03:17:37] [Async Chat Thread - #28/INFO]: (Player) | isaacman >> is he a year 8
-[03:17:38] [Async Chat Thread - #28/INFO]: (Player) | KILLER_EXE >> tas where are you
-[03:17:42] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> son
-[03:17:44] [Async Chat Thread - #28/INFO]: (Player) | rememberins >> who tas
-[03:17:45] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> my LA PEACE
-[03:17:50] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> yes thank you
-[03:17:54] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> ok
-[03:17:56] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> i have to go
-[03:17:59] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> wait
-[03:18:00] [Async Chat Thread - #28/INFO]: (Owner) | dicestack88YT >> stay on the server or it will stop
-[03:18:05] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> no deadass i gtg
-[03:18:06] [Async Chat Thread - #29/INFO]: (Player) | KILLER_EXE >> rememberins i tpa
-[03:18:06] [Server thread/INFO]: dicestack88YT issued server command: /clear
-[03:18:11] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> yo dice tp me and joedan to the other trial chamber
-[03:18:16] [Server thread/INFO]: dicestack88YT issued server command: /rtp
-[03:18:16] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
-[03:18:24] [Server thread/INFO]: rememberins issued server command: /tpacc
-[03:18:25] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT bro wdym by i have to grind more?
-[03:18:28] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[03:18:31] [Server thread/INFO]: dicestack88YT issued server command: /tp 1000 200 1000
-[03:18:35] [Server thread/INFO]: dicestack88YT issued server command: /r basically
-[03:18:35] [Server thread/WARN]: A_Bell_01 moved too quickly! -0.758206182689122,0.0,-18.318032265340463
-[03:18:36] [Server thread/INFO]: dicestack88YT issued server command: /r it makes it more fair
-[03:18:38] [Server thread/INFO]: dicestack88YT issued server command: /r bc
-[03:18:40] [Server thread/INFO]: KILLER_EXE issued server command: /sethome
-[03:18:43] [Server thread/INFO]: dicestack88YT issued server command: /r i dont want to give u special perms
-[03:18:44] [Server thread/INFO]: KILLER_EXE issued server command: /spawn
-[03:18:48] [Server thread/INFO]: dicestack88YT issued server command: /r and then let you just break shit
-[03:18:48] [Async Chat Thread - #29/INFO]: (Player) | isaacman >> is this yours
-[03:18:49] [Server thread/INFO]: dicestack88YT issued server command: /r yknow
-[03:18:54] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[03:18:58] [Server thread/INFO]: A_Bell_01 issued server command: /tpa Agent_007
-[03:19:06] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[03:19:13] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT i already promised i wont abuse it
-[03:19:21] [Server thread/INFO]: dicestack88YT issued server command: /minecraft:locate structure minecraft:trial_chambers
-[03:19:21] [Server thread/INFO]: Locating element minecraft:trial_chambers took 0 ms
-[03:19:25] [Async Chat Thread - #29/INFO]: (Owner) | dicestack88YT >> um abel
-[03:19:27] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:27] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> ye
-[03:19:30] [Server thread/INFO]: dicestack88YT issued server command: /tp @s 768 ~ 800
-[03:19:32] [Async Chat Thread - #28/INFO]: (Player) | rememberins >> i died
-[03:19:35] [Server thread/WARN]: isaacman moved too quickly! -7.57039617457111,-1.0371414210270018,-18.157800908398265
-[03:19:35] [Server thread/WARN]: A_Bell_01 moved too quickly! 1.7866018466498872,2.0,-9.699253556851545
-[03:19:38] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> yes
-[03:19:41] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:42] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> hello
-[03:19:43] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:43] [Server thread/INFO]: KILLER_EXE has made the advancement [Acquire Hardware]
-[03:19:45] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:47] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:49] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:51] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:19:51] [Async Chat Thread - #28/INFO]: (Player) | rememberins >> give back
-[03:19:53] [Server thread/INFO]: Agent_007 issued server command: /msg dicestack88YT plus i actually enjoy finding ppl that cheat
-[03:20:02] [Async Chat Thread - #29/INFO]: (Player) | A_Bell_01 >> big dice
-[03:20:04] [Server thread/INFO]: dicestack88YT issued server command: /tp A_Bell_01 dicestack88YT
-[03:20:06] [Server thread/INFO]: Agent_007 issued server command: /tpaccept
-[03:20:09] [Server thread/INFO]: dicestack88YT issued server command: /w A_Bell_01 dig straight down
-[03:20:11] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
-[03:20:11] [Server thread/INFO]: dicestack88YT left the game
-[03:20:16] [Async Chat Thread - #28/INFO]: (Player) | Agent_007 >> wait why did u tp to me
-[03:20:21] [Async Chat Thread - #28/INFO]: (Player) | rememberins >> hu
-[03:20:25] [Async Chat Thread - #29/INFO]: (Player) | Agent_007 >> i thought u were tping me to u
-[03:20:25] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> thx
-[03:20:34] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> idk
-[03:20:37] [Server thread/INFO]: KILLER_EXE has made the advancement [Monster Hunter]
-[03:20:38] [Server thread/INFO]: isaacman issued server command: /rtp
-[03:20:39] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> dicestack
-[03:20:47] [Async Chat Thread - #28/INFO]: (Player) | A_Bell_01 >> he isnt on mb
-[03:20:56] [Server thread/INFO]: Agent_007 lost connection: Disconnected
-[03:20:56] [Server thread/INFO]: Agent_007 left the game
-[03:21:05] [Async Chat Thread - #28/INFO]: (Player) | isaacman >> dicestack can u let nathen in
-[03:21:07] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[03:21:07] [Server thread/INFO]: KILLER_EXE left the game
-[03:21:14] [Server thread/INFO]: A_Bell_01 lost connection: Disconnected
-[03:21:14] [Server thread/INFO]: A_Bell_01 left the game
-[03:21:57] [Server thread/INFO]: rememberins lost connection: Disconnected
-[03:21:57] [Server thread/INFO]: rememberins left the game
-[03:22:23] [Server thread/INFO]: isaacman lost connection: Disconnected
-[03:22:23] [Server thread/INFO]: isaacman left the game
-[03:24:50] [User Authenticator #33/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[03:24:51] [Server thread/INFO]: KILLER_EXE joined the game
-[03:24:51] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:58548] logged in with entity id 2237944 at ([minecraft:overworld]-2053.7952942690185, 65.0, -14805.600123280272)
-[03:26:35] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[03:26:35] [Server thread/INFO]: KILLER_EXE left the game
-[03:29:16] [User Authenticator #34/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[03:29:17] [Server thread/INFO]: HACKER1original1 joined the game
-[03:29:17] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:42940] logged in with entity id 2238341 at ([minecraft:overworld]-1749.426480484775, 75.0, 2287.60204729656)
-[03:29:42] [User Authenticator #35/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[03:29:43] [Server thread/INFO]: KILLER_EXE joined the game
-[03:29:43] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:46968] logged in with entity id 2238570 at ([minecraft:overworld]-2054.1659291194355, 65.0, -14805.39307047991)
-[03:30:04] [User Authenticator #36/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[03:30:05] [Server thread/INFO]: rememberins joined the game
-[03:30:05] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:41718] logged in with entity id 2238873 at ([minecraft:overworld]-2052.1196704597505, 65.0, -14806.663108409193)
-[03:30:38] [User Authenticator #37/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[03:30:38] [Server thread/INFO]: dark67 joined the game
-[03:30:38] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:34590] logged in with entity id 2239038 at ([minecraft:overworld]-536.5215377859048, 68.0, -133.69999998807907)
-[03:30:42] [User Authenticator #38/INFO]: UUID of player Thundra1 is 00f7e65d-7a92-322d-95f2-acffa5f6f407
-[03:30:42] [Server thread/INFO]: Thundra1 joined the game
-[03:30:42] [Server thread/INFO]: Thundra1[/[0:0:0:0:0:0:0:1]:34596] logged in with entity id 2239283 at ([minecraft:overworld]97.69999998807907, 66.0, -408.35195171879604)
-[03:30:46] [Server thread/INFO]: HACKER1original1 has made the advancement [Voluntary Exile]
-[03:30:48] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:30:49] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:30:51] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:30:51] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:30:52] [Server thread/INFO]: dark67 issued server command: /
-[03:30:54] [Async Chat Thread - #31/INFO]: (Player) | dark67 >> nigger
-[03:30:56] [Async Chat Thread - #31/INFO]: (Player) | dark67 >> nigger
-[03:30:57] [Async Chat Thread - #31/INFO]: (Player) | dark67 >> nigger
-[03:30:58] [Async Chat Thread - #31/INFO]: (Player) | dark67 >> nigger
-[03:30:59] [Server thread/INFO]: dark67 issued server command: /
-[03:31:03] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:04] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:05] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:06] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:12] [Async Chat Thread - #30/INFO]: (Player) | rememberins >> shut chase
-[03:31:16] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:17] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:19] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:20] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:21] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:22] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:25] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:26] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:26] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:29] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:31] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:32] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:33] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:34] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:35] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:36] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:31:37] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger
-[03:32:07] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:12] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:15] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:20] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:25] [Server thread/INFO]: Thundra1 issued server command: /tpa HACKER1original1
-[03:32:28] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:32] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:34] [Server thread/INFO]: HACKER1original1 issued server command: /tpaccept
-[03:32:47] [Server thread/INFO]: KILLER_EXE has made the advancement [Stone Age]
-[03:32:47] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:50] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:32:57] [Async Chat Thread - #31/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:00] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:02] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:05] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:09] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:17] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:18] [Server thread/INFO]: Thundra1 issued server command: /sethome
-[03:33:18] [Async Chat Thread - #30/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:33:25] [Server thread/INFO]: KILLER_EXE issued server command: /kit
-[03:33:52] [Server thread/INFO]: dark67 lost connection: Disconnected
-[03:33:52] [Server thread/INFO]: dark67 left the game
-[03:34:03] [Server thread/INFO]: KILLER_EXE issued server command: /essentials:kit
-[03:34:18] [User Authenticator #39/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[03:34:19] [Server thread/INFO]: dark67 joined the game
-[03:34:19] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:38714] logged in with entity id 2240958 at ([minecraft:overworld]-536.512291482673, 68.0, -133.38377944273194)
-[03:34:23] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:34:24] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:34:26] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:34:28] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:34:30] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:34:33] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> nigger niggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggerniggernig
-[03:35:01] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:03] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:05] [Server thread/INFO]: KILLER_EXE tried to swim in lava
-[03:35:05] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:07] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
-[03:35:09] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:11] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:13] [Async Chat Thread - #33/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:13] [Server thread/INFO]: KILLER_EXE issued server command: /back
-[03:35:16] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:17] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> porn porn porn porn pornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornpornporn
-[03:35:23] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[03:35:30] [Async Chat Thread - #32/INFO]: (Player) | dark67 >> sorry guy nigger
-[03:35:38] [Server thread/INFO]: dark67 lost connection: Disconnected
-[03:35:38] [Server thread/INFO]: dark67 left the game
-[03:35:42] [Server thread/INFO]: KILLER_EXE was doomed to fall by Skeleton
-[03:35:46] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:35:50] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[03:35:56] [User Authenticator #40/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[03:35:57] [Server thread/INFO]: dark67 joined the game
-[03:35:57] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:49288] logged in with entity id 2252916 at ([minecraft:overworld]-536.4087549026304, 68.0, -132.69999998807907)
-[03:36:13] [Server thread/INFO]: dark67 issued server command: /tpa rememberins
-[03:36:24] [Server thread/INFO]: dark67 issued server command: /tpa KILLER_EXE
-[03:36:28] [Server thread/INFO]: dark67 issued server command: /tpa Thundra1
-[03:36:31] [Server thread/INFO]: dark67 issued server command: /tpa HACKER1original1
-[03:36:32] [Server thread/INFO]: KILLER_EXE was shot by Skeleton
-[03:36:34] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
-[03:36:41] [Server thread/INFO]: KILLER_EXE issued server command: /tpacancel
-[03:36:44] [Server thread/INFO]: dark67 issued server command: /tpa KILLER_EXE
-[03:36:50] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[03:37:41] [Server thread/INFO]: dark67 lost connection: Disconnected
-[03:37:41] [Server thread/INFO]: dark67 left the game
-[03:38:18] [Server thread/INFO]: KILLER_EXE issued server command: /ewhisper rememberins get back here right now!!!!
-[03:39:10] [Server thread/INFO]: KILLER_EXE issued server command: /kit
-[03:39:41] [Server thread/INFO]: KILLER_EXE issued server command: /kits starter
-[03:39:41] [Server thread/INFO]: KILLER_EXE has made the advancement [Isn't It Iron Pick]
-[03:39:55] [Server thread/INFO]: HACKER1original1 issued server command: /ec
-[03:39:55] [Server thread/INFO]: [Essentials] HACKER1original1 was denied access to command.
-[03:40:58] [Server thread/INFO]: KILLER_EXE issued server command: /kits starter
-[03:44:45] [Server thread/INFO]: Thundra1 issued server command: /sethome
-[03:45:05] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:46:32] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[03:47:18] [Server thread/INFO]: HACKER1original1 issued server command: /sethome
-[03:47:22] [Server thread/INFO]: Thundra1 drowned
-[03:47:27] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:47:30] [Server thread/INFO]: Thundra1 issued server command: /home
-[03:48:04] [Server thread/INFO]: Thundra1 drowned
-[03:48:05] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:48:07] [Server thread/INFO]: HACKER1original1 issued server command: /sethome
-[03:48:10] [Server thread/INFO]: Thundra1 issued server command: /home
-[03:48:18] [Server thread/INFO]: KILLER_EXE issued server command: /tpa Thundra1
-[03:48:39] [Server thread/INFO]: rememberins issued server command: /kits starter
-[03:48:59] [Server thread/INFO]: KILLER_EXE issued server command: /kits advanced
-[03:49:08] [Server thread/INFO]: Thundra1 issued server command: /sethome
-[03:49:09] [Server thread/INFO]: Thundra1 drowned
-[03:49:10] [Server thread/INFO]: rememberins issued server command: /tpa Thundra1
-[03:49:12] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:49:19] [Server thread/INFO]: KILLER_EXE issued server command: /tpa Thundra1
-[03:49:20] [Server thread/INFO]: Thundra1 issued server command: /home
-[03:50:07] [Server thread/INFO]: KILLER_EXE issued server command: /tpa Thundra1
-[03:50:12] [Server thread/WARN]: Thundra1 moved wrongly!
-[03:50:15] [Server thread/INFO]: KILLER_EXE issued server command: /tpa HACKER1original1
-[03:51:23] [Server thread/INFO]: HACKER1original1 issued server command: /tpdeny
-[03:51:39] [Server thread/INFO]: HACKER1original1 was impaled by Drowned
-[03:51:40] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:51:43] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[03:52:02] [Server thread/INFO]: KILLER_EXE was blown up by Creeper
-[03:52:03] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[03:52:08] [Server thread/INFO]: KILLER_EXE issued server command: /back
-[03:52:18] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[03:52:19] [Server thread/INFO]: Thundra1 issued server command: /sethome
-[03:52:20] [Server thread/INFO]: Thundra1 lost connection: Disconnected
-[03:52:20] [Server thread/INFO]: Thundra1 left the game
-[03:52:28] [Server thread/INFO]: KILLER_EXE issued server command: /kits starter
-[03:52:29] [Server thread/INFO]: rememberins lost connection: Disconnected
-[03:52:29] [Server thread/INFO]: rememberins left the game
-[03:52:34] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[03:52:34] [Server thread/INFO]: KILLER_EXE left the game
-[03:53:50] [User Authenticator #41/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[03:53:51] [Server thread/INFO]: KILLER_EXE joined the game
-[03:53:51] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:39952] logged in with entity id 2284829 at ([minecraft:overworld]-2055.39980469895, 65.0, -14804.762989185478)
-[03:54:24] [Server thread/INFO]: HACKER1original1 issued server command: /
-[03:54:59] [User Authenticator #42/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[03:54:59] [Server thread/INFO]: rememberins joined the game
-[03:54:59] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:39270] logged in with entity id 2285299 at ([minecraft:overworld]-2051.0436679571612, 65.0, -14806.733561032355)
-[03:55:20] [Server thread/INFO]: rememberins lost connection: Disconnected
-[03:55:20] [Server thread/INFO]: rememberins left the game
-[03:55:37] [Server thread/INFO]: HACKER1original1 drowned
-[03:55:41] [Server thread/INFO]: [@: Applied effect Night Vision to 2 targets]
-[03:55:42] [User Authenticator #43/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[03:55:44] [Server thread/INFO]: rememberins joined the game
-[03:55:44] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:48404] logged in with entity id 2286287 at ([minecraft:overworld]-2062.2561055961087, 58.599999770754366, -14806.867537165688)
-[03:55:50] [Server thread/INFO]: rememberins lost connection: Disconnected
-[03:55:50] [Server thread/INFO]: rememberins left the game
-[03:56:04] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[03:56:25] [User Authenticator #44/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[03:56:25] [Server thread/INFO]: rememberins joined the game
-[03:56:25] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:57762] logged in with entity id 2300775 at ([minecraft:overworld]-2062.2561055961087, 56.04999962620775, -14806.867537165688)
-[03:56:32] [Server thread/INFO]: HACKER1original1 issued server command: /spawn
-[03:56:33] [Server thread/INFO]: rememberins drowned
-[03:56:34] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[03:56:47] [Server thread/INFO]: rememberins issued server command: /home 1
-[03:57:05] [Server thread/INFO]: KILLER_EXE has made the advancement [Suit Up]
-[03:57:06] [Server thread/INFO]: HACKER1original1 fell from a high place
-[03:57:07] [Server thread/INFO]: KILLER_EXE has made the advancement [Diamonds!]
-[03:57:10] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[03:57:13] [Server thread/INFO]: HACKER1original1 issued server command: /tpa KILLER_EXE
-[03:57:26] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[03:58:01] [Server thread/INFO]: rememberins lost connection: Disconnected
-[03:58:01] [Server thread/INFO]: rememberins left the game
-[03:58:39] [User Authenticator #45/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[03:58:39] [Server thread/INFO]: rememberins joined the game
-[03:58:39] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:48588] logged in with entity id 2332561 at ([minecraft:overworld]-2066.920134764012, 63.0, -14803.974436889084)
-[03:59:03] [Server thread/INFO]: rememberins issued server command: /kits starter
-[03:59:39] [Server thread/INFO]: HACKER1original1 lost connection: Timed out
-[03:59:39] [Server thread/INFO]: HACKER1original1 left the game
-[03:59:51] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[03:59:52] [Server thread/INFO]: KILLER_EXE left the game
-[04:02:31] [User Authenticator #46/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[04:02:31] [Server thread/INFO]: KILLER_EXE joined the game
-[04:02:31] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:38768] logged in with entity id 2333359 at ([minecraft:overworld]-2009.3908821005634, 62.0, -14776.871103354933)
-[04:03:36] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[04:03:46] [Server thread/INFO]: KILLER_EXE issued server command: /homes home
-[04:04:18] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
-[04:04:24] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[04:04:42] [User Authenticator #47/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[04:04:43] [Server thread/INFO]: HACKER1original1 joined the game
-[04:04:43] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:52946] logged in with entity id 2334019 at ([minecraft:overworld]-2421.40578868918, 63.0, 3986.7453012163396)
-[04:05:27] [Server thread/INFO]: rememberins lost connection: Disconnected
-[04:05:27] [Server thread/INFO]: rememberins left the game
-[04:05:58] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[04:05:58] [Server thread/INFO]: KILLER_EXE left the game
-[04:06:51] [Server thread/INFO]: HACKER1original1 issued server command: /spawn
-[04:07:23] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[04:11:29] [Server thread/INFO]: HACKER1original1 has made the advancement [Stone Age]
-[04:12:01] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[04:12:04] [User Authenticator #48/INFO]: UUID of player dark67 is 41942e52-3953-35f5-95f8-cfdda10d1924
-[04:12:05] [Server thread/INFO]: dark67 joined the game
-[04:12:05] [Server thread/INFO]: dark67[/[0:0:0:0:0:0:0:1]:40598] logged in with entity id 2357744 at ([minecraft:overworld]-536.6697471833955, 68.0, -133.06535395501155)
-[04:12:07] [Server thread/INFO]: dark67 lost connection: Disconnected
-[04:12:07] [Server thread/INFO]: dark67 left the game
-[04:14:45] [Server thread/INFO]: HACKER1original1 issued server command: /s
-[04:14:45] [Server thread/INFO]: [Essentials] HACKER1original1 was denied access to command.
-[04:14:49] [Server thread/INFO]: HACKER1original1 issued server command: /spawn
-[04:15:32] [Server thread/INFO]: HACKER1original1 issued server command: /help
-[04:15:42] [Server thread/INFO]: HACKER1original1 issued server command: /back
-[04:16:01] [Server thread/INFO]: HACKER1original1 issued server command: /kit
-[04:16:05] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[04:17:23] [User Authenticator #49/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:17:25] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:17:25] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:57488] logged in with entity id 2388423 at ([minecraft:overworld]3681.593836574578, 20.0, 245.90435283760507)
-[04:17:41] [Server thread/INFO]: YuviPRO1123 issued server command: /sethome portal1
-[04:17:53] [Server thread/INFO]: YuviPRO1123 issued server command: /homes
-[04:18:00] [Server thread/INFO]: YuviPRO1123 issued server command: /homes
-[04:18:51] [User Authenticator #50/INFO]: UUID of player HACKER1original2 is d39b0f8f-cd02-3b09-8d3d-ae161a5276ca
-[04:18:52] [Server thread/INFO]: HACKER1original2 joined the game
-[04:18:52] [Server thread/INFO]: HACKER1original2[/[0:0:0:0:0:0:0:1]:37920] logged in with entity id 2388932 at ([minecraft:overworld]-11.5, 105.0, -19.5)
-[04:18:52] [Server thread/INFO]: HACKER1original2 has made the advancement [Getting an Upgrade]
-[04:18:57] [Server thread/INFO]: HACKER1original2 issued server command: /tpa HACKER1original1
-[04:19:00] [Async Chat Thread - #34/INFO]: (Player) | YuviPRO1123 >> yo
-[04:19:13] [User Authenticator #51/INFO]: UUID of player HACKER1original3 is 91157811-cc2a-39eb-9baf-d97486ed091a
-[04:19:13] [Server thread/INFO]: HACKER1original3 joined the game
-[04:19:13] [Server thread/INFO]: HACKER1original3[/[0:0:0:0:0:0:0:1]:53682] logged in with entity id 2401193 at ([minecraft:overworld]-19.5, 105.0, -5.5)
-[04:19:14] [Server thread/INFO]: HACKER1original3 has made the advancement [Getting an Upgrade]
-[04:19:33] [Server thread/INFO]: HACKER1original3 issued server command: /tpa HACKER1original1
-[04:19:43] [Server thread/INFO]: HACKER1original1 issued server command: /tpaccept
-[04:19:51] [Server thread/INFO]: HACKER1original1 issued server command: /tpaccept
-[04:19:52] [User Authenticator #52/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
-[04:19:53] [Server thread/INFO]: KILLER_EXE joined the game
-[04:19:53] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:38202] logged in with entity id 2425420 at ([minecraft:overworld]-1947.3691881802442, -18.0, -14773.067033852873)
-[04:20:05] [Server thread/INFO]: HACKER1original2 issued server command: /kit starter
-[04:20:05] [Server thread/INFO]: HACKER1original2 has made the advancement [Isn't It Iron Pick]
-[04:20:13] [Server thread/INFO]: HACKER1original2 issued server command: /kit starter
-[04:20:26] [Server thread/INFO]: HACKER1original3 issued server command: /kit starter
-[04:20:26] [Server thread/INFO]: HACKER1original3 has made the advancement [Isn't It Iron Pick]
-[04:20:57] [Server thread/INFO]: HACKER1original3 was slain by HACKER1original1
-[04:21:01] [Server thread/INFO]: HACKER1original1 has made the advancement [Getting an Upgrade]
-[04:21:16] [Server thread/INFO]: HACKER1original2 was slain by HACKER1original1
-[04:21:32] [Server thread/INFO]: HACKER1original2 lost connection: Disconnected
-[04:21:32] [Server thread/INFO]: HACKER1original2 left the game
-[04:21:35] [Server thread/INFO]: HACKER1original3 lost connection: Disconnected
-[04:21:35] [Server thread/INFO]: HACKER1original3 left the game
-[04:22:17] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[04:22:41] [User Authenticator #53/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[04:22:41] [Server thread/INFO]: rememberins joined the game
-[04:22:41] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:56870] logged in with entity id 2426823 at ([minecraft:overworld]-1970.699999988079, -53.0, -14812.191819287238)
-[04:23:25] [Async Chat Thread - #36/INFO]: (Player) | HACKER1original1 >> can i tp to someone pls
-[04:23:43] [Server thread/INFO]: HACKER1original1 issued server command: /tpa KILLER_EXE
-[04:23:43] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[04:23:47] [Server thread/INFO]: HACKER1original1 issued server command: /tpa rememberins
-[04:23:52] [Server thread/INFO]: HACKER1original1 issued server command: /tpa YuviPRO1123
-[04:23:55] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[04:23:59] [Server thread/INFO]: YuviPRO1123 issued server command: /tpdeny
-[04:24:01] [Async Chat Thread - #36/INFO]: (Player) | rememberins >> cords
-[04:24:18] [Server thread/INFO]: HACKER1original1 has made the advancement [Diamonds!]
-[04:24:22] [Async Chat Thread - #36/INFO]: (Player) | HACKER1original1 >> THXXX
-[04:24:26] [Async Chat Thread - #36/INFO]: (Player) | rememberins >> cords
-[04:24:30] [Async Chat Thread - #36/INFO]: (Player) | HACKER1original1 >> wdym?
-[04:24:40] [Async Chat Thread - #36/INFO]: (Player) | rememberins >> rt
-[04:24:42] [Async Chat Thread - #36/INFO]: (Player) | rememberins >> p
-[04:24:46] [Async Chat Thread - #36/INFO]: (Player) | HACKER1original1 >> ??
-[04:24:57] [Async Chat Thread - #36/INFO]: (Player) | HACKER1original1 >> describe what you mean?
-[04:24:59] [Async Chat Thread - #36/INFO]: (Player) | rememberins >> typ / rt p
-[04:25:06] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[04:25:13] [Async Chat Thread - #36/INFO]: (Player) | HACKER1original1 >> w
-[04:25:18] [Async Chat Thread - #36/INFO]: (Player) | rememberins >> my cave
-[04:25:21] [Async Chat Thread - #37/INFO]: (Player) | KILLER_EXE >> rtp
-[04:25:24] [Server thread/INFO]: YuviPRO1123 has made the advancement [Sneak 100]
-[04:25:55] [Server thread/INFO]: HACKER1original1 issued server command: /homes
-[04:26:11] [Server thread/INFO]: KILLER_EXE fell from a high place
-[04:26:12] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
-[04:26:17] [Server thread/INFO]: KILLER_EXE issued server command: /back
-[04:26:21] [Server thread/INFO]: KILLER_EXE issued server command: /
-[04:26:22] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[04:26:25] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[04:26:28] [Server thread/INFO]: YuviPRO1123 has made the advancement [Diamonds!]
-[04:26:30] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[04:26:34] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[04:26:36] [Server thread/INFO]: KILLER_EXE issued server command: /kits starter
-[04:27:16] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:27:20] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
-[04:27:25] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[04:28:33] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[04:28:33] [Server thread/INFO]: HACKER1original1 left the game
-[04:28:37] [Server thread/INFO]: YuviPRO1123 has made the advancement [Ice Bucket Challenge]
-[04:29:07] [Server thread/INFO]: YuviPRO1123 has made the advancement [We Need to Go Deeper]
-[04:30:55] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:30:55] [Server thread/INFO]: YuviPRO1123 left the game
-[04:36:36] [User Authenticator #54/INFO]: UUID of player YuviPRO1123 is e46c52c6-2db2-3713-9f23-61380f9b94df
-[04:36:37] [Server thread/INFO]: YuviPRO1123 joined the game
-[04:36:37] [Server thread/INFO]: YuviPRO1123[/[0:0:0:0:0:0:0:1]:58364] logged in with entity id 2434138 at ([minecraft:the_nether]485.2221581070343, 62.0, 31.29896918045289)
-[04:36:54] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:37:07] [Async Chat Thread - #39/INFO]: (Player) | YuviPRO1123 >> yo
-[04:37:18] [Server thread/INFO]: KILLER_EXE issued server command: /tpa re
-[04:37:36] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[04:39:02] [Server thread/INFO]: YuviPRO1123 issued server command: /rtp
-[04:40:50] [Server thread/INFO]: YuviPRO1123 fell from a high place
-[04:40:51] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[04:41:00] [Server thread/INFO]: YuviPRO1123 issued server command: /?
-[04:41:04] [Server thread/INFO]: YuviPRO1123 issued server command: /help 2
-[04:41:13] [Server thread/INFO]: YuviPRO1123 issued server command: /help 3
-[04:41:27] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:42:00] [Server thread/INFO]: rememberins lost connection: Timed out
-[04:42:00] [Server thread/INFO]: rememberins left the game
-[04:43:17] [User Authenticator #55/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
-[04:43:17] [Server thread/INFO]: rememberins joined the game
-[04:43:17] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:53124] logged in with entity id 2457660 at ([minecraft:overworld]-1798.9205069493914, -25.0, -15040.300000011921)
-[04:43:25] [Server thread/INFO]: rememberins issued server command: /home 1
-[04:43:26] [Server thread/INFO]: KILLER_EXE issued server command: /home
-[04:44:23] [Server thread/INFO]: YuviPRO1123 was shot by Skeleton
-[04:44:28] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[04:44:39] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:44:44] [Server thread/INFO]: rememberins has made the advancement [Cover Me with Diamonds]
-[04:45:17] [Server thread/INFO]: KILLER_EXE has made the advancement [Cover Me with Diamonds]
-[04:45:59] [Server thread/INFO]: KILLER_EXE issued server command: /tpa YuviPRO1123
-[04:46:05] [Async Chat Thread - #40/INFO]: (Player) | KILLER_EXE >> hi
-[04:46:21] [Server thread/INFO]: YuviPRO1123 issued server command: /tpaccept
-[04:46:23] [Async Chat Thread - #41/INFO]: (Player) | YuviPRO1123 >> yo
-[04:46:31] [Async Chat Thread - #41/INFO]: (Player) | YuviPRO1123 >> u hv sum food?
-[04:46:49] [Async Chat Thread - #41/INFO]: (Player) | rememberins >> use /kits starter
-[04:46:54] [Server thread/INFO]: YuviPRO1123 issued server command: /kits starter
-[04:46:54] [Server thread/INFO]: YuviPRO1123 has made the advancement [Isn't It Iron Pick]
-[04:47:05] [Async Chat Thread - #41/INFO]: (Player) | YuviPRO1123 >> oh thx
-[04:47:07] [Server thread/INFO]: YuviPRO1123 was slain by Zombie
-[04:47:08] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[04:47:11] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:47:15] [Server thread/INFO]: YuviPRO1123 issued server command: /tpa KILLER_EXE
-[04:47:22] [Server thread/INFO]: KILLER_EXE issued server command: /tpaccept
-[04:47:22] [Server thread/INFO]: YuviPRO1123 issued server command: /kit starter
-[04:47:29] [Async Chat Thread - #41/INFO]: (Player) | YuviPRO1123 >> thx
-[04:48:16] [Server thread/INFO]: rememberins issued server command: /tpa KILLER_EXE
-[04:48:21] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:48:27] [Server thread/INFO]: KILLER_EXE issued server command: /tpaccept
-[04:49:31] [Server thread/INFO]: KILLER_EXE issued server command: /sethome 1
-[04:49:33] [Server thread/INFO]: rememberins issued server command: /sethome 2
-[04:49:47] [Server thread/INFO]: KILLER_EXE has made the advancement [Sneak 100]
-[04:50:00] [Async Chat Thread - #42/INFO]: (Player) | YuviPRO1123 >> NOOOOOOO
-[04:50:19] [Async Chat Thread - #42/INFO]: (Player) | YuviPRO1123 >> FUKKKKKKKK
-[04:50:30] [Server thread/INFO]: rememberins has made the advancement [Sneak 100]
-[04:50:47] [Server thread/INFO]: YuviPRO1123 issued server command: /home
-[04:50:57] [Async Chat Thread - #42/INFO]: (Player) | YuviPRO1123 >> u know what
-[04:51:08] [Server thread/INFO]: YuviPRO1123 issued server command: /tpahere KILLER_EXE
-[04:51:11] [Server thread/INFO]: YuviPRO1123 issued server command: /tpahere
-[04:51:15] [Server thread/INFO]: YuviPRO1123 issued server command: /tpahere rememberins
-[04:51:15] [Server thread/INFO]: KILLER_EXE issued server command: /tpaccept
-[04:51:28] [Server thread/INFO]: YuviPRO1123 issued server command: /spawn
-[04:51:50] [Server thread/INFO]: KILLER_EXE has made the advancement [We Need to Go Deeper]
-[04:52:02] [Server thread/INFO]: YuviPRO1123 fell from a high place
-[04:52:03] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[04:52:17] [Server thread/INFO]: YuviPRO1123 fell from a high place
-[04:52:18] [Server thread/INFO]: [@: Applied effect Night Vision to 3 targets]
-[04:52:23] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
-[04:52:34] [Server thread/INFO]: rememberins issued server command: /tpaccept
-[04:52:51] [Server thread/INFO]: YuviPRO1123 issued server command: /?
-[04:52:58] [Server thread/INFO]: YuviPRO1123 issued server command: /help 2
-[04:53:03] [Server thread/INFO]: YuviPRO1123 issued server command: /? 2
-[04:53:11] [Server thread/INFO]: YuviPRO1123 issued server command: /? 3
-[04:53:17] [Server thread/INFO]: YuviPRO1123 issued server command: /balance
-[04:53:17] [Server thread/INFO]: [Essentials] YuviPRO1123 was denied access to command.
-[04:53:23] [Server thread/INFO]: YuviPRO1123 issued server command: /? 4
-[04:53:31] [Server thread/INFO]: YuviPRO1123 issued server command: /? 5
-[04:53:37] [Server thread/INFO]: YuviPRO1123 issued server command: /? 6
-[04:53:48] [Server thread/INFO]: YuviPRO1123 issued server command: /? 7
-[04:53:59] [Server thread/INFO]: YuviPRO1123 issued server command: /? 8
-[04:54:12] [Server thread/INFO]: YuviPRO1123 issued server command: /? 9
-[04:54:20] [Server thread/INFO]: YuviPRO1123 issued server command: /? 10
-[04:54:24] [Server thread/INFO]: YuviPRO1123 issued server command: /? 11
-[04:54:30] [Server thread/INFO]: YuviPRO1123 issued server command: /? 12
-[04:54:37] [Server thread/INFO]: YuviPRO1123 issued server command: /? 13
-[04:54:42] [Server thread/INFO]: YuviPRO1123 issued server command: /? 15
-[04:54:49] [Server thread/INFO]: YuviPRO1123 issued server command: /? 14
-[04:54:54] [Server thread/INFO]: YuviPRO1123 issued server command: /? 16
-[04:55:01] [Server thread/INFO]: YuviPRO1123 lost connection: Disconnected
-[04:55:01] [Server thread/INFO]: YuviPRO1123 left the game
-[04:55:01] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
-[04:55:01] [Server thread/INFO]: KILLER_EXE left the game
-[04:55:03] [Server thread/INFO]: rememberins lost connection: Disconnected
-[04:55:03] [Server thread/INFO]: rememberins left the game
-[05:02:00] [User Authenticator #56/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[05:02:00] [Server thread/INFO]: HACKER1original1 joined the game
-[05:02:00] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:40252] logged in with entity id 2618566 at ([minecraft:overworld]28775.944411033895, 76.0, 6862.637500607681)
-[05:02:13] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[05:03:23] [Server thread/INFO]: HACKER1original1 was kicked due to keepalive timeout!
-[05:03:23] [Server thread/INFO]: HACKER1original1 lost connection: Timed out
-[05:03:23] [Server thread/INFO]: HACKER1original1 left the game
-[05:33:06] [User Authenticator #57/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[05:33:07] [Server thread/INFO]: HACKER1original1 joined the game
-[05:33:07] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:59530] logged in with entity id 2619038 at ([minecraft:overworld]-2421.300000011921, 63.7531999805212, 3986.1852579545484)
-[05:33:21] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[05:33:40] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[05:33:43] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[05:35:46] [Server thread/INFO]: HACKER1original1 was slain by Zombie
-[05:35:47] [Server thread/INFO]: [@: Applied effect Night Vision to HACKER1original1]
-[05:35:50] [Server thread/INFO]: HACKER1original1 issued server command: /back
-[05:36:01] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[05:36:06] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[05:36:15] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
-[05:45:52] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
-[05:45:52] [Server thread/INFO]: HACKER1original1 left the game
-[06:09:25] [User Authenticator #58/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[06:09:25] [Server thread/INFO]: isaacman joined the game
-[06:09:25] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:48922] logged in with entity id 2622599 at ([minecraft:overworld]-7620.5128390025975, 91.0, 15183.381882183958)
-[06:11:14] [Server thread/INFO]: isaacman issued server command: /rtp
-[06:14:48] [Server thread/INFO]: isaacman issued server command: /spawn
-[06:15:32] [Server thread/INFO]: isaacman issued server command: /rtp
-[06:16:03] [Server thread/INFO]: isaacman issued server command: /rtp
-[06:16:21] [Server thread/INFO]: isaacman issued server command: /rtp
-[06:17:23] [Server thread/INFO]: isaacman issued server command: /rtp
-[06:17:30] [Server thread/INFO]: isaacman issued server command: /home 1
-[06:25:13] [Server thread/INFO]: isaacman issued server command: /delhome 1
-[06:25:13] [Server thread/INFO]: [Essentials] isaacman was denied access to command.
-[06:25:17] [Server thread/INFO]: isaacman issued server command: /homes
-[06:25:28] [Server thread/INFO]: isaacman issued server command: /home 2
-[06:25:35] [Server thread/INFO]: isaacman issued server command: /set home
-[06:25:38] [Server thread/INFO]: isaacman issued server command: /sethome
-[06:25:57] [Server thread/INFO]: isaacman issued server command: /sethome
-[06:25:59] [Server thread/INFO]: isaacman issued server command: /home
-[06:27:57] [Server thread/INFO]: isaacman issued server command: /sethome
-[06:28:00] [Server thread/INFO]: isaacman issued server command: /sethome
-[06:28:03] [Server thread/INFO]: isaacman issued server command: /sethome
-[06:28:06] [Server thread/INFO]: isaacman issued server command: /home
-[06:30:51] [Server thread/INFO]: isaacman issued server command: /rtp
-[06:34:23] [Server thread/INFO]: isaacman issued server command: /home
-[06:36:31] [Server thread/INFO]: isaacman lost connection: Disconnected
-[06:36:31] [Server thread/INFO]: isaacman left the game
-[06:46:22] [User Authenticator #59/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
-[06:46:22] [Server thread/INFO]: HACKER1original1 joined the game
-[06:46:22] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:51032] logged in with entity id 2698809 at ([minecraft:overworld]-2757.699999988079, 57.0, 4274.428657669946)
-[06:52:38] [Server thread/INFO]: HACKER1original1 issued server command: /kit starter
-[06:53:41] [Server thread/INFO]: [MinerTrack]  HACKER1original1 triggered X-Ray detection [VL: 2]
-[06:54:58] [Server thread/INFO]: HACKER1original1 issued server command: /home
-[06:55:30] [Server thread/INFO]: HACKER1original1 has made the advancement [Cover Me with Diamonds]
-[06:56:46] [Server thread/INFO]: HACKER1original1 lost connection: Timed out
-[06:56:46] [Server thread/INFO]: HACKER1original1 left the game
-[07:10:38] [User Authenticator #60/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[07:10:39] [Server thread/INFO]: isaacman joined the game
-[07:10:39] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:41204] logged in with entity id 2700667 at ([minecraft:overworld]2032.1868088770557, 87.9375, -25933.408058302684)
-[07:13:41] [Server thread/INFO]: isaacman has made the advancement [Enchanter]
-[07:15:48] [Server thread/INFO]: isaacman issued server command: /spawn
-[07:16:08] [Server thread/INFO]: isaacman issued server command: /home
-[07:21:17] [Server thread/INFO]: isaacman lost connection: Disconnected
-[07:21:17] [Server thread/INFO]: isaacman left the game
-[07:25:17] [User Authenticator #61/INFO]: UUID of player isaacman is 9d0a22e5-ae42-36a4-aec0-6ac7c0f92395
-[07:25:18] [Server thread/INFO]: isaacman joined the game
-[07:25:18] [Server thread/INFO]: isaacman[/[0:0:0:0:0:0:0:1]:54552] logged in with entity id 2714955 at ([minecraft:overworld]1921.9558638092064, -26.0, -26106.902468677486)
-[07:40:27] [Server thread/INFO]: isaacman issued server command: /home
-[07:42:44] [Server thread/INFO]: isaacman lost connection: Disconnected
-[07:42:44] [Server thread/INFO]: isaacman left the game
+[11:38:22] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[11:38:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:38:23] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 778.6ms
+[11:38:24] [ServerMain/INFO]: Loaded 1585 recipes
+[11:38:24] [ServerMain/INFO]: Loaded 1688 advancements
+[11:38:25] [Server thread/INFO]: Starting minecraft server version 26.2
+[11:38:25] [Server thread/INFO]: Loading properties
+[11:38:25] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[11:38:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:38:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:38:25] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:38:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:38:25] [Server thread/INFO]: Default game type: SURVIVAL
+[11:38:25] [Server thread/INFO]: Generating keypair
+[11:38:25] [Server thread/INFO]: Starting Minecraft server on *:25567
+[11:38:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:38:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[11:38:26] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[11:38:26] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[11:38:27] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[11:38:27] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[11:38:27] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.71
+[11:38:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:38:28] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
+[11:38:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@74909ca]
+[11:38:28] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[11:38:28] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[11:38:28] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
+[11:38:28] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
+[11:38:28] [Server thread/INFO]: [NightVision] Loading server plugin NightVision v1.0
+[11:38:28] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
+[11:38:29] [Server thread/INFO]: [packetevents] Loading packetevents...
+[11:38:31] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
+[11:38:31] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0
+[11:38:31] [Server thread/INFO]: [MinerTrack] Loading server plugin MinerTrack v2.1.1.2
+[11:38:31] [Server thread/INFO]: [LockiPrefixes] Loading server plugin LockiPrefixes v3.0.5
+[11:38:31] [Server thread/INFO]: [UnstableSMPFarlands] Loading server plugin UnstableSMPFarlands v1.2.5
+[11:38:31] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.6.4
+[11:38:31] [Server thread/INFO]: [Simple_RTP] Loading server plugin Simple_RTP v1.0.9
+[11:38:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.71
+[11:38:31] [Server thread/INFO]:         __    
+[11:38:31] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.71
+[11:38:31] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:38:31] [Server thread/INFO]: 
+[11:38:31] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:38:32] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:38:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:38:32] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1554ms)
+[11:38:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
+[11:38:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:38:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:38:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
+[11:38:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:38:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:38:34] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:38:34] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[11:38:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:38:34] [Server thread/INFO]: Preparing level "world"
+[11:38:35] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[11:38:35] [Server thread/INFO]: Preparing spawn area: 100%
+[11:38:35] [Server thread/INFO]: Prepared spawn area in 4 ms
+[11:38:35] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[11:38:35] [Server thread/INFO]: Prepared spawn area in 3 ms
+[11:38:35] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[11:38:35] [Server thread/INFO]: Prepared spawn area in 0 ms
+[11:38:35] [Server thread/INFO]: Done preparing level "world" (1.530s)
+[11:38:35] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[11:38:35] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[11:38:35] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[11:38:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[11:38:36] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:38:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:38:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:38:36] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:38:36] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[11:38:36] [Server thread/INFO]: [Essentials] Using locale en
+[11:38:37] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:38:37] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:38:37] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:38:37] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:38:37] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:38:37] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
+[11:38:37] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:38:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:38:37] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:38:38] [Server thread/INFO]: [NightVision] Enabling NightVision v1.0
+[11:38:38] [Server thread/INFO]: [NightVision] NightVision plugin has been enabled!
+[11:38:38] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
+[11:38:38] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
+[11:38:38] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
+[11:38:38] [Server thread/INFO]: [TuffXPlus] 
+[11:38:38] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
+[11:38:38] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
+[11:38:38] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
+[11:38:38] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
+[11:38:38] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
+[11:38:38] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
+[11:38:38] [Server thread/INFO]: [TuffXPlus] 
+[11:38:38] [Server thread/INFO]: [TuffXPlus] CREDITS
+[11:38:38] [Server thread/INFO]: [TuffXPlus] 
+[11:38:38] [Server thread/INFO]: [TuffXPlus] Y0 support:
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
+[11:38:38] [Server thread/INFO]: [TuffXPlus] 
+[11:38:38] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
+[11:38:38] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
+[11:38:38] [Server thread/INFO]: [TuffXPlus] 
+[11:38:38] [Server thread/INFO]: [TuffXPlus] Other:
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
+[11:38:38] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
+[11:38:38] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0
+[11:38:38] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[11:38:38] [Server thread/INFO]: [MinerTrack] Enabling MinerTrack v2.1.1.2
+[11:38:39] [Server thread/INFO]: [MinerTrack] Loaded group configuration: end (end.yml)
+[11:38:39] [Server thread/INFO]: [MinerTrack] Loaded group configuration: overworld (overworld.yml)
+[11:38:39] [Server thread/INFO]: [MinerTrack] Loaded group configuration: nether (nether.yml)
+[11:38:39] [Server thread/INFO]: [MinerTrack] Built world-to-group mapping from xray.worlds: {minecraft:overworld=overworld, minecraft:the_nether=nether, minecraft:the_end=end} (default unnamed -> overworld)
+[11:38:39] [Server thread/INFO]: [MinerTrack] Loaded group configurations (3 active):
+[11:38:39] [Server thread/INFO]: [MinerTrack]  - nether: worlds=[minecraft:the_nether], patterns=[]
+[11:38:39] [Server thread/INFO]: [MinerTrack]  - end: worlds=[minecraft:the_end], patterns=[]
+[11:38:39] [Server thread/INFO]: [MinerTrack]  - overworld: worlds=[minecraft:overworld], patterns=[]
+[11:38:39] [Server thread/INFO]: [MinerTrack] Default unnamed group (all_unnamed_world): overworld
+[11:38:39] [Server thread/WARN]: [MinerTrack] Could not save de.yml to plugins/MinerTrack/Translations/de.yml because de.yml already exists.
+[11:38:39] [Server thread/WARN]: [MinerTrack] Could not save fr.yml to plugins/MinerTrack/Translations/fr.yml because fr.yml already exists.
+[11:38:39] [Server thread/WARN]: [MinerTrack] Could not save ru.yml to plugins/MinerTrack/Translations/ru.yml because ru.yml already exists.
+[11:38:39] [Server thread/WARN]: [MinerTrack] Could not save zh_cn.yml to plugins/MinerTrack/Translations/zh_cn.yml because zh_cn.yml already exists.
+[11:38:39] [Server thread/INFO]: [MinerTrack] Core initialized for version 2.1.1.2
+[11:38:39] [Server thread/INFO]: ----[MinerTrack v2.1.1.2 ]-----------
+[11:38:39] [Server thread/INFO]: MinerTrack Anti-XRay Enabled!
+[11:38:39] [Server thread/INFO]: 
+[11:38:39] [Server thread/INFO]: Authors: Author87668
+[11:38:39] [Server thread/INFO]: Original Author: Author87668
+[11:38:39] [Server thread/INFO]: Contributors: Author87668, Zhang12334, Thomas, xiaoyueyoqwq
+[11:38:39] [Server thread/INFO]: 
+[11:38:39] [Server thread/INFO]: Thanks for your use!
+[11:38:39] [Server thread/INFO]: -----------------------------------------
+[11:38:39] [Server thread/INFO]: [MinerTrack] MinerTrack (BukkitPlatform) enabled.
+[11:38:39] [Server thread/INFO]: [LockiPrefixes] Enabling LockiPrefixes v3.0.5
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] PlaceholderAPI not found. PAPI placeholders will not be available.
+[11:38:39] [Server thread/INFO]: [LockiPrefixes] LuckPerms rank change listener registered.
+[11:38:39] [Server thread/INFO]: [LockiPrefixes] Tablist animation started.
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ======================================
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] LockiPrefixes - Missing Dependencies!
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ======================================
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] - PlaceholderAPI (optional) is not installed!
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] PlaceholderAPI placeholders are not available.
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ======================================
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] 
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ╔════════════════════════════════════════════════════════════╗
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ║  IMPORTANT: Secure Chat must be disabled for chat to work! ║
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ╠════════════════════════════════════════════════════════════╣
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ║  1. Open your server.properties file                       ║
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ║  2. Find: enforce-secure-profile=true                      ║
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ║  3. Change to: enforce-secure-profile=false                ║
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ║  4. Restart the server                                     ║
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] ╚════════════════════════════════════════════════════════════╝
+[11:38:39] [Server thread/WARN]: [LockiPrefixes] 
+[11:38:39] [Server thread/INFO]: [LockiPrefixes] LockiPrefixes (Latest 1.20-1.21 with Adventure API) enabled!
+[11:38:39] [Server thread/INFO]: [UnstableSMPFarlands] Enabling UnstableSMPFarlands v1.2.5
+[11:38:39] [Server thread/INFO]: [UnstableSMPFarlands] Generator swapped for 'world' (1 references replaced): X [64000, 1500000) -> farlands generator
+[11:38:39] [Server thread/INFO]: [UnstableSMPFarlands] UnstableSMP Farlands enabled for 26.2.build.111 (StartX: 12550821).
+[11:38:39] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.6.4
+[11:38:39] [Server thread/INFO]: [InstantRestock] Enabled InstantRestock!
+[11:38:39] [Server thread/INFO]: [Simple_RTP] Enabling Simple_RTP v1.0.9
+[11:38:40] [Server thread/INFO]: [Simple_RTP] Plugin has been enabled!
+[11:38:40] [Server thread/INFO]: [Simple_RTP] Thank you for using Simple RTP! by Jaeden
+[11:38:40] [Server thread/INFO]: [spark] Starting background profiler...
+[11:38:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:38:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:38:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:38:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:38:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:38:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:38:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:38:41] [Server thread/INFO]: Running delayed init tasks
+[11:38:41] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:38:41] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:38:41] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
+[11:38:42] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
+[11:38:42] [Server thread/INFO]: Done (25.644s)! For help, type "help"
+[11:38:42] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 12 builds behind ***
+[11:38:42] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
