@@ -11,7 +11,7 @@
       '<blue>%discord_invite%</blue>'
     ],
     actions: {
-      generic: '<gold>Please switch to a different %block_type%.</gold>',
+      generic: '<gold>Please join using our official website client.</gold>',
       player_name: '<gold>Please change your %block_type%.</gold>',
       ip_address: '<gold>Please contact staff for assistance.</gold>'
     }
@@ -33,30 +33,18 @@
   },
   blacklist: {
     origins: [
-      '.*dicestack88\\.github\\.io.*'
+      "^https?://dicestack88\\.github\\.io.*"
     ],
-    brands: [
-      '.*dragonx.*',
-      '.*piclient.*',
-      '.*justin.*',
-      '.*wurstx.*',
-      '.*moonlight.*'
-    ],
-    player_names: [
-      'Admin'
-    ],
-    ip_addresses: [
-      '192.0.2.0/24'
-    ],
-    subscriptions: [
-    ]
+    brands: [],
+    player_names: [],
+    ip_addresses: [],
+    subscriptions: []
   },
   discord: {
     invite: 'discord.gg/changeme',
     webhook: {
       enabled: false,
-      webhook_urls: [
-      ],
+      webhook_urls: [],
       send_ips: true
     }
   },
@@ -70,5 +58,6 @@
   block_undefined_origin: true,
   bStats: true,
   logFile: true,
+  // DO NOT CHANGE
   config_version: 2
 }

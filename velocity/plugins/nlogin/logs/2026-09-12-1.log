@@ -1,0 +1,15 @@
+[2026/09/12 01:23:21 INFO]:           __             _       
+[2026/09/12 01:23:21 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/09/12 01:23:21 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/09/12 01:23:21 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/09/12 01:23:21 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/09/12 01:23:21 INFO]:                   |___/            
+[2026/09/12 01:23:21 INFO]:  By: www.nickuc.com - V 2.0.19
+[2026/09/12 01:23:21 INFO]:  
+[2026/09/12 01:23:21 DEBUG]: Loading the messages_en.yml message file...
+[2026/09/12 01:23:21 DEBUG]: Messages were loaded in 158 ms (single file).
+[2026/09/12 01:23:21 DEBUG]: Settings were loaded in 232 ms.
+[2026/09/12 01:23:21 DEBUG]: Loading database...
+[2026/09/12 01:23:22 DEBUG]: Starting logger filter...
+[2026/09/12 01:23:22 INFO]: Loading packetevents-velocity 2.13.0...
+[2026/09/12 01:23:41 INFO]: Successful plugin core shutdown (took 0.15s)
