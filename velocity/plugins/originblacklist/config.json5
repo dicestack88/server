@@ -11,7 +11,7 @@
       '<blue>%discord_invite%</blue>'
     ],
     actions: {
-      generic: '<gold>Please join using our official website client.</gold>',
+      generic: '<gold>Please switch to a different %block_type%.</gold>',
       player_name: '<gold>Please change your %block_type%.</gold>',
       ip_address: '<gold>Please contact staff for assistance.</gold>'
     }
@@ -33,18 +33,39 @@
   },
   blacklist: {
     origins: [
-      "^https?://dicestack88\\.github\\.io.*"
+      '.*eaglerhackedclients\\.vercel\\.app.*',
+      '.*eaglerhacks\\.github\\.io.*',
+      '.*mcproject\\.vercel\\.app.*',
+      '.*wurst-b2\\.vercel\\.app.*',
+      '.*flqmedev\\.github\\.io.*',
+      '.*wurst2\\.vercel\\.app.*',
+      '.*dhyeybg7\\.vercel\\.app.*',
+      '.*uec\\.vercel\\.app.*',
+      '.*valux-game\\.github\\.io.*',
+      '.*project516\\.dev.*'
     ],
-    brands: [],
-    player_names: [],
-    ip_addresses: [],
-    subscriptions: []
+    brands: [
+      '.*dragonx.*',
+      '.*piclient.*',
+      '.*justin.*',
+      '.*wurstx.*',
+      '.*moonlight.*'
+    ],
+    player_names: [
+      'Admin'
+    ],
+    ip_addresses: [
+      '192.0.2.0/24'
+    ],
+    subscriptions: [
+    ]
   },
   discord: {
     invite: 'discord.gg/changeme',
     webhook: {
       enabled: false,
-      webhook_urls: [],
+      webhook_urls: [
+      ],
       send_ips: true
     }
   },
@@ -54,10 +75,10 @@
     auto_update: false
   },
   blacklist_http_api: false,
-  blacklist_to_whitelist: true,
+  blacklist_to_whitelist: false,
+  // TEST: block clients that provide no Origin
   block_undefined_origin: true,
   bStats: true,
   logFile: true,
-  // DO NOT CHANGE
   config_version: 2
 }
