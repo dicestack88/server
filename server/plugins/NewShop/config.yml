@@ -1,0 +1,28 @@
+shop:
+  enable-gui-shop: true
+  enable-chest-shop: true
+  max-items-per-player: 10
+  tax-percentage: 0.05
+  allow-enchanted-items: true
+  allow-damaged-items: false
+  items-per-page: 45
+  listing-duration-days: 7
+messages:
+  prefix: '&8[&6NewShop&8] &r'
+  no-permission: '&cVocê não tem permissão para isso!'
+  item-sold: '&aItem colocado à venda com sucesso!'
+  item-bought: '&aItem comprado com sucesso por $%price%!'
+  item-removed: '&eItem removido da venda e devolvido ao inventário!'
+  not-enough-money: '&cVocê não tem dinheiro suficiente!'
+  shop-full: '&cVocê já atingiu o limite de itens à venda!'
+  invalid-price: '&cPreço inválido! Use apenas números positivos.'
+  no-item-in-hand: '&cSegure um item na mão para vender!'
+  cannot-buy-own-item: '&cVocê não pode comprar seu próprio item!'
+  shop-cleared: '&aShop limpa com sucesso!'
+  inventory-full: '&cSeu inventário está cheio!'
+  item-expired: '&eAlguns de seus itens expiraram e foram devolvidos!'
+gui:
+  shop-title: '&2NewShop - Loja Virtual'
+  my-shop-title: '&9Minha Loja'
+  admin-panel-title: '&4Painel Admin'
+  category-title: '&6Categorias'

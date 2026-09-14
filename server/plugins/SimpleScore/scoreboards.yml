@@ -54,12 +54,12 @@
 
 # Example of a simple Scoreboard layout.
 default:
-  titles: '&#54DAF4&lʏ&#54CCED&lᴏ&#54BEE6&lᴜ&#54B1DF&lʀ&#54A3D8&lꜱ&#5495D2&lᴇ&#5487CB&lʀ&#547AC4&lᴠ&#546CBD&lᴇ&#545EB6&lʀ'
+  titles: '&#54DAF4&lᴅ&#54CCED&lɪ&#54BEE6&lᴄ&#54B1DF&lᴋ&#54A3D8&lʏ &#5495D2&lꜱ&#5487CB&lᴍ&#547AC4&lᴘ'
   scores:
     13: '&7&m●                                ●'
     12: '   &9&lᴘʟᴀʏᴇʀ'
     11: '     &7▪ &bɴᴀᴍᴇ &f%player_name%'
-    10: '     &7▪ &bʀᴀɴᴋ &fUnknown'
+    10: ' &7▪ &bʀᴀɴᴋ &f%luckperms_prefix%'
     9:  ''
     8:  '   &9&lꜱᴛᴀᴛꜱ'
     7:  '     &7▪ &bʜᴇᴀʟᴛʜ &f%player_health%&7/&f%player_maxhealth%'
@@ -69,7 +69,7 @@ default:
     3:  '     &7▪ &bʟᴀᴛᴇɴᴄʏ &f%player_ping%ms'
     2:  '     &7▪ &bᴏɴʟɪɴᴇ &f%server_online%&7/&f%server_maxplayers%'
     1:  '&7&m●                                ●'
-    0:  '        &7&oʀᴜɪᴘᴇʀᴇɪʀᴀ.ᴅᴇᴠ        '
+    0:  '        &7&dicestack.smp        '
   # Hide scoreboard score numbers on supported versions.
   defaultHideNumber: true
   # Render each line every 20 ticks (1 second) (see Important Concepts).

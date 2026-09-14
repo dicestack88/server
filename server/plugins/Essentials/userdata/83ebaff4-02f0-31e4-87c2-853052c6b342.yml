@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789351847325
-  login: 1789352599484
+  logout: 1789353478116
+  login: 1789353462951
 money: '0'
 last-account-name: gooner
 lastlocation:
@@ -32,8 +32,8 @@ lastlocation:
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: 6995.699999988079
-  y: 88.0
-  z: 8707.701326141967
-  yaw: 6.450298309326172
-  pitch: 67.95001983642578
+  x: 6988.365951410948
+  y: -56.0
+  z: 8716.414070295532
+  yaw: -38.9991455078125
+  pitch: 89.54999542236328

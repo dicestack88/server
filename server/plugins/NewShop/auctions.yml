@@ -1,0 +1,14 @@
+auctions:
+  e9bb891e-a85f-4898-957d-8bb5ff06224a:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4903
+      id: minecraft:iron_sword
+      count: 1
+      schema_version: 1
+    seller: 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+    starting-bid: 100.0
+    current-bid: 100.0
+    start-time: 1789354396157
+    duration: 360000000
+    category: WEAPONS

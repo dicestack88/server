@@ -17,8 +17,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789352754366
-  login: 1789352533834
+  logout: 1789354575121
+  login: 1789354351343
   kits:
     firework: 1789088725287
     starter: 1789090948118
@@ -27,11 +27,11 @@ last-account-name: dicestack88YT
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -9.940732040998306
-  y: 103.0
-  z: -38.77650211878445
-  yaw: -149.51380920410156
-  pitch: 15.749979019165039
+  x: 0.9353545019964496
+  y: 105.0
+  z: -15.998814242102457
+  yaw: 24.78631591796875
+  pitch: -9.1500244140625
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
