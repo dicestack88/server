@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:nether_gold_ore": 1,
+      "minecraft:netherrack": 2,
+      "minecraft:stone": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:netherrack": 1,
+      "minecraft:cobblestone": 2,
+      "minecraft:gold_nugget": 6
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 10068,
+      "minecraft:walk_one_cm": 23118,
+      "minecraft:leave_game": 4,
+      "minecraft:damage_taken": 64,
+      "minecraft:play_time": 10068,
+      "minecraft:damage_dealt": 11,
+      "minecraft:jump": 61,
+      "minecraft:time_since_death": 10068,
+      "minecraft:open_enderchest": 2,
+      "minecraft:sprint_one_cm": 20043,
+      "minecraft:fall_one_cm": 2513,
+      "minecraft:total_world_time": 10068,
+      "minecraft:fly_one_cm": 5881
+    },
+    "minecraft:used": {
+      "minecraft:stone_shovel": 1,
+      "minecraft:iron_pickaxe": 3,
+      "minecraft:stone_pickaxe": 2
+    }
+  },
+  "DataVersion": 4903
+}

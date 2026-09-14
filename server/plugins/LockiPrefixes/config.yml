@@ -82,6 +82,20 @@ groups:
       &r&f| &c&l{name}'
     rank-tag: Owner
     priority: 100
+  youtuber:
+    chat-format: '&#c41717&lY&#cc3838&lo&#d55959&lu&#dd7a7a&lt&#e69c9c&lu&#eebdbd&lb&#f7dede&le&#ffffff&lr
+      &r&f| {name} &r>> &f{message}'
+    tablist-format: '&#c41717&lY&#cc3838&lo&#d55959&lu&#dd7a7a&lt&#e69c9c&lu&#eebdbd&lb&#f7dede&le&#ffffff&lr
+      &r&f| {name}'
+    rank-tag: Youtuber
+    priority: 10
+  media:
+    chat-format: '&#17c490&lM&#11b7ac&le&#0cabc8&ld&#069ee3&li&#0091ff&la &r&f| {name}
+      >> {message}'
+    tablist-format: '&#17c490&lM&#11b7ac&le&#0cabc8&ld&#069ee3&li&#0091ff&la &r&f|
+      {name}'
+    rank-tag: Media
+    priority: 10
 
 
 # ══════════════════════════════════════════════════════════════════

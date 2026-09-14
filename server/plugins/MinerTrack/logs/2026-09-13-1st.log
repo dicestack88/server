@@ -1,0 +1,13 @@
+2026-09-14 01:56:28 | Vyqzren failed X-Ray check VL:1(+1) Block:minecraft:deepslate_diamond_orex8(Veinx2) World: minecraft:overworld Pos: X-1367 Y-46 Z-612
+Executed Command: minertrack notify &fVyqzren &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2026-09-14 01:57:39 | Vyqzren failed X-Ray check VL:2(+1) Block:minecraft:deepslate_diamond_orex2(Veinx3) World: minecraft:overworld Pos: X-1337 Y-52 Z-603
+2026-09-14 01:58:16 | Vyqzren failed X-Ray check VL:3(+1) Block:minecraft:deepslate_diamond_orex4(Veinx4) World: minecraft:overworld Pos: X-1339 Y-58 Z-604
+Executed Command: minertrack notify &fVyqzren &7triggered &fX-Ray &7detection [&cVL: 4&7]
+2026-09-14 01:59:06 | Vyqzren failed X-Ray check VL:4(+1) Block:minecraft:deepslate_diamond_orex8(Veinx5) World: minecraft:overworld Pos: X-1347 Y-57 Z-610
+Executed Command: minertrack kick Vyqzren X-Ray
+Executed Command: minertrack notify &fVyqzren &7was kicked for &fX-Ray
+2026-09-14 01:59:28 | Vyqzren failed X-Ray check VL:5(+1) Block:minecraft:deepslate_diamond_orex2(Veinx6) World: minecraft:overworld Pos: X-1349 Y-57 Z-617
+2026-09-14 02:00:47 | Vyqzren failed X-Ray check VL:6(+1) Block:minecraft:deepslate_diamond_orex6(Veinx7) World: minecraft:overworld Pos: X-1350 Y-58 Z-625
+2026-09-14 02:02:00 | Vyqzren failed X-Ray check VL:7(+1) Block:minecraft:deepslate_diamond_orex10(Veinx8) World: minecraft:overworld Pos: X-1365 Y-60 Z-638
+2026-09-14 02:02:34 | Vyqzren failed X-Ray check VL:8(+1) Block:minecraft:deepslate_diamond_orex6(Veinx9) World: minecraft:overworld Pos: X-1351 Y-55 Z-633
+2026-09-14 02:02:58 | Vyqzren failed X-Ray check VL:9(+1) Block:minecraft:deepslate_diamond_orex3(Veinx10) World: minecraft:overworld Pos: X-1345 Y-59 Z-620

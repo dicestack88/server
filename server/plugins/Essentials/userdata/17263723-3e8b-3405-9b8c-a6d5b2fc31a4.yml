@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1789349328728
+  login: 1789349282436
+money: '0'
+last-account-name: dark677d
+lastlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: 0.5
+  y: 105.0
+  z: -16.5
+  yaw: -7.31329345703125
+  pitch: 90.0
+logoutlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -6.739306931116616
+  y: 105.0
+  z: -24.79399442485467
+  yaw: -141.4130859375
+  pitch: 2.249969959259033

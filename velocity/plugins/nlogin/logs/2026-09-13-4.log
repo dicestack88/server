@@ -1,0 +1,18 @@
+[2026/09/13 23:25:38 INFO]:           __             _       
+[2026/09/13 23:25:38 INFO]:   _ __   / /  ___   __ _(_)_ __  
+[2026/09/13 23:25:38 INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[2026/09/13 23:25:38 INFO]:  | | | / /__| (_) | (_| | | | | |
+[2026/09/13 23:25:38 INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[2026/09/13 23:25:38 INFO]:                   |___/            
+[2026/09/13 23:25:38 INFO]:  By: www.nickuc.com - V 2.0.19
+[2026/09/13 23:25:38 INFO]:  
+[2026/09/13 23:25:38 DEBUG]: Loading the messages_en.yml message file...
+[2026/09/13 23:25:38 DEBUG]: Messages were loaded in 223 ms (single file).
+[2026/09/13 23:25:38 DEBUG]: Settings were loaded in 409 ms.
+[2026/09/13 23:25:38 DEBUG]: Loading database...
+[2026/09/13 23:25:39 DEBUG]: Starting logger filter...
+[2026/09/13 23:25:39 INFO]: Loading packetevents-velocity 2.13.0...
+[2026/09/13 23:26:27 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'dicestack88YT', `unique_id` = 7fc03cd6d44d3b898c2b48f3080ba5a9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$E4Pv5hD7QH5qaWTxsoYR2w$p3azcCpb7X0ICtXRgfZsrQM2Pc5Je2Syr5XWJtv+Qpo', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-08 03:47:36.199, `last_seen` = 2026-09-13 23:26:27.719, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"survival","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 4" (applied to [last_ip, last_seen, settings] columns)
+[2026/09/13 23:26:27 INFO]: The user dicestack88YT has successfully logged in.
+[2026/09/13 23:26:47 DEBUG]: [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'dicestack88YT', `unique_id` = 7fc03cd6d44d3b898c2b48f3080ba5a9,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$argon2id$v=19$m=32768,t=5,p=1$E4Pv5hD7QH5qaWTxsoYR2w$p3azcCpb7X0ICtXRgfZsrQM2Pc5Je2Syr5XWJtv+Qpo', `last_ip` = '0:0:0:0:0:0:0:1', `creation_date` = 2026-09-08 03:47:36.199, `last_seen` = 2026-09-13 23:26:47.741, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"auth","key":"last-server"},{"value":"en","key":"language"}],"version":0}' WHERE `ai` = 4" (applied to [last_seen, settings] columns)
+[2026/09/13 23:26:49 INFO]: Successful plugin core shutdown (took 0.00s)
