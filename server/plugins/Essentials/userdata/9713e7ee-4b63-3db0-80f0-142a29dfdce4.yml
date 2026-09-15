@@ -19,4 +19,4 @@ timestamps:
   onlinejail: 0
   logout: 0
   login: 0
-money: '0'
+money: '1000.0'

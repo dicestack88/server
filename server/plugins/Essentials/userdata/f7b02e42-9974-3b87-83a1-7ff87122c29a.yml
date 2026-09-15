@@ -19,7 +19,7 @@ timestamps:
   onlinejail: 0
   logout: 1789351847302
   login: 1789351915676
-money: '0'
+money: '1000.0'
 last-account-name: Vyqzren
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044

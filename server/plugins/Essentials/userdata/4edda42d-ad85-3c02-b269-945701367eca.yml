@@ -12,28 +12,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1789096477822
+  lastteleport: 1789430302135
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789096856455
-  login: 1789095728370
-money: '0'
+  logout: 1789430706186
+  login: 1789430198273
+  kits:
+    starter: 1789430500948
+money: '1000.0'
 last-account-name: Agent_007
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: 31.998003924788826
-  y: 105.24918707874468
-  z: -12.564243847749495
-  yaw: -87.56258392333984
-  pitch: 28.04995346069336
+  x: -16.751392494918747
+  y: 25.0
+  z: 107.20912882348946
+  yaw: -66.11236572265625
+  pitch: 17.55008888244629
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -17.472687159912084
+  x: 14.873975300636731
   y: 105.0
-  z: -2.4254973989160806
-  yaw: -29.513519287109375
-  pitch: 17.249990463256836
+  z: -39.250765673592895
+  yaw: 123.33735656738281
+  pitch: 26.24992561340332

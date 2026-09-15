@@ -19,7 +19,7 @@ timestamps:
   onlinejail: 0
   logout: 1789093803915
   login: 1789093709589
-money: '0'
+money: '1000.0'
 last-account-name: magneticmaggot
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044

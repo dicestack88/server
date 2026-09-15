@@ -21,7 +21,7 @@ timestamps:
   login: 1789111518573
   kits:
     starter: 1789092281180
-money: '0'
+money: '1000.0'
 last-account-name: isaacman
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044

@@ -59,7 +59,7 @@ default:
     13: '&7&m●                                ●'
     12: '   &9&lᴘʟᴀʏᴇʀ'
     11: '     &7▪ &bɴᴀᴍᴇ &f%player_name%'
-    10: ' &7▪ &bʀᴀɴᴋ &f%luckperms_prefix%'
+    10: '     &7▪ &bʀᴀɴᴋ &f%luckperms_prefix%  '
     9:  ''
     8:  '   &9&lꜱᴛᴀᴛꜱ'
     7:  '     &7▪ &bʜᴇᴀʟᴛʜ &f%player_health%&7/&f%player_maxhealth%'

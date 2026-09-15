@@ -21,7 +21,7 @@ timestamps:
   login: 1789101797917
   kits:
     starter: 1789099143751
-money: '0'
+money: '1000.0'
 last-account-name: rememberins
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
