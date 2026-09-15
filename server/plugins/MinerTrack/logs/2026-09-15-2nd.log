@@ -1,0 +1,16 @@
+2026-09-15 03:54:00 | Vyqzren failed X-Ray check VL:1(+1) Block:minecraft:ancient_debrisx2(Veinx3) World: minecraft:the_nether Pos: X-259 Y15 Z-45
+Executed Command: minertrack notify &fVyqzren &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2026-09-15 03:54:49 | Vyqzren failed X-Ray check VL:2(+1) Block:minecraft:ancient_debrisx2(Veinx4) World: minecraft:the_nether Pos: X-245 Y20 Z-72
+2026-09-15 04:17:51 | HACKER1original1 failed X-Ray check VL:1(+1) Block:minecraft:deepslate_diamond_orex5(Veinx2) World: minecraft:overworld Pos: X23271 Y-22 Z-18101
+Executed Command: minertrack notify &fHACKER1original1 &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2026-09-15 04:18:35 | HACKER1original1 failed X-Ray check VL:2(+1) Block:minecraft:deepslate_diamond_orex5(Veinx3) World: minecraft:overworld Pos: X23275 Y-32 Z-18107
+2026-09-15 04:19:30 | HACKER1original1 failed X-Ray check VL:3(+1) Block:minecraft:deepslate_diamond_orex8(Veinx4) World: minecraft:overworld Pos: X23279 Y-26 Z-18115
+Executed Command: minertrack notify &fHACKER1original1 &7triggered &fX-Ray &7detection [&cVL: 4&7]
+2026-09-15 04:22:30 | HACKER1original1 failed X-Ray check VL:4(+1) Block:minecraft:deepslate_diamond_orex8(Veinx5) World: minecraft:overworld Pos: X23281 Y-42 Z-18125
+Executed Command: minertrack kick HACKER1original1 X-Ray
+Executed Command: minertrack notify &fHACKER1original1 &7was kicked for &fX-Ray
+2026-09-15 04:24:01 | HACKER1original1 failed X-Ray check VL:5(+1) Block:minecraft:deepslate_diamond_orex5(Veinx6) World: minecraft:overworld Pos: X23283 Y-44 Z-18136
+2026-09-15 04:25:07 | HACKER1original1 failed X-Ray check VL:6(+1) Block:minecraft:deepslate_diamond_orex8(Veinx7) World: minecraft:overworld Pos: X23276 Y-44 Z-18142
+Executed Command: minertrack kick HACKER1original1 X-Ray
+Executed Command: minertrack notify &fHACKER1original1 &7was kicked for &fX-Ray
+2026-09-15 04:31:42 | HACKER1original1 failed X-Ray check VL:5(+1) Block:minecraft:deepslate_diamond_orex6(Veinx8) World: minecraft:overworld Pos: X23274 Y-51 Z-18131
