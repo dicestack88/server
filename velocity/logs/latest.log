@@ -1,12 +1,12 @@
-[01:13:07] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
-[01:13:07] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
-[01:13:07] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[01:13:07] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[01:13:07] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[01:13:08] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
-[01:13:08] [main/INFO] [eaglerxserver]: (Platform: Velocity)
-[01:13:08] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
-[01:13:08] [main/ERROR] [eaglerxserver]: Could not load server icon: server-icon.png
+[03:03:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 4.1.0-SNAPSHOT (git-00759e52-b16)...
+[03:03:36] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[03:03:36] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[03:03:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[03:03:36] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[03:03:36] [main/INFO] [eaglerxserver]: Loading EaglercraftXServer 1.1.1...
+[03:03:36] [main/INFO] [eaglerxserver]: (Platform: Velocity)
+[03:03:36] [main/INFO] [eaglerxserver]: Server Name: "EaglercraftXServer"
+[03:03:37] [main/ERROR] [eaglerxserver]: Could not load server icon: server-icon.png
 javax.imageio.IIOException: Can't read input file!
 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1264)
 	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader.loadServerIcon(ServerIconLoader.java:112)
@@ -32,53 +32,277 @@ javax.imageio.IIOException: Can't read input file!
 	at com.velocitypowered.proxy.VelocityServer.loadPlugins(VelocityServer.java:439)
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:310)
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:71)
-[01:13:08] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
-[01:13:08] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
-[01:13:08] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
-[01:13:09] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.19 by NickUC
-[01:13:09] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin originblacklist 2.0.10 by Colbster937
-[01:13:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 6 plugins
-[01:13:09] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
-[01:13:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
-[01:13:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
-[01:13:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
-[01:13:10] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[01:13:10] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
-[01:13:11] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
-[01:13:11] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
-[01:13:11] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 1948ms)
-[01:13:11] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:13:11] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
-[01:13:11] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
-[01:13:11] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
-[01:13:11] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/server/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[01:13:11] [EaglercraftXServer - Task Executor #0/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
-[01:13:12] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 0.93s)
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
-[01:13:13] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.91s)
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.19
-[01:13:17] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
-[01:13:18] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.13.0...
-[01:13:19] [pool-7-thread-3/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 5.82s)
-[01:13:21] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:13:21] [LuckPerms - Task Executor #0/INFO] [originblacklist]: Initialized Plugin
-[01:13:21] [main/INFO] [nantibot]: Injecting channel initializers
-[01:13:21] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-[01:13:21] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xbebc138a, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
-[01:13:21] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[01:13:21] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
-[01:13:21] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (14.72s)!
+[03:03:37] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxserver 1.1.1 by lax1dude
+[03:03:37] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.5.71 by Luck
+[03:03:37] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nantibot 2.0.8 by NickUC
+[03:03:37] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 2.0.19 by NickUC
+[03:03:37] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin originblacklist 2.0.10 by Colbster937
+[03:03:37] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 6 plugins
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading configuration...
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.5.71
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading storage provider... [H2]
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [luckperms]: Loading internal permission managers...
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [luckperms]: Performing initial data load...
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [luckperms]: Successfully enabled. (took 1002ms)
+[03:03:38] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Enabling EaglercraftXServer 1.1.1...
+[03:03:38] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[03:03:39] [LuckPerms - Task Executor #0/INFO] [eaglerxserver]: Connected to skin cache database successfully!
+[03:03:39] [EaglercraftXServer - Task Executor #0/INFO] [eaglerxserver]: Reloaded certificate: /workspaces/server/velocity/plugins/eaglerxserver/eagcert/$dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[03:03:39] [EaglercraftXServer - Task Executor #0/WARN] [eaglerxserver]: Update certificate was loaded: $dl.34268c6e7b2a2336a2821b0171d290d6dd455cba.cert
+[03:03:39] [Netty epoll Worker #0/INFO] [eaglerxserver]: You are running the latest version of EaglerXServer
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [nantibot]: Successful plugin core start (took 2.17s)
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]           _         _   _   ___       _   
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]   _ __   /_\  _ __ | |_(_) / __\ ___ | |_ 
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | '_ \ //_\\| '_ \| __| |/__\/// _ \| __|
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  | | | /  _  \ | | | |_| / \/  \ (_) | |_ 
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  |_| |_\_/ \_/_| |_|\__|_\_____/\___/ \__|
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]                                          
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot]  By: www.nickuc.com - V 2.0.8
+[03:03:41] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nAntiBot] 
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [nlogin]: Successful plugin core start (took 0.92s)
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]           __             _       
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]                   |___/            
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  By: www.nickuc.com - V 2.0.19
+[03:03:45] [LuckPerms - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [nLogin]  
+[03:03:46] [LuckPerms - Task Executor #0/INFO] [nlogin]: Loading packetevents-velocity 2.13.0...
+[03:03:49] [pool-7-thread-2/INFO] [nantibot]: [Captcha] Captchas generated successfully. (RAM usage ≃ 8 MB [static only], total = 500, protocol count = 51, threads = 4, took 7.84s)
+[03:03:51] [LuckPerms - Task Executor #0/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:03:51] [LuckPerms - Task Executor #0/INFO] [originblacklist]: Initialized Plugin
+[03:03:51] [main/INFO] [nantibot]: Injecting channel initializers
+[03:03:51] [main/WARN] [com.velocitypowered.proxy.network.ConnectionManager]: The server channel initializer has been replaced by java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[03:03:51] [Netty epoll Boss #0/INFO] [eaglerxserver]: Listener "listener0" injected into channel [id: 0xfde36d37, L:/[0:0:0:0:0:0:0:0]:25565] successfully (Velocity method)
+[03:03:51] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[03:03:51] [nAntiBot - Task Executor #0/INFO] [nantibot]: Connecting to the remote server antibot.nickuc.com...
+[03:03:51] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (15.44s)!
+[03:18:33] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:58038) has connected
+[03:18:33] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:58038): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:18:33] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:58038) has disconnected: Unable to connect you to auth. Please try again later.
+[03:18:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:34948) has connected
+[03:18:42] [Netty epoll Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:34948): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:18:42] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:34948) has disconnected: Unable to connect you to auth. Please try again later.
+[03:18:47] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:34964) has connected
+[03:18:47] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:34964): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:18:47] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:34964) has disconnected: Unable to connect you to auth. Please try again later.
+[03:18:52] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:39756) has connected
+[03:18:52] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:39756): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:18:52] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:39756) has disconnected: Unable to connect you to auth. Please try again later.
+[03:19:38] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:59058) has connected
+[03:19:38] [Netty epoll Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:59058): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:19:38] [Netty epoll Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:59058) has disconnected: Unable to connect you to auth. Please try again later.
+[03:19:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:53494) has connected
+[03:19:47] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:53494): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:19:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:53494) has disconnected: Unable to connect you to auth. Please try again later.
+[03:20:26] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:46358) has connected
+[03:20:26] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:46358): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:20:26] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] rememberins (/[0:0:0:0:0:0:0:1]:46358) has disconnected: Unable to connect you to auth. Please try again later.
+[03:20:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:46378) has connected
+[03:20:30] [Netty epoll Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:46378): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:20:30] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:46378) has disconnected: Unable to connect you to auth. Please try again later.
+[03:20:36] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:48734) has connected
+[03:20:36] [Netty epoll Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:48734): unable to connect to server auth
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed with error(-111): Connection refused: /127.0.0.1:65535
+Caused by: java.net.ConnectException: finishConnect(..) failed with error(-111): Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166)
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131)
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:361)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:772)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:749)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:616)
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.handle(AbstractEpollChannel.java:477)
+	at io.netty.channel.epoll.EpollIoHandler$DefaultEpollIoRegistration.handle(EpollIoHandler.java:349)
+	at io.netty.channel.epoll.EpollIoHandler.processReady(EpollIoHandler.java:548)
+	at io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:491)
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1204)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[03:20:36] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:48734) has disconnected: Unable to connect you to auth. Please try again later.
+[03:21:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:35974) has connected
+[03:21:46] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[03:21:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:35974) has disconnected: You entered the incorrect password.
+[03:21:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[03:21:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56498) has connected
+[03:21:57] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has connected
+[03:22:04] [nLogin - Task Executor #5/INFO] [nlogin]: The user dicestack88YT has successfully logged in.
+[03:22:04] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has connected
+[03:22:05] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> auth has disconnected
+[03:22:10] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] HACKER1original1 (/[0:0:0:0:0:0:0:1]:59246) has connected
+[03:22:10] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> auth has connected
+[03:22:17] [nLogin - Task Executor #4/INFO] [nlogin]: The user HACKER1original1 has successfully logged in.
+[03:22:18] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> survival has connected
+[03:22:18] [Netty epoll Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] HACKER1original1 -> auth has disconnected
+[03:22:48] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:47768) has connected
+[03:22:48] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[03:22:53] [nLogin - Task Executor #5/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[03:22:54] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[03:22:54] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[03:25:07] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:47768) has disconnected
+[03:25:07] [Netty epoll Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has disconnected
+[03:25:46] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] dicestack88YT (/[0:0:0:0:0:0:0:1]:56498) has disconnected
+[03:25:46] [Netty epoll Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] dicestack88YT -> survival has disconnected
+[03:31:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Vyqzren (/[0:0:0:0:0:0:0:1]:44102) has connected
+[03:31:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has connected
+[03:31:20] [nLogin - Task Executor #7/INFO] [nlogin]: The user Vyqzren has successfully logged in.
+[03:31:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> survival has connected
+[03:31:21] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Vyqzren -> auth has disconnected
+[03:31:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] KILLER_EXE (/[0:0:0:0:0:0:0:1]:52552) has connected
+[03:31:22] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] KILLER_EXE -> auth has connected
+[03:31:31] [nLogin - Task Executor #5/INFO] [nlogin]: The user KILLER_EXE has successfully logged in.
+[03:31:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] KILLER_EXE -> survival has connected
+[03:31:31] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] KILLER_EXE -> auth has disconnected
+[03:32:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] KILLER_EXE (/[0:0:0:0:0:0:0:1]:52552) has disconnected
+[03:32:47] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] KILLER_EXE -> survival has disconnected

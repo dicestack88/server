@@ -12,23 +12,25 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1789351425436
+  lastteleport: 1789443143605
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789351847302
-  login: 1789351915676
+  logout: 1789442707855
+  login: 1789443082012
+  kits:
+    starter: 1789443293565
 money: '1000.0'
 last-account-name: Vyqzren
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -1362.085224229201
-  y: -54.0
-  z: -647.6999999880791
-  yaw: 113.40740966796875
-  pitch: 53.399959564208984
+  x: -1381.079067401761
+  y: -43.0
+  z: -650.4017754337323
+  yaw: -66.8917236328125
+  pitch: 37.95022964477539
 homes:
   home:
     world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
@@ -41,8 +43,8 @@ homes:
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -13.45392219028848
-  y: 106.0
-  z: -12.436935529360683
-  yaw: -86.06317138671875
-  pitch: 29.549976348876953
+  x: -1372.9699331617996
+  y: -43.0
+  z: -627.6030706364085
+  yaw: 178.8087158203125
+  pitch: 12.450188636779785
