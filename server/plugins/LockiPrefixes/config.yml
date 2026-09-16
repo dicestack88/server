@@ -96,6 +96,13 @@ groups:
       {name}'
     rank-tag: Media
     priority: 10
+  bedfight:
+    chat-format: '&c&l&kxx&#c41717&lB&#b11333&le&#9d0e4e&ld&#8a0aa9&lf&#7606c4&li&#6301e0&lg&#4f00fb&lh&#3200ff&lt&1&l&kxx
+      &r&f | &b&l{name} &r&f>> {message}'
+    tablist-format: '&c&l&kxx&#c41717&lB&#b11333&le&#9d0e4e&ld&#8a0aa9&lf&#7606c4&li&#6301e0&lg&#4f00fb&lh&#3200ff&lt&1&l&kxx
+      &r&f | &b&l{name}'
+    rank-tag: Bedfight
+    priority: 10
 
 
 # ══════════════════════════════════════════════════════════════════

@@ -12,13 +12,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1789514479123
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789353478116
-  login: 1789353462951
+  logout: 1789514515576
+  login: 1789514444846
 money: '1000.0'
 last-account-name: gooner
 lastlocation:
@@ -27,13 +27,13 @@ lastlocation:
   x: -11.5
   y: 105.0
   z: -4.5
-  yaw: -7.31329345703125
-  pitch: 90.0
+  yaw: 114.18672943115234
+  pitch: 3.899989128112793
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: 6988.365951410948
-  y: -56.0
-  z: 8716.414070295532
-  yaw: -38.9991455078125
-  pitch: 89.54999542236328
+  x: 55.600880647327514
+  y: 71.0
+  z: -14.545157261962455
+  yaw: 102.03610229492188
+  pitch: 90.0

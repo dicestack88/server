@@ -17,10 +17,10 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789446427876
-  login: 1789445618703
+  logout: 1789514863919
+  login: 1789514958031
   kits:
-    starter: 1789446206557
+    starter: 1789515009184
 money: '1000.0'
 last-account-name: Agent_007
 lastlocation:

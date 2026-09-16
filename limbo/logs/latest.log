@@ -1,25 +1,209 @@
-[23:02:07] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[23:02:07] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[23:02:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:02:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[23:02:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[00:31:32] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[00:31:32] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[00:31:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:31:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[00:31:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - ViaBackwards (5.11.0), ViaVersion (5.11.0), nLogin (2.0.19)
-[23:02:18] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[23:02:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23:02:20] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 2,375.0ms
-[23:02:27] [ServerMain/INFO]: Loaded 1585 recipes
-[23:02:27] [ServerMain/INFO]: Loaded 1688 advancements
-[23:02:28] [Server thread/INFO]: Starting minecraft server version 26.2
-[23:02:28] [Server thread/INFO]: Loading properties
-[23:02:28] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[23:02:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:02:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:02:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:02:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[23:02:30] [Server thread/INFO]: Default game type: SURVIVAL
-[23:02:30] [Server thread/INFO]: Generating keypair
-[23:02:30] [Server thread/INFO]: Starting Minecraft server on *:65535
-[23:02:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:02:30] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[23:02:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[23:02:35] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[00:31:37] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:31:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:31:37] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 788.9ms
+[00:31:40] [ServerMain/INFO]: Loaded 1585 recipes
+[00:31:40] [ServerMain/INFO]: Loaded 1688 advancements
+[00:31:40] [Server thread/INFO]: Starting minecraft server version 26.2
+[00:31:40] [Server thread/INFO]: Loading properties
+[00:31:40] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[00:31:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:31:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:31:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:31:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:31:41] [Server thread/INFO]: Default game type: SURVIVAL
+[00:31:41] [Server thread/INFO]: Generating keypair
+[00:31:41] [Server thread/INFO]: Starting Minecraft server on *:65535
+[00:31:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:31:41] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:31:42] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[00:31:42] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[00:31:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:31:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:31:43] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v2.0.19
+[00:31:44] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[00:31:44] [Server thread/INFO]: [nLogin] Enabling nLogin v2.0.19
+[00:31:45] [Server thread/INFO]: [nLogin] Successful plugin core start (took 1.10s)
+[00:31:45] [Server thread/INFO]: [nLogin]           __             _       
+[00:31:45] [Server thread/INFO]: [nLogin]   _ __   / /  ___   __ _(_)_ __  
+[00:31:45] [Server thread/INFO]: [nLogin]  | '_ \ / /  / _ \ / _` | | '_ \ 
+[00:31:45] [Server thread/INFO]: [nLogin]  | | | / /__| (_) | (_| | | | | |
+[00:31:45] [Server thread/INFO]: [nLogin]  |_| |_\____/\___/ \__, |_|_| |_|
+[00:31:45] [Server thread/INFO]: [nLogin]                   |___/            
+[00:31:45] [Server thread/INFO]: [nLogin]  By: www.nickuc.com - V 2.0.19
+[00:31:45] [Server thread/INFO]: [nLogin]  
+[00:31:45] [Server thread/INFO]: [nLogin] Loading packetevents-spigot 2.13.0...
+[00:31:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:31:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:31:48] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:31:48] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[00:31:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:31:48] [Server thread/INFO]: Preparing level "world"
+[00:31:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[00:31:49] [Server thread/INFO]: Prepared spawn area in 4 ms
+[00:31:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[00:31:49] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:31:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[00:31:49] [Server thread/INFO]: Preparing spawn area: 100%
+[00:31:49] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:31:49] [Server thread/INFO]: Done preparing level "world" (0.647s)
+[00:31:49] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[00:31:49] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[00:31:49] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[00:31:49] [Server thread/INFO]: [spark] Starting background profiler...
+[00:31:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:31:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:31:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:31:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:31:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:31:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:31:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:31:50] [Server thread/INFO]: Running delayed init tasks
+[00:31:50] [Server thread/INFO]: Done (19.061s)! For help, type "help"
+[00:31:50] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:31:50] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 13 builds behind ***
+[00:31:50] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[00:43:41] [User Authenticator #0/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:43:42] [Server thread/INFO]: dicestack88YT joined the game
+[00:43:42] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:55810] logged in with entity id 1 at ([minecraft:overworld]8.5, -3374.734860254659, 8.5)
+[00:43:51] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:43:51] [Server thread/INFO]: dicestack88YT left the game
+[00:49:12] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:49:12] [Server thread/INFO]: dicestack88YT joined the game
+[00:49:12] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:59182] logged in with entity id 2 at ([minecraft:overworld]8.5, -3882.2036268333813, 8.5)
+[00:49:18] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[00:49:18] [Server thread/INFO]: dicestack88YT left the game
+[00:55:33] [User Authenticator #2/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[00:55:34] [Server thread/INFO]: HACKER1original1 joined the game
+[00:55:34] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:34908] logged in with entity id 3 at ([minecraft:overworld]8.5, -134.37727736727842, 8.5)
+[00:55:47] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[00:55:47] [Server thread/INFO]: HACKER1original1 left the game
+[00:56:36] [User Authenticator #3/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[00:56:37] [Server thread/INFO]: KILLER_EXE joined the game
+[00:56:37] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:34640] logged in with entity id 4 at ([minecraft:overworld]8.5, -9402.178210832662, 8.5)
+[00:56:46] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[00:56:46] [Server thread/INFO]: KILLER_EXE left the game
+[00:56:53] [User Authenticator #4/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[00:56:53] [Server thread/INFO]: rememberins joined the game
+[00:56:53] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:49094] logged in with entity id 5 at ([minecraft:overworld]8.5, -8679.716632391834, 8.5)
+[00:56:58] [Server thread/WARN]: rememberins moved too quickly! 0.0,-12.94780864338827,0.0
+[00:56:59] [Server thread/INFO]: rememberins lost connection: Disconnected
+[00:56:59] [Server thread/INFO]: rememberins left the game
+[00:58:42] [User Authenticator #5/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[00:58:42] [Server thread/INFO]: KILLER_EXE joined the game
+[00:58:42] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:52712] logged in with entity id 6 at ([minecraft:overworld]8.5, -9890.270670790924, 8.5)
+[00:58:49] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[00:58:49] [Server thread/INFO]: KILLER_EXE left the game
+[01:00:03] [User Authenticator #6/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:00:04] [Server thread/INFO]: HACKER1original1 joined the game
+[01:00:04] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:42428] logged in with entity id 7 at ([minecraft:overworld]8.5, -919.6258992183913, 8.5)
+[01:00:42] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-11.760009067431838,0.0
+[01:00:46] [Server thread/WARN]: HACKER1original1 moved too quickly! 0.0,-10.464720656977534,0.0
+[01:00:48] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:00:48] [Server thread/INFO]: HACKER1original1 left the game
+[01:01:29] [User Authenticator #7/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:01:29] [Server thread/INFO]: KILLER_EXE joined the game
+[01:01:29] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:60034] logged in with entity id 8 at ([minecraft:overworld]8.5, -10250.94168290877, 8.5)
+[01:01:39] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:01:39] [Server thread/INFO]: KILLER_EXE left the game
+[01:03:07] [User Authenticator #8/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:03:08] [Server thread/INFO]: HACKER1original1 joined the game
+[01:03:08] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:59030] logged in with entity id 9 at ([minecraft:overworld]8.5, -3869.1351922390772, 8.5)
+[01:03:16] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:03:16] [Server thread/INFO]: HACKER1original1 left the game
+[01:03:49] [User Authenticator #9/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
+[01:03:49] [Server thread/INFO]: WaveFire0110 joined the game
+[01:03:49] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:57610] logged in with entity id 10 at ([minecraft:overworld]8.5, -4567.04502499955, 8.5)
+[01:03:59] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
+[01:04:00] [Server thread/INFO]: WaveFire0110 left the game
+[01:04:01] [User Authenticator #10/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
+[01:04:01] [Server thread/INFO]: WaveFire0110 joined the game
+[01:04:01] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:56412] logged in with entity id 11 at ([minecraft:overworld]8.5, -650.5979911927712, 8.5)
+[01:04:13] [Server thread/WARN]: WaveFire0110 moved too quickly! 0.0,-11.632628970985479,0.0
+[01:04:16] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
+[01:04:16] [Server thread/INFO]: WaveFire0110 left the game
+[01:04:19] [User Authenticator #11/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
+[01:04:19] [Server thread/INFO]: WaveFire0110 joined the game
+[01:04:19] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:45670] logged in with entity id 12 at ([minecraft:overworld]8.5, -1425.4277974865604, 8.5)
+[01:04:29] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
+[01:04:29] [Server thread/INFO]: WaveFire0110 left the game
+[01:04:38] [User Authenticator #12/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
+[01:04:38] [Server thread/INFO]: WaveFire0110 joined the game
+[01:04:38] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:34496] logged in with entity id 13 at ([minecraft:overworld]8.5, -1963.1222599524222, 8.5)
+[01:05:05] [User Authenticator #13/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:05:05] [Server thread/INFO]: KILLER_EXE joined the game
+[01:05:05] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:42546] logged in with entity id 14 at ([minecraft:overworld]8.5, -10826.99984323288, 8.5)
+[01:05:12] [User Authenticator #14/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:05:13] [Server thread/INFO]: rememberins joined the game
+[01:05:13] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:35594] logged in with entity id 15 at ([minecraft:overworld]8.5, -8866.645671332171, 8.5)
+[01:05:14] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:05:14] [Server thread/INFO]: KILLER_EXE left the game
+[01:05:18] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:05:18] [Server thread/INFO]: rememberins left the game
+[01:05:47] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
+[01:05:47] [Server thread/INFO]: WaveFire0110 left the game
+[01:05:50] [User Authenticator #15/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
+[01:05:50] [Server thread/INFO]: WaveFire0110 joined the game
+[01:05:50] [Server thread/INFO]: WaveFire0110[/[0:0:0:0:0:0:0:1]:53872] logged in with entity id 16 at ([minecraft:overworld]8.5, -7153.207123696073, 8.5)
+[01:05:59] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
+[01:05:59] [Server thread/INFO]: WaveFire0110 left the game
+[01:06:07] [User Authenticator #16/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:06:08] [Server thread/INFO]: dicestack88YT joined the game
+[01:06:08] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:47986] logged in with entity id 17 at ([minecraft:overworld]8.5, -4177.477564105737, 8.5)
+[01:06:11] [Server thread/WARN]: dicestack88YT moved too quickly! 0.0,-12.313638381626333,0.0
+[01:06:19] [User Authenticator #17/INFO]: UUID of player NotPulseWave_YT is c469abf8-77c1-3599-a29e-3e4aa0dafc42
+[01:06:19] [Server thread/INFO]: NotPulseWave_YT joined the game
+[01:06:19] [Server thread/INFO]: NotPulseWave_YT[/[0:0:0:0:0:0:0:1]:54312] logged in with entity id 18 at ([minecraft:overworld]8.5, -1677.7391693623827, 8.5)
+[01:06:20] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:06:20] [Server thread/INFO]: dicestack88YT left the game
+[01:06:24] [Server thread/INFO]: NotPulseWave_YT lost connection: Disconnected
+[01:06:24] [Server thread/INFO]: NotPulseWave_YT left the game
+[01:07:16] [User Authenticator #18/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:07:17] [Server thread/INFO]: HACKER1original1 joined the game
+[01:07:17] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:41062] logged in with entity id 19 at ([minecraft:overworld]8.5, -4353.423025497277, 8.5)
+[01:07:41] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:07:41] [Server thread/INFO]: HACKER1original1 left the game
+[01:09:34] [User Authenticator #19/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:09:46] [User Authenticator #20/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:09:47] [Server thread/INFO]: rememberins (9fe1a973-8383-336c-bc6b-132e97244969) lost connection: Disconnected
+[01:09:49] [Server thread/INFO]: dicestack88YT (7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9) lost connection: Disconnected
+[01:11:16] [User Authenticator #21/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:11:17] [Server thread/INFO]: dicestack88YT joined the game
+[01:11:17] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:49644] logged in with entity id 20 at ([minecraft:overworld]8.5, -4766.12908340003, 8.5)
+[01:11:22] [Server thread/INFO]: dicestack88YT lost connection: Disconnected
+[01:11:22] [Server thread/INFO]: dicestack88YT left the game
+[01:11:36] [User Authenticator #22/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:11:36] [Server thread/INFO]: rememberins joined the game
+[01:11:36] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:49110] logged in with entity id 21 at ([minecraft:overworld]8.5, -9109.131813515467, 8.5)
+[01:11:42] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:11:42] [Server thread/INFO]: rememberins left the game
+[01:14:02] [User Authenticator #23/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:14:03] [Server thread/INFO]: rememberins joined the game
+[01:14:03] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:44540] logged in with entity id 22 at ([minecraft:overworld]8.5, -9337.881995733356, 8.5)
+[01:14:31] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:14:31] [Server thread/INFO]: rememberins left the game
+[01:16:37] [User Authenticator #24/INFO]: UUID of player truegorkulus_rex is 2760e4f0-9dcb-358f-aa0d-ed05f016a248
+[01:16:38] [Server thread/INFO]: truegorkulus_rex joined the game
+[01:16:38] [Server thread/INFO]: truegorkulus_rex[/[0:0:0:0:0:0:0:1]:60762] logged in with entity id 23 at ([minecraft:overworld]8.5, -63.0, 8.5)
+[01:17:07] [Server thread/INFO]: truegorkulus_rex lost connection: Disconnected
+[01:17:07] [Server thread/INFO]: truegorkulus_rex left the game
+[01:17:10] [User Authenticator #25/INFO]: UUID of player truegorkulus_rex is 2760e4f0-9dcb-358f-aa0d-ed05f016a248
+[01:17:11] [Server thread/INFO]: truegorkulus_rex joined the game
+[01:17:11] [Server thread/INFO]: truegorkulus_rex[/[0:0:0:0:0:0:0:1]:39178] logged in with entity id 24 at ([minecraft:overworld]8.5, -2109.243681840782, 8.5)
+[01:17:18] [Server thread/INFO]: truegorkulus_rex lost connection: Disconnected
+[01:17:18] [Server thread/INFO]: truegorkulus_rex left the game
+[01:17:20] [User Authenticator #26/INFO]: UUID of player truegorkulus_rex is 2760e4f0-9dcb-358f-aa0d-ed05f016a248
+[01:17:21] [Server thread/INFO]: truegorkulus_rex joined the game
+[01:17:21] [Server thread/INFO]: truegorkulus_rex[/[0:0:0:0:0:0:0:1]:55032] logged in with entity id 25 at ([minecraft:overworld]8.5, -2529.400470252408, 8.5)
+[01:17:31] [Server thread/INFO]: truegorkulus_rex lost connection: Disconnected
+[01:17:31] [Server thread/INFO]: truegorkulus_rex left the game
+[01:17:52] [User Authenticator #27/INFO]: UUID of player WaveFire0110 is 67802201-04a1-3121-bbdc-c1a9325e5992
+[01:17:53] [Server thread/INFO]: WaveFire0110 lost connection: Disconnected
+[01:17:53] [Server thread/INFO]: WaveFire0110 left the game
+[01:19:18] [User Authenticator #28/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:19:49] [Server thread/INFO]: dicestack88YT (7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9) lost connection: Timed out

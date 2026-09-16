@@ -6,31 +6,41 @@
       "minecraft:stone_pickaxe": 1,
       "minecraft:crafting_table": 1
     },
-    "minecraft:used": {
-      "minecraft:stone_axe": 6,
+    "minecraft:picked_up": {
+      "minecraft:pointed_dripstone": 1,
+      "minecraft:dirt": 2,
+      "minecraft:coal": 6,
+      "minecraft:oak_log": 5,
+      "minecraft:cobblestone": 130,
+      "minecraft:flint": 1,
+      "minecraft:granite": 11,
+      "minecraft:gravel": 1,
       "minecraft:crafting_table": 1,
-      "minecraft:stone_pickaxe": 227
+      "minecraft:raw_copper": 37,
+      "minecraft:cobbled_deepslate": 65
     },
     "minecraft:broken": {
       "minecraft:stone_pickaxe": 1
     },
     "minecraft:custom": {
       "minecraft:interact_with_crafting_table": 1,
-      "minecraft:time_since_rest": 12295,
-      "minecraft:walk_one_cm": 14592,
-      "minecraft:leave_game": 3,
+      "minecraft:time_since_rest": 472,
+      "minecraft:walk_one_cm": 15822,
+      "minecraft:leave_game": 4,
       "minecraft:walk_under_water_one_cm": 46,
-      "minecraft:damage_taken": 70,
-      "minecraft:play_time": 12295,
-      "minecraft:jump": 104,
-      "minecraft:time_since_death": 12295,
-      "minecraft:sprint_one_cm": 6742,
-      "minecraft:fall_one_cm": 4606,
-      "minecraft:total_world_time": 12295,
-      "minecraft:fly_one_cm": 12439,
+      "minecraft:damage_taken": 740,
+      "minecraft:play_time": 13697,
+      "minecraft:jump": 136,
+      "minecraft:time_since_death": 452,
+      "minecraft:open_enderchest": 1,
+      "minecraft:sprint_one_cm": 8139,
+      "minecraft:fall_one_cm": 12681,
+      "minecraft:total_world_time": 13697,
+      "minecraft:fly_one_cm": 24300,
       "minecraft:walk_on_water_one_cm": 81,
       "minecraft:crouch_one_cm": 3928,
-      "minecraft:sneak_time": 5575
+      "minecraft:sneak_time": 5575,
+      "minecraft:deaths": 2
     },
     "minecraft:mined": {
       "minecraft:gravel": 2,
@@ -44,18 +54,11 @@
       "minecraft:copper_ore": 10,
       "minecraft:stone": 130
     },
-    "minecraft:picked_up": {
-      "minecraft:pointed_dripstone": 1,
-      "minecraft:dirt": 2,
-      "minecraft:coal": 6,
-      "minecraft:oak_log": 5,
-      "minecraft:cobblestone": 130,
-      "minecraft:flint": 1,
-      "minecraft:granite": 11,
-      "minecraft:gravel": 1,
+    "minecraft:used": {
+      "minecraft:stone_axe": 6,
       "minecraft:crafting_table": 1,
-      "minecraft:raw_copper": 37,
-      "minecraft:cobbled_deepslate": 65
+      "minecraft:stone_pickaxe": 227,
+      "minecraft:cobblestone": 4
     }
   },
   "DataVersion": 4903

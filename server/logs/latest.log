@@ -1,29 +1,29 @@
-[23:02:08] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
-[23:02:08] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
-[23:02:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:02:13] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
-[23:02:13] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[00:31:50] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Microsoft Microsoft-14951822) on Linux 6.8.0-1064-azure (amd64)
+[00:31:50] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-111-main@f570646 (2026-08-07T16:16:19Z) for Minecraft 26.2
+[00:31:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:31:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 23 plugins
+[00:31:51] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - CrazyAuctions (26.1.2-f6e007a)
-[23:02:13] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
+[00:31:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
  - AxSmithing (1.9), Essentials (2.22.0), EssentialsSpawn (2.22.0), EssentialsUnlocked (1.0.0.0), GUIShop (9.4.4), GrimAC (2.3.74-8eb5f28), InstantRestock (2.6.4), LockiPrefixes (3.0.5), LuckPerms (5.5.71), MinerTrack (2.1.1.2), NightVision (1.0), PlaceholderAPI (2.12.3), SimpleScore (4.3.1), Simple_RTP (1.0.9), TuffXPlus (1.1.1), UnstableSMPFarlands (1.2.5), Vault (2.20.2), ViaBackwards (5.11.0), ViaVersion (5.11.0), Vulcan (2.9.7.15), WorldEdit (7.4.5+7590-b8dc4c1), WorldGuard (7.0.18+2392-fa605e6)
-[23:02:23] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[23:02:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23:02:24] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,477.5ms
-[23:02:29] [ServerMain/INFO]: Loaded 1585 recipes
-[23:02:29] [ServerMain/INFO]: Loaded 1688 advancements
-[23:02:29] [Server thread/INFO]: Starting minecraft server version 26.2
-[23:02:29] [Server thread/INFO]: Loading properties
-[23:02:29] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
-[23:02:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:02:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:02:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:02:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[23:02:31] [Server thread/INFO]: Default game type: SURVIVAL
-[23:02:31] [Server thread/INFO]: Generating keypair
-[23:02:31] [Server thread/INFO]: Starting Minecraft server on *:25567
-[23:02:31] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[23:02:31] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[23:02:31] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/Vulcan-2.9.7.15.jar' in 'plugins'
+[00:31:56] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:31:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:31:57] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,133.2ms
+[00:32:01] [ServerMain/INFO]: Loaded 1585 recipes
+[00:32:01] [ServerMain/INFO]: Loaded 1688 advancements
+[00:32:01] [Server thread/INFO]: Starting minecraft server version 26.2
+[00:32:01] [Server thread/INFO]: Loading properties
+[00:32:01] [Server thread/INFO]: This server is running Paper version 26.2-111-main@f570646 (2026-08-07T16:16:19Z) (Implementing API version 26.2.build.111-stable)
+[00:32:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:32:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:32:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:32:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:32:02] [Server thread/INFO]: Default game type: SURVIVAL
+[00:32:02] [Server thread/INFO]: Generating keypair
+[00:32:02] [Server thread/INFO]: Starting Minecraft server on *:25567
+[00:32:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:32:02] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[00:32:02] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/Vulcan-2.9.7.15.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [packetevents]. Please download and install these plugins to run 'Vulcan'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-26.2.jar:26.2-111-f570646]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.2.jar:26.2-111-f570646]
@@ -33,3 +33,533 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1266) ~[paper-26.2.jar:26.2-111-f570646]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-111-f570646]
 	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[00:32:04] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[00:32:04] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[00:32:06] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:32:06] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[00:32:08] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[00:32:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.71
+[00:32:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:32:09] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.20.2
+[00:32:09] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.5+7590-b8dc4c1
+[00:32:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@47b335cf]
+[00:32:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[00:32:10] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[00:32:10] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.18+2392-fa605e6
+[00:32:10] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
+[00:32:10] [Server thread/INFO]: [NightVision] Loading server plugin NightVision v1.0
+[00:32:10] [Server thread/INFO]: [TuffXPlus] Loading server plugin TuffXPlus v1.1.1
+[00:32:11] [Server thread/INFO]: [packetevents] Loading packetevents...
+[00:32:13] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0 for TuffXPlus
+[00:32:13] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0
+[00:32:13] [Server thread/INFO]: [MinerTrack] Loading server plugin MinerTrack v2.1.1.2
+[00:32:13] [Server thread/INFO]: [LockiPrefixes] Loading server plugin LockiPrefixes v3.0.5
+[00:32:13] [Server thread/INFO]: [CrazyAuctions] Loading server plugin CrazyAuctions v26.1.2-f6e007a
+[00:32:13] [Server thread/INFO]: [GrimAC] Loading server plugin GrimAC v2.3.74-8eb5f28
+[00:32:13] [Server thread/INFO]: [GrimAC] Loading PacketEvents...
+[00:32:13] [Server thread/INFO]: [packetevents] Loading packetevents...
+[00:32:14] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.1+4d40422-SNAPSHOT for GrimAC
+[00:32:14] [pool-17-thread-1/INFO]: [packetevents] Loading block mappings for V_26_2/22...
+[00:32:14] [Server thread/INFO]: [SimpleScore] Loading server plugin SimpleScore v4.3.1
+[00:32:14] [Server thread/INFO]: [EssentialsUnlocked] Loading server plugin EssentialsUnlocked v1.0.0.0
+[00:32:14] [Server thread/INFO]: [EssentialsUnlocked] Essentials VaultUnlocked adapter plugin is enabled!
+[00:32:14] [Server thread/INFO]: [EssentialsUnlocked] We thank EssentialsX for having an outdated economy system, and refusing to support new APIs.
+[00:32:14] [Server thread/INFO]: [EssentialsUnlocked] In fact, mdcfe actively shot down an effort by Choco to create an Official Spigot Economy API.
+[00:32:14] [Server thread/INFO]: [GUIShop] Loading server plugin GUIShop v9.4.4
+[00:32:14] [Server thread/INFO]: [UnstableSMPFarlands] Loading server plugin UnstableSMPFarlands v1.2.5
+[00:32:14] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.6.4
+[00:32:14] [Server thread/INFO]: [Simple_RTP] Loading server plugin Simple_RTP v1.0.9
+[00:32:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.71
+[00:32:14] [pool-17-thread-1/INFO]: [packetevents] Finished loading block mappings for V_26_2/22 in 548.31269ms
+[00:32:15] [Server thread/INFO]:         __    
+[00:32:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.71
+[00:32:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:32:15] [Server thread/INFO]: 
+[00:32:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:32:15] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:32:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:32:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1278ms)
+[00:32:16] [Server thread/INFO]: [Vault] Enabling Vault v2.20.2
+[00:32:16] [Server thread/INFO]: [Vault] Enabled Version 2.20.2
+[00:32:16] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:32:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.5+7590-b8dc4c1
+[00:32:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:32:16] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:32:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v26_2.PaperweightAdapter as the Bukkit adapter
+[00:32:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:32:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:32:16] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:32:16] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[00:32:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:32:16] [Server thread/INFO]: Preparing level "world"
+[00:32:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[00:32:17] [Server thread/INFO]: Preparing spawn area: 100%
+[00:32:17] [Server thread/INFO]: Prepared spawn area in 4 ms
+[00:32:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[00:32:17] [Server thread/INFO]: Preparing spawn area: 100%
+[00:32:17] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:32:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[00:32:17] [Server thread/INFO]: Prepared spawn area in 1 ms
+[00:32:17] [Server thread/INFO]: Done preparing level "world" (0.715s)
+[00:32:17] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[00:32:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[00:32:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[00:32:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[00:32:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
+[00:32:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[00:32:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[00:32:18] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[00:32:18] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsUnlocked to the same version.
+[00:32:18] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[00:32:18] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[00:32:18] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[00:32:18] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[00:32:18] [Server thread/INFO]: [Essentials] Using locale en
+[00:32:18] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[00:32:18] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[00:32:18] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[00:32:18] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.18+2392-fa605e6
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[00:32:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[00:32:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[00:32:19] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
+[00:32:19] [Server thread/INFO]: [NightVision] Enabling NightVision v1.0
+[00:32:19] [Server thread/INFO]: [NightVision] NightVision plugin has been enabled!
+[00:32:19] [Server thread/INFO]: [TuffXPlus] Enabling TuffXPlus v1.1.1
+[00:32:19] [Server thread/INFO]: [TuffXPlus] Using standard Bukkit-compatible schedulers.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [Y0] Server Minecraft Version: 26.2
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Successfully loaded 1326 creative tab mappings.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] TuffActions has been enabled
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Enabling features...
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Swimming enabled.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Creative Items enabled.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Loading Restrictions config...
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Restrictions enabled.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [TuffActions] Finished enabling features.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Generating ViaBlocks Pre-Defined Palette...
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] Palette initialized with 649 entries.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [ViaBlocks] ViaBlocks has been enabled successfully and is listening for client handshakes.
+[00:32:19] [Server thread/INFO]: [TuffXPlus] [ViaEntities] ViaEntities enabled with 43 modern entities
+[00:32:19] [Server thread/INFO]: [TuffXPlus] 
+[00:32:19] [Server thread/INFO]: [TuffXPlus] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗     ██╗
+[00:32:19] [Server thread/INFO]: [TuffXPlus] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝     ██║
+[00:32:19] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ ████████████╗
+[00:32:19] [Server thread/INFO]: [TuffXPlus]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ ╚════██╔════╝
+[00:32:19] [Server thread/INFO]: [TuffXPlus]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗     ██║
+[00:32:19] [Server thread/INFO]: [TuffXPlus]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝     ╚═╝
+[00:32:19] [Server thread/INFO]: [TuffXPlus] 
+[00:32:19] [Server thread/INFO]: [TuffXPlus] CREDITS
+[00:32:19] [Server thread/INFO]: [TuffXPlus] 
+[00:32:19] [Server thread/INFO]: [TuffXPlus] Y0 support:
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • Below y0 (client + plugin) programmed by Potato (@justatypicalpotato)
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • llucasandersen - plugin optimizations
+[00:32:19] [Server thread/INFO]: [TuffXPlus] 
+[00:32:19] [Server thread/INFO]: [TuffXPlus] ViaBlocks:
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • ViaBlocks partial plugin and client rewrite by Potato
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • llucasandersen (Complex client models and texture fixes,
+[00:32:19] [Server thread/INFO]: [TuffXPlus] 	  optimizations, PacketEvents migration and async safety fixes)
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • coleis1op, if ts is driving me crazy, im taking credit
+[00:32:19] [Server thread/INFO]: [TuffXPlus] 
+[00:32:19] [Server thread/INFO]: [TuffXPlus] Other:
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • Swimming and creative items programmed by Potato (@justatypicalpotato)
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • shaded build, 1.14+ support (before merge) - llucasandersen
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • Restrictions - UplandJacob
+[00:32:19] [Server thread/INFO]: [TuffXPlus] • Overall plugin merges by Potato
+[00:32:19] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0
+[00:32:19] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[00:32:19] [Server thread/INFO]: [MinerTrack] Enabling MinerTrack v2.1.1.2
+[00:32:19] [Server thread/INFO]: [MinerTrack] Loaded group configuration: end (end.yml)
+[00:32:19] [Server thread/INFO]: [MinerTrack] Loaded group configuration: overworld (overworld.yml)
+[00:32:19] [Server thread/INFO]: [MinerTrack] Loaded group configuration: nether (nether.yml)
+[00:32:19] [Server thread/INFO]: [MinerTrack] Built world-to-group mapping from xray.worlds: {minecraft:overworld=overworld, minecraft:the_nether=nether, minecraft:the_end=end} (default unnamed -> overworld)
+[00:32:19] [Server thread/INFO]: [MinerTrack] Loaded group configurations (3 active):
+[00:32:19] [Server thread/INFO]: [MinerTrack]  - nether: worlds=[minecraft:the_nether], patterns=[]
+[00:32:19] [Server thread/INFO]: [MinerTrack]  - end: worlds=[minecraft:the_end], patterns=[]
+[00:32:19] [Server thread/INFO]: [MinerTrack]  - overworld: worlds=[minecraft:overworld], patterns=[]
+[00:32:19] [Server thread/INFO]: [MinerTrack] Default unnamed group (all_unnamed_world): overworld
+[00:32:19] [Server thread/WARN]: [MinerTrack] Could not save de.yml to plugins/MinerTrack/Translations/de.yml because de.yml already exists.
+[00:32:19] [Server thread/WARN]: [MinerTrack] Could not save fr.yml to plugins/MinerTrack/Translations/fr.yml because fr.yml already exists.
+[00:32:19] [Server thread/WARN]: [MinerTrack] Could not save ru.yml to plugins/MinerTrack/Translations/ru.yml because ru.yml already exists.
+[00:32:19] [Server thread/WARN]: [MinerTrack] Could not save zh_cn.yml to plugins/MinerTrack/Translations/zh_cn.yml because zh_cn.yml already exists.
+[00:32:20] [Server thread/INFO]: [MinerTrack] Core initialized for version 2.1.1.2
+[00:32:20] [Server thread/INFO]: ----[MinerTrack v2.1.1.2 ]-----------
+[00:32:20] [Server thread/INFO]: MinerTrack Anti-XRay Enabled!
+[00:32:20] [Server thread/INFO]: 
+[00:32:20] [Server thread/INFO]: Authors: Author87668
+[00:32:20] [Server thread/INFO]: Original Author: Author87668
+[00:32:20] [Server thread/INFO]: Contributors: Author87668, Zhang12334, Thomas, xiaoyueyoqwq
+[00:32:20] [Server thread/INFO]: 
+[00:32:20] [Server thread/INFO]: Thanks for your use!
+[00:32:20] [Server thread/INFO]: -----------------------------------------
+[00:32:20] [Server thread/INFO]: [MinerTrack] MinerTrack (BukkitPlatform) enabled.
+[00:32:20] [Server thread/INFO]: [LockiPrefixes] Enabling LockiPrefixes v3.0.5
+[00:32:20] [Server thread/INFO]: [LockiPrefixes] LuckPerms rank change listener registered.
+[00:32:20] [Server thread/INFO]: [LockiPrefixes] Tablist animation started.
+[00:32:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: lockiprefixes [3.0.5]
+[00:32:20] [Server thread/INFO]: [LockiPrefixes] PlaceholderAPI expansion registered.
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] 
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ╔════════════════════════════════════════════════════════════╗
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ║  IMPORTANT: Secure Chat must be disabled for chat to work! ║
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ╠════════════════════════════════════════════════════════════╣
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ║  1. Open your server.properties file                       ║
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ║  2. Find: enforce-secure-profile=true                      ║
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ║  3. Change to: enforce-secure-profile=false                ║
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ║  4. Restart the server                                     ║
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] ╚════════════════════════════════════════════════════════════╝
+[00:32:20] [Server thread/WARN]: [LockiPrefixes] 
+[00:32:20] [Server thread/INFO]: [LockiPrefixes] LockiPrefixes (Latest 1.20-1.21 with Adventure API) enabled!
+[00:32:20] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v26.1.2-f6e007a
+[00:32:20] [Server thread/INFO]: [GrimAC] Enabling GrimAC v2.3.74-8eb5f28
+[00:32:20] [Server thread/INFO]: [GrimAC] Registering packets...
+[00:32:20] [Server thread/INFO]: [GrimAC] Registering an outgoing plugin channel...
+[00:32:20] [Server thread/INFO]: [GrimAC] Registering tick schedulers...
+[00:32:20] [Server thread/INFO]: Grim Version: 2.3.74-8eb5f28
+[00:32:20] [Server thread/INFO]: [grim-datastore] [grim-datastore] SQLite engine 3.49.1 — using modern dialect
+[00:32:20] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_sessions (sessions): 0 migration(s)
+[00:32:20] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_players (players): 0 migration(s)
+[00:32:20] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_violations (violations): 0 migration(s)
+[00:32:20] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_checks (checks): 0 migration(s)
+[00:32:20] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:grim_settings (settings): 0 migration(s)
+[00:32:20] [Server thread/INFO]: [grim-datastore] [v2-bootstrap] grim:server_startups (server_startups): 0 migration(s)
+[00:32:20] [Server thread/INFO]: [grim-datastore] [grim-datastore] v2 cutover complete: 1 v2 backend(s), ac.grim.grimac.internal.storage.core.V2Routes@745be9ac routes installed, 0 legacy backends
+[00:32:20] [Server thread/INFO]: [grim-datastore] [grim-datastore] storage startup claimed: serverName='ChangeMe' instanceId=7ebd1938-c99f-4279-af65-2fad4a15f4c5 startupId=ab0836b4-00ee-4d06-8acb-c79ae53a7777 fence=9a0dbdf6-1264-4ae1-b900-db7cb427f78c.
+[00:32:20] [Server thread/WARN]: [GrimAC] GrimAC has detected that you have installed ViaBackwards on a 1.21.2+ server.
+[00:32:20] [Server thread/WARN]: [GrimAC] This setup is currently unsupported and you will experience issues with older clients using vehicles.
+[00:32:20] [Server thread/INFO]: [GrimAC] Registering singular bukkit event... (PistonEvent)
+[00:32:20] [Server thread/INFO]: [GrimAC] LuckPerms detected
+[00:32:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: grim [2.3.74-8eb5f28]
+[00:32:20] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v4.3.1
+[00:32:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleScore [4.3.1]
+[00:32:21] [Server thread/INFO]: [EssentialsUnlocked] Enabling EssentialsUnlocked v1.0.0.0
+[00:32:21] [Server thread/INFO]: [GUIShop] Enabling GUIShop v9.4.4
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: =========================================
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: NOTICE: Another economy plugin detected!
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Detected: Essentials
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: 
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: GUIShop's internal economy is currently ENABLED
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: and will override Essentials.
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: 
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: To use Essentials instead:
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG:   1. Open plugins/GUIShop/economy.yml
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG:   2. Set 'enabled: false'
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG:   3. Restart the server
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: =========================================
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Economy database initialized: plugins/GUIShop/Data/player_balances.db
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Internal economy enabled and registered with Vault.
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Currency: $ (Dollar)
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Starting balance: $1K
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Economy commands registered: /bal, /balance, /money, /pay, /send, /togglepay
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: PacketEvents not found - Worth display feature disabled.
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Install PacketEvents to show item worth in lore.
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: Statistics database initialized: plugins/GUIShop/Data/player_statistics.db
+[00:32:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: guishop [9.4.4]
+[00:32:21] [Server thread/INFO]: [GUIShop] LOG: PlaceholderAPI expansion registered.
+[00:32:21] [Server thread/INFO]: [UnstableSMPFarlands] Enabling UnstableSMPFarlands v1.2.5
+[00:32:21] [Server thread/INFO]: [UnstableSMPFarlands] Generator swapped for 'world' (1 references replaced): X [64000, 1500000) -> farlands generator
+[00:32:21] [Server thread/INFO]: [UnstableSMPFarlands] UnstableSMP Farlands enabled for 26.2.build.111 (StartX: 12550821).
+[00:32:21] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.6.4
+[00:32:21] [Server thread/INFO]: [InstantRestock] Enabled InstantRestock!
+[00:32:21] [Server thread/INFO]: [Simple_RTP] Enabling Simple_RTP v1.0.9
+[00:32:22] [Server thread/INFO]: [Simple_RTP] Plugin has been enabled!
+[00:32:22] [Server thread/INFO]: [Simple_RTP] Thank you for using Simple RTP! by Jaeden
+[00:32:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: simplertp [1.0.9]
+[00:32:22] [Folia Async Scheduler Thread #1/INFO]: [InstantRestock] A new update is available!
+[00:32:22] [Folia Async Scheduler Thread #1/INFO]: [https://modrinth.com/plugin/infinite-villager-trading]
+[00:32:22] [Server thread/INFO]: [spark] Starting background profiler...
+[00:32:22] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[00:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:32:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:32:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:32:22] [Server thread/INFO]: Running delayed init tasks
+[00:32:22] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.20.2)!
+[00:32:22] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:32:22] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[00:32:22] [Server thread/INFO]: [TuffXPlus] [Y0] Loading mappings from 26.2-mappings.json
+[00:32:23] [Craft Scheduler Thread - 5 - GrimAC/INFO]: You are using the latest version of GrimAC
+[00:32:23] [Server thread/INFO]: [TuffXPlus] [Y0] Loaded 29671 legacy mappings.
+[00:32:23] [Server thread/INFO]: Done (35.033s)! For help, type "help"
+[00:32:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[00:32:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[00:32:23] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[00:32:23] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 13 builds behind ***
+[00:32:23] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[00:43:50] [User Authenticator #0/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:43:51] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
+[00:43:53] [Server thread/INFO]: dicestack88YT joined the game
+[00:43:53] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:59712] logged in with entity id 1 at ([minecraft:overworld]4.513078146777654, 108.86850900297205, -32.10832575355968)
+[00:44:41] [Server thread/INFO]: dicestack88YT issued server command: /clear
+[00:47:13] [Server thread/INFO]: dicestack88YT lost connection: Timed out
+[00:47:13] [Server thread/INFO]: dicestack88YT left the game
+[00:49:18] [User Authenticator #1/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[00:49:19] [Server thread/INFO]: dicestack88YT joined the game
+[00:49:19] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:41794] logged in with entity id 90926 at ([minecraft:overworld]-14.029565249423117, 148.7748626492504, -27.73421382080359)
+[00:52:37] [Server thread/INFO]: dicestack88YT lost connection: Timed out
+[00:52:37] [Server thread/INFO]: dicestack88YT left the game
+[00:55:47] [User Authenticator #2/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[00:55:48] [Server thread/INFO]: HACKER1original1 joined the game
+[00:55:48] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:42012] logged in with entity id 147910 at ([minecraft:overworld]23275.607431005556, -52.0, -18130.397566004172)
+[00:56:46] [User Authenticator #3/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[00:56:46] [Server thread/INFO]: KILLER_EXE joined the game
+[00:56:46] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:34102] logged in with entity id 148260 at ([minecraft:overworld]-8.722251086290612, 105.5, -5.449501354295698)
+[00:56:57] [Server thread/INFO]: KILLER_EXE issued server command: /home
+[00:56:59] [User Authenticator #4/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[00:57:00] [Server thread/INFO]: rememberins joined the game
+[00:57:00] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:43478] logged in with entity id 154537 at ([minecraft:overworld]-1960.300000011921, -28.0, -14854.4898955078)
+[00:57:03] [Server thread/INFO]: KILLER_EXE issued server command: /spawn
+[00:57:10] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
+[00:57:18] [Server thread/INFO]: rememberins issued server command: /tpaccept
+[00:57:45] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[00:57:45] [Server thread/INFO]: HACKER1original1 left the game
+[00:58:06] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /list 
+[00:58:06] [Server thread/INFO]: There are 2 out of maximum 500 players online.
+[00:58:06] [Server thread/INFO]: default: KILLER_EXE, rememberins
+[00:58:09] [Server thread/INFO]: [Not Secure] [Server] guys
+[00:58:14] [Server thread/INFO]: [Not Secure] [Server] do not be bad boys
+[00:58:20] [Server thread/INFO]: [Not Secure] [Server] or i will be bad to you
+[00:58:38] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[00:58:38] [Server thread/INFO]: KILLER_EXE left the game
+[00:58:43] [Netty Epoll IO #1/INFO]: Grim » rememberins failed Post (x20) held item change v26.2
+[00:58:49] [User Authenticator #5/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[00:58:50] [Server thread/INFO]: KILLER_EXE joined the game
+[00:58:50] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:55818] logged in with entity id 164686 at ([minecraft:overworld]-2002.5957413646724, -29.0, -14894.195905534783)
+[00:59:43] [Server thread/INFO]: rememberins has made the advancement [Take Aim]
+[01:00:01] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:00:01] [Server thread/INFO]: KILLER_EXE left the game
+[01:00:04] [Server thread/INFO]: rememberins issued server command: /home 1
+[01:00:24] [Server thread/INFO]: rememberins issued server command: /kits starter
+[01:00:29] [Server thread/INFO]: rememberins issued server command: /kits starter
+[01:00:35] [Server thread/INFO]: rememberins issued server command: /kits starter
+[01:00:41] [Server thread/INFO]: rememberins issued server command: /kits starter
+[01:00:45] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:00:45] [Server thread/INFO]: rememberins left the game
+[01:00:48] [User Authenticator #6/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:00:49] [Server thread/INFO]: HACKER1original1 joined the game
+[01:00:49] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:60748] logged in with entity id 165055 at ([minecraft:overworld]23273.30000001192, -52.0, -18130.544078504252)
+[01:01:28] [Netty Epoll IO #3/INFO]: Grim » HACKER1original1 failed FastBreak (x10) delay=139ms, type=deepslate
+[01:01:39] [User Authenticator #7/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:01:40] [Server thread/INFO]: KILLER_EXE joined the game
+[01:01:40] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:52230] logged in with entity id 165410 at ([minecraft:overworld]-2002.6589965349197, -30.0, -14897.972887214657)
+[01:01:45] [Server thread/INFO]: KILLER_EXE issued server command: /spawn
+[01:02:13] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:02:13] [Server thread/INFO]: HACKER1original1 left the game
+[01:02:25] [Server thread/INFO]: [@: Applied effect Night Vision to KILLER_EXE]
+[01:03:16] [User Authenticator #8/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:03:17] [Server thread/INFO]: HACKER1original1 joined the game
+[01:03:17] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:38716] logged in with entity id 222916 at ([minecraft:overworld]23274.30000001192, -59.0, -18123.30000001192)
+[01:04:03] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:04:03] [Server thread/INFO]: KILLER_EXE left the game
+[01:05:02] [Server thread/INFO]: HACKER1original1 lost connection: Disconnected
+[01:05:02] [Server thread/INFO]: HACKER1original1 left the game
+[01:05:14] [User Authenticator #9/INFO]: UUID of player KILLER_EXE is 4e682c33-7b34-348a-9d48-e25db25fba94
+[01:05:14] [Server thread/INFO]: KILLER_EXE joined the game
+[01:05:14] [Server thread/INFO]: KILLER_EXE[/[0:0:0:0:0:0:0:1]:33700] logged in with entity id 253611 at ([minecraft:overworld]-9.480147609559005, 106.875, -10.483161979812364)
+[01:05:18] [User Authenticator #10/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:05:19] [Server thread/INFO]: rememberins joined the game
+[01:05:19] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:39496] logged in with entity id 254615 at ([minecraft:overworld]-2055.243634043216, 65.0, -14805.477753545927)
+[01:05:38] [Server thread/INFO]: KILLER_EXE issued server command: /ec
+[01:05:38] [Server thread/INFO]: [Essentials] KILLER_EXE was denied access to command.
+[01:05:49] [Server thread/INFO]: KILLER_EXE issued server command: /ekits starter
+[01:06:00] [Server thread/INFO]: KILLER_EXE issued server command: /tpa rememberins
+[01:06:10] [Server thread/INFO]: rememberins issued server command: /tpaccept
+[01:06:18] [Server thread/INFO]: KILLER_EXE issued server command: /sethome
+[01:06:20] [User Authenticator #11/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:06:21] [Server thread/INFO]: dicestack88YT joined the game
+[01:06:21] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:49908] logged in with entity id 288419 at ([minecraft:overworld]-14.029565249423117, 148.7748626492504, -27.73421382080359)
+[01:06:24] [User Authenticator #12/INFO]: UUID of player NotPulseWave_YT is c469abf8-77c1-3599-a29e-3e4aa0dafc42
+[01:06:25] [Server thread/INFO]: NotPulseWave_YT joined the game
+[01:06:25] [Server thread/INFO]: NotPulseWave_YT[/[0:0:0:0:0:0:0:1]:49920] logged in with entity id 288773 at ([minecraft:overworld]-8444.490620870885, -44.0, 5332.260815657709)
+[01:06:27] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:07:15] [Netty Epoll IO #3/INFO]: Grim » rememberins failed Post (x20) held item change v26.2
+[01:07:23] [Server thread/INFO]: KILLER_EXE issued server command: /home
+[01:07:29] [Async Chat Thread - #2/INFO]: Media | NotPulseWave_YT >> yo
+[01:07:33] [Server thread/INFO]: dicestack88YT issued server command: /lpx editor
+[01:07:39] [Server thread/INFO]: dicestack88YT issued server command: /lpx meny
+[01:07:41] [Server thread/INFO]: dicestack88YT issued server command: /lpx menu
+[01:07:41] [User Authenticator #13/INFO]: UUID of player HACKER1original1 is cfad3c5e-6ceb-30a4-ac88-b9c3a83b80db
+[01:07:41] [Server thread/INFO]: HACKER1original1 joined the game
+[01:07:41] [Server thread/INFO]: HACKER1original1[/[0:0:0:0:0:0:0:1]:49426] logged in with entity id 317203 at ([minecraft:overworld]23262.30000001192, -57.0, -18121.69999998808)
+[01:07:48] [Server thread/INFO]: [LockiPrefixes] Configuration reloaded.
+[01:07:52] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:08:22] [Server thread/INFO]: [MinerTrack]  HACKER1original1 triggered X-Ray detection [VL: 2]
+[01:08:26] [Netty Epoll IO #2/INFO]: Grim » KILLER_EXE failed Post (x20) held item change v26.2
+[01:08:39] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:08:47] [Server thread/INFO]: HACKER1original1 issued server command: /ec
+[01:08:47] [Server thread/INFO]: [Essentials] HACKER1original1 was denied access to command.
+[01:08:51] [Server thread/INFO]: HACKER1original1 issued server command: /spawn
+[01:09:28] [Netty Epoll IO #2/INFO]: Grim » KILLER_EXE failed Post (x40) held item change v26.2
+[01:09:34] [Server thread/INFO]: dicestack88YT was kicked due to keepalive timeout!
+[01:09:34] [Server thread/INFO]: dicestack88YT lost connection: Timed out
+[01:09:34] [Server thread/INFO]: dicestack88YT left the game
+[01:09:46] [Server thread/INFO]: rememberins was kicked due to keepalive timeout!
+[01:09:46] [Server thread/INFO]: rememberins lost connection: Timed out
+[01:09:46] [Server thread/INFO]: rememberins left the game
+[01:10:10] [Server thread/INFO]: HACKER1original1 issued server command: /home
+[01:10:21] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:10:43] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:10:51] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:11:07] [Server thread/INFO]: HACKER1original1 issued server command: /home
+[01:11:22] [User Authenticator #14/INFO]: UUID of player dicestack88YT is 7fc03cd6-d44d-3b89-8c2b-48f3080ba5a9
+[01:11:23] [Server thread/INFO]: dicestack88YT joined the game
+[01:11:23] [Server thread/INFO]: dicestack88YT[/[0:0:0:0:0:0:0:1]:43594] logged in with entity id 401073 at ([minecraft:overworld]-10.152218436887042, 131.52982477454984, 5.747751928128256)
+[01:11:27] [Server thread/INFO]: dicestack88YT issued server command: /lpx menu
+[01:11:41] [User Authenticator #15/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:11:42] [Server thread/INFO]: rememberins joined the game
+[01:11:42] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:46500] logged in with entity id 408760 at ([minecraft:overworld]-2057.699999988079, -53.0, -14835.98652834266)
+[01:11:46] [Server thread/INFO]: rememberins issued server command: /spawn
+[01:11:57] [Server thread/INFO]: KILLER_EXE fell from a high place
+[01:11:58] [Server thread/INFO]: [@: Applied effect Night Vision to 5 targets]
+[01:12:06] [Server thread/INFO]: KILLER_EXE issued server command: /hom
+[01:12:37] [Server thread/INFO]: KILLER_EXE issued server command: /home
+[01:12:43] [Server thread/INFO]: KILLER_EXE issued server command: /kit starter
+[01:12:47] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:12:56] [Server thread/INFO]: rememberins lost connection: Disconnected
+[01:12:56] [Server thread/INFO]: rememberins left the game
+[01:13:10] [Server thread/INFO]: dicestack88YT issued server command: /lockiprefixes accept
+[01:13:10] [Server thread/INFO]: [LockiPrefixes] Configuration reloaded.
+[01:13:29] [Server thread/INFO]: KILLER_EXE issued server command: /luckperms:luckperms
+[01:13:34] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:13:38] [Server thread/INFO]: KILLER_EXE lost connection: Disconnected
+[01:13:38] [Server thread/INFO]: KILLER_EXE left the game
+[01:13:46] [Server thread/INFO]: dicestack88YT issued server command: /give NotPulseWave_YT netherite_ingot 3
+[01:14:04] [Server thread/INFO]: NotPulseWave_YT issued server command: /feed
+[01:14:04] [Server thread/INFO]: dicestack88YT issued server command: /give NotPulseWave_YT netherite_scrap 1
+[01:14:13] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:14:31] [User Authenticator #16/INFO]: UUID of player rememberins is 9fe1a973-8383-336c-bc6b-132e97244969
+[01:14:31] [Server thread/INFO]: rememberins joined the game
+[01:14:31] [Server thread/INFO]: rememberins[/[0:0:0:0:0:0:0:1]:51994] logged in with entity id 502972 at ([minecraft:overworld]-10.59406432927978, 102.0, 79.4333577522627)
+[01:14:46] [Server thread/INFO]: dicestack88YT issued server command: /lpx editor
+[01:14:50] [Server thread/INFO]: dicestack88YT issued server command: /lp editor
+[01:14:57] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:15:09] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:15:24] [Server thread/INFO]: NotPulseWave_YT issued server command: /feed
+[01:15:26] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:15:39] [luckperms-worker-15/INFO]: [LP] LOG > (dicestack88YT) [U] (notpulsewave_yt)
+[01:15:39] [luckperms-worker-15/INFO]: [LP] LOG > webeditor add group.bedfight true
+[01:15:39] [luckperms-worker-15/INFO]: [LP] LOG > (dicestack88YT) [U] (notpulsewave_yt)
+[01:15:39] [luckperms-worker-15/INFO]: [LP] LOG > webeditor remove group.media true
+[01:15:57] [Async Chat Thread - #5/INFO]: xxBedfightxx  | NotPulseWave_YT >> 67
+[01:16:02] [Server thread/INFO]: rememberins issued server command: /lobby
+[01:16:11] [Server thread/INFO]: rememberins issued server command: /home 1
+[01:16:13] [Netty Epoll IO #2/INFO]: Grim » HACKER1original1 failed Post (x20) held item change v26.2
+[01:16:31] [Server thread/INFO]: NotPulseWave_YT issued server command: /ec
+[01:16:31] [Server thread/INFO]: [Essentials] NotPulseWave_YT was denied access to command.
+[01:16:39] [Server thread/INFO]: dicestack88YT issued server command: /lpx menu
+[01:16:44] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
+[01:16:44] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:17:10] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
+[01:17:13] [Server thread/INFO]: NotPulseWave_YT lost connection: Disconnected
+[01:17:13] [Server thread/INFO]: NotPulseWave_YT left the game
+[01:17:31] [User Authenticator #17/INFO]: UUID of player truegorkulus_rex is 2760e4f0-9dcb-358f-aa0d-ed05f016a248
+[01:17:32] [Server thread/INFO]: truegorkulus_rex joined the game
+[01:17:32] [Server thread/INFO]: truegorkulus_rex[/[0:0:0:0:0:0:0:1]:49292] logged in with entity id 637773 at ([minecraft:overworld]-5.5, 105.0, -3.5)
+[01:17:32] [Server thread/INFO]: truegorkulus_rex has made the advancement [Getting an Upgrade]
+[01:17:36] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
+[01:17:38] [Server thread/INFO]: [@: Applied effect Night Vision to 4 targets]
+[01:17:43] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
+[01:17:46] [Server thread/INFO]: truegorkulus_rex issued server command: /tpa rememberins
+[01:17:47] [Server thread/INFO]: HACKER1original1 issued server command: /rtp
+[01:17:50] [Server thread/INFO]: rememberins issued server command: /tpaccept
+[01:18:04] [Server thread/INFO]: truegorkulus_rex has made the advancement [Cover Me with Diamonds]
+[01:18:12] [Server thread/INFO]: truegorkulus_rex issued server command: /kits starter
+[01:18:13] [Server thread/INFO]: truegorkulus_rex has made the advancement [Isn't It Iron Pick]
+[01:18:24] [Server thread/INFO]: dicestack88YT issued server command: /lockiprefixes accept
+[01:18:24] [Server thread/INFO]: [LockiPrefixes] Configuration reloaded.
+[01:18:26] [Server thread/INFO]: HACKER1original1 issued server command: /ah
+[01:18:26] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:18:36] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.2-111-f570646 (MC: 26.2) ---
+[01:18:36] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[01:18:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:18:36] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[01:18:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:18:36] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[01:18:36] [Paper Watchdog Thread/ERROR]: 	PID: 50 | Suspended: false | Native: false | State: RUNNABLE
+[01:18:36] [Paper Watchdog Thread/ERROR]: 	Stack:
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.Reference2ObjectOpenHashMap.containsKey(Reference2ObjectOpenHashMap.java:345)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.core.component.DataComponentMap$Builder$SimpleMap.has(DataComponentMap.java:182)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.inventory.CraftItemType.isEdible(CraftItemType.java:155)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Material.isEdible(Material.java:3038)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		CrazyAuctions-26.1.2-f6e007a.jar//com.badbones69.crazyauctions.api.enums.Category.getFood(Category.java:128)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		CrazyAuctions-26.1.2-f6e007a.jar//com.badbones69.crazyauctions.api.enums.Category.getOthers(Category.java:162)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		CrazyAuctions-26.1.2-f6e007a.jar//com.badbones69.crazyauctions.api.enums.Category.<clinit>(Category.java:9)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		CrazyAuctions-26.1.2-f6e007a.jar//com.badbones69.crazyauctions.commands.AuctionCommand.run(AuctionCommand.java:46)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		CrazyAuctions-26.1.2-f6e007a.jar//com.badbones69.crazyauctions.commands.AuctionCommand.lambda$literal$0(AuctionCommand.java:67)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		CrazyAuctions-26.1.2-f6e007a.jar//com.badbones69.crazyauctions.commands.AuctionCommand$$Lambda/0x00000000501126a0.run(Unknown Source)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000050bdc800.execute(Unknown Source)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:470)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:378)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:366)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2406)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2379)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000000050bd8fa8.run(Unknown Source)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1534)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:192)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1508)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1238)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1354)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000000004f0ce358.run(Unknown Source)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.4.1/java.lang.Thread.runWith(Thread.java:1487)
+[01:18:36] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.4.1/java.lang.Thread.run(Thread.java:1474)
+[01:18:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:18:36] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[01:18:36] [Paper Watchdog Thread/ERROR]: ------------------------------
+[01:18:36] [Server thread/INFO]: HACKER1original1 issued server command: /ah
+[01:18:36] [Server thread/INFO]: rememberins issued server command: /rtp
+[01:18:36] [Server thread/INFO]: HACKER1original1 issued server command: /ah
+[01:19:02] [Server thread/INFO]: HACKER1original1 issued server command: /ah sell 400000
+[01:19:18] [Server thread/INFO]: dicestack88YT was kicked due to keepalive timeout!
+[01:19:19] [Server thread/INFO]: dicestack88YT lost connection: Timed out
+[01:19:19] [Server thread/INFO]: dicestack88YT left the game
+[01:19:39] [Server thread/INFO]: HACKER1original1 issued server command: /shop
+[01:19:53] [Server thread/INFO]: rememberins issued server command: //op
