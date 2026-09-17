@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1789525515137
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1789525601253
+  login: 1789525454370
+  kits:
+    starter: 1789525501606
+money: '1000.0'
+last-account-name: NolPulseWave_YT
+lastlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -21.53897811686241
+  y: 105.0
+  z: -27.046510521487775
+  yaw: -175.91331481933594
+  pitch: 2.099977970123291
+logoutlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -8377.402221270557
+  y: -37.0
+  z: 5311.026971126999
+  yaw: 107.4049072265625
+  pitch: 12.300015449523926

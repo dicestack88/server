@@ -21,7 +21,7 @@ timestamps:
   login: 1789521452056
   kits:
     starter: 1789521492976
-money: '100'
+money: '1000.0'
 last-account-name: truegorkulus_rex
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
