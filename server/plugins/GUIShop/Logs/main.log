@@ -250,3 +250,24 @@
 [2026-09-17 01:43:12] LOG: Install PacketEvents to show item worth in lore.
 [2026-09-17 01:43:12] LOG: Statistics database initialized: plugins/GUIShop/Data/player_statistics.db
 [2026-09-17 01:43:12] LOG: PlaceholderAPI expansion registered.
+[2026-09-17 03:30:00] LOG: =========================================
+[2026-09-17 03:30:00] LOG: NOTICE: Another economy plugin detected!
+[2026-09-17 03:30:00] LOG: Detected: Essentials
+[2026-09-17 03:30:00] LOG: 
+[2026-09-17 03:30:00] LOG: GUIShop's internal economy is currently ENABLED
+[2026-09-17 03:30:00] LOG: and will override Essentials.
+[2026-09-17 03:30:00] LOG: 
+[2026-09-17 03:30:00] LOG: To use Essentials instead:
+[2026-09-17 03:30:00] LOG:   1. Open plugins/GUIShop/economy.yml
+[2026-09-17 03:30:00] LOG:   2. Set 'enabled: false'
+[2026-09-17 03:30:00] LOG:   3. Restart the server
+[2026-09-17 03:30:00] LOG: =========================================
+[2026-09-17 03:30:00] LOG: Economy database initialized: plugins/GUIShop/Data/player_balances.db
+[2026-09-17 03:30:00] LOG: Internal economy enabled and registered with Vault.
+[2026-09-17 03:30:00] LOG: Currency: $ (Dollar)
+[2026-09-17 03:30:00] LOG: Starting balance: $1K
+[2026-09-17 03:30:00] LOG: Economy commands registered: /bal, /balance, /money, /pay, /send, /togglepay
+[2026-09-17 03:30:00] LOG: PacketEvents not found - Worth display feature disabled.
+[2026-09-17 03:30:00] LOG: Install PacketEvents to show item worth in lore.
+[2026-09-17 03:30:00] LOG: Statistics database initialized: plugins/GUIShop/Data/player_statistics.db
+[2026-09-17 03:30:00] LOG: PlaceholderAPI expansion registered.
