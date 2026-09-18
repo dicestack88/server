@@ -1,0 +1,6 @@
+2026-09-18 02:07:43 | truegorkulus_rex failed X-Ray check VL:1(+1) Block:minecraft:deepslate_diamond_orex6(Veinx2) World: minecraft:overworld Pos: X-2102 Y-29 Z-14814
+Executed Command: minertrack notify &ftruegorkulus_rex &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2026-09-18 02:09:00 | truegorkulus_rex failed X-Ray check VL:2(+1) Block:minecraft:deepslate_diamond_orex6(Veinx3) World: minecraft:overworld Pos: X-2087 Y-47 Z-14836
+2026-09-18 02:10:01 | truegorkulus_rex failed X-Ray check VL:3(+1) Block:minecraft:deepslate_diamond_orex6(Veinx4) World: minecraft:overworld Pos: X-2086 Y-55 Z-14833
+Executed Command: minertrack notify &ftruegorkulus_rex &7triggered &fX-Ray &7detection [&cVL: 4&7]
+2026-09-18 02:10:46 | truegorkulus_rex failed X-Ray check VL:4(+1) Block:minecraft:deepslate_diamond_orex6(Veinx5) World: minecraft:overworld Pos: X-2081 Y-60 Z-14837

@@ -1,0 +1,50 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.81.214.178
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1789694637480
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1789694976866
+  login: 1789693759660
+  kits:
+    starter: 1789694223690
+money: '1000.0'
+last-account-name: TwilightSpace
+lastlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -9.5
+  y: 107.0
+  z: -11.5
+  yaw: 179.88671875
+  pitch: -0.7500222325325012
+homes:
+  home:
+    world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+    world-name: world
+    x: -8547.81336427008
+    y: -41.0
+    z: 5013.699999988079
+    yaw: -101.234130859375
+    pitch: 28.799938201904297
+logoutlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -8529.463660817768
+  y: -54.0
+  z: 4983.9321574722635
+  yaw: -83.983642578125
+  pitch: 21.149980545043945

@@ -103,6 +103,11 @@ groups:
       &r&f | &b&l{name}'
     rank-tag: Bedfight
     priority: 10
+  hacker:
+    chat-format: '&c&lHacker &r&f| &c{name} &r&f>> {message}'
+    tablist-format: '&c&lHacker &r&f| &c{name}'
+    rank-tag: Hacker
+    priority: 10
 
 
 # ══════════════════════════════════════════════════════════════════

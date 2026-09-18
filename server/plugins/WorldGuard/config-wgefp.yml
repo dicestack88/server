@@ -1,0 +1,221 @@
+# WorldGuardExtraFlagsPlus Configuration
+# This file is located in the WorldGuard plugin folder
+# You can customize plugin behavior here
+
+# IMPORTANT: This file is reloaded when you use /wg reload or /wgefp reload
+
+# =============================================================================
+# INDIVIDUAL FLAG SETTINGS
+# =============================================================================
+# Additional configuration for flags that need extra settings
+
+# Permit workbenches settings
+# Controls behavior of the permit-workbenches flag
+permit-workbenches:
+  # If true, blocks placement of workbench blocks in regions with permit-workbenches flag
+  # Default: false
+  permit-workbench-block-placement-too: false
+  # If true, "ALL" keyword in permit-workbenches flag will also include ender chests
+  # Default: false (ALL does not include ender chests by default)
+  permit-all-includes-enderchest: false
+# Godmode settings
+# Controls behavior of the godmode flag
+godmode:
+  # If true, automatically restore godmode when player leaves a region
+  # Default: false
+  auto-give-godmode-region-left: false
+# Keep-inventory settings
+# Controls behavior of the keep-inventory flag
+keep-inventory-settings:
+  # When true and DeluxeCombat is installed, combat-logging inside a keep-inventory region
+  # saves the player's inventory and restores it on next login.
+  # Default: true
+  combat-log-restore: true
+# Allow-block-place settings
+# Controls behavior of the allow-block-place flag
+allow-block-place-settings:
+  # When true, allow-block-place only applies to region members and owners.
+  # Use with a material whitelist (e.g. OAK_WALL_SIGN) so only members can place those blocks.
+  # Default: false
+  require-membership: false
+# Allow-block-break settings
+# Controls behavior of the allow-block-break flag
+allow-block-break-settings:
+  # When true, allow-block-break only applies to region members and owners.
+  # Default: false
+  require-membership: false
+  # Which materials to check for waterlogged blocks when evaluating allow/deny for bucket fill and break.
+  #   both:   check host block and liquid (WATER/LAVA) — allow if either matches (default)
+  #   host:   only the host block material (e.g. WATERLOGGED_STAIRS without checking WATER)
+  #   liquid: only WATER or LAVA
+  # Default: both
+  waterlogged-material-check: both
+# WorldEdit flag settings
+# Usage notes for the worldedit region flag
+worldedit-settings:
+  # Allow WorldEdit in __global__: /rg flag __global__ worldedit allow
+  # Child regions with worldedit deny still block edits (WorldGuard priority applies).
+  # Bypass permission: worldguardextraflagsplus.worldedit.bypass
+  documentation-only: true
+# Logging
+# -------
+logging:
+  # Print detailed startup lines (config paths, per-region chunk-unload tickets, collision banner).
+  # Default: false — keeps console quiet on large servers (see GitHub issue #14).
+  verbose-startup-logs: false
+#  
+# =============================================================================
+# MASTER FLAG CONTROL
+# =============================================================================
+# Enable/disable all available flags here
+# Set to true to enable, false to disable
+# Disabled flags won't be registered (no deprecation warnings on Paper servers)
+all-flags-control:
+  # LOCATION & TELEPORTATION
+  # ------------------------
+  teleport-on-entry: true
+  teleport-on-exit: true
+  # teleport-on-exit flag
+  # When enabled (default), teleport-on-exit only triggers on real movement out of a region
+  # (walking, riding, knockback) and is ignored for teleports (/wild, /spawn, /warp, pearls,
+  # portals) and respawn, so players can't be yanked back when they teleport away.
+  # Set to false to restore the legacy behavior of always pulling the player back.
+  # Default: true
+  teleport-on-exit-ignore-teleports: true
+  # By default its true, if you are not using and want to turn off warns set it to false
+  join-location: true
+  respawn-location: true
+  # COMMAND EXECUTION
+  # -----------------
+  command-on-entry: true
+  command-on-exit: true
+  console-command-on-entry: true
+  console-command-on-exit: true
+  # MOVEMENT & SPEED CONTROL
+  # ------------------------
+  walk-speed: true
+  fly-speed: true
+  fly: true
+  # When false, glide is not registered — remove glide from existing regions or WorldGuard will warn (issue #13).
+  glide: true
+  frostwalker: true
+  # PROTECTION & SURVIVAL
+  # ---------------------
+  godmode: true
+  keep-inventory: true
+  keep-exp: true
+  item-durability: true
+  # CHAT MODIFICATION
+  # -----------------
+  chat-prefix: true
+  chat-suffix: true
+  # EFFECT CONTROL
+  # --------------
+  blocked-effects: true
+  # Effect syntax: /rg flag <region> give-effects night_vision
+  # Also accepts minecraft:night_vision and optional amplifier/particles.
+  give-effects: true
+  # WORLD INTERACTION
+  # -----------------
+  worldedit: true
+  play-sounds: true
+  nether-portals: true
+  chunk-unload: true
+  villager-trade: true
+  # enderchest-access flag
+  # Controls whether players can open ender chests in the region (like chest-access, but ender chests only).
+  # Usage: /rg flag <region> enderchest-access deny
+  # Default: true
+  enderchest-access: true
+  inventory-craft: true
+  # BLOCK & ITEM CONTROL
+  # -------------------
+  allow-block-place: true
+  deny-block-place: true
+  allow-block-break: true
+  deny-block-break: true
+  deny-item-drops: true
+  deny-item-pickup: true
+  disable-completely: true
+  disable-throw: true
+  permit-workbenches: true
+  # BLOCK ALLOW/DENY CHECK ORDER
+  # -----------------------------
+  # Determines whether the allow or deny block flags are checked first.
+  #   allow-first (default): if a material is in the allow list, it's allowed even if also denied
+  #   deny-first:            if a material is in the deny list, it's denied even if also allowed
+  # Set to deny-first for strict deny-priority in regions with both flags set.
+  # Default: allow-first
+  check-order: allow-first
+  # ENTRY CONTROL
+  # -------------
+  entry-min-level: true
+  entry-max-level: true
+  # entry-permission flag
+  # Sets the permission required to enter the region (e.g. myPlugin.myPermission.1).
+  # Takes priority over entry-deny-permission when both are set.
+  # Default: true
+  entry-permission: true
+  # entry-deny-permission flag
+  # Denies entry to players holding the given permission (e.g. myPlugin.myPermission.1).
+  # If both flags are set, entry-permission takes priority.
+  # Default: true
+  entry-deny-permission: true
+  player-count-limit: true
+  # SPECIAL FEATURES
+  # ----------------
+  disable-collision: true
+  # EXPERIMENTAL — chambered-enderpearl flag
+  # Mitigation for chambered ender pearl bypasses; behavior may change in future releases.
+  # Default: true
+  chambered-ender-pearl: true
+  # EXPERIMENTAL — hide-players flag
+  # Hides players from others while inside a hide-players region (hub/lobby optimization).
+  # Default: false — enable here and set hide-players: true on regions to use.
+  hide-players: false
+  # WEATHER & ENVIRONMENTAL DAMAGE
+  # ------------------------------
+  # lightning-damage flag
+  # When set to deny on a region, players won't take damage from lightning strikes
+  # but the visual effect is still shown. Useful for PvP arenas.
+  # Usage: /rg flag <region> lightning-damage deny
+  # Default: true
+  lightning-damage: true
+  # MOB & SPAWN CONTROL
+  # -------------------
+  # deny-mobspawn flag
+  # Blocks mob spawning in a region for the listed categories.
+  # Accepted values (comma-separated): ALL_HOSTILE, ALL_NEUTRAL, ALL_PEACEFUL, ALL,
+  # or specific EntityType names (e.g. ZOMBIE, CREEPER) for per-mob control.
+  # ALL_HOSTILE = every Enemy mob (bosses like WITHER and ENDER_DRAGON included);
+  # ALL_NEUTRAL = mobs that only attack when provoked;
+  # ALL_PEACEFUL = every other living mob (villagers, animals, fish, armor stands, ...).
+  # Usage: /rg flag <region> deny-mobspawn ALL_HOSTILE
+  # See https://tinsware.github.io/wiki/docs/games/minecraft/plugins/worldguard-extraflags-plus/deny-mobspawn for the exact per-category mob lists.
+  # Default: true
+  deny-mob-spawn: true
+  # COMMAND REPEAT
+  # -------------
+  # console-command-repeat flag
+  # Repeats a console command at a fixed interval while a player stays in the region.
+  # Each entry format: "<seconds> <command>" — interval 1-60 seconds.
+  # Usage: /rg flag <region> console-command-repeat "20 give %player% diamond 1"
+  # Default: false (disabled — opt-in)
+  console-command-repeat: false
+  # COMMAND TIMER
+  # -------------
+  # console-command-timer flag
+  # Repeats a console command at a fixed interval while a player stays in the region.
+  # Timer resets on region exit — no cooldown persistence (hold-to-earn / KOTH semantics).
+  # Each entry format: "<seconds> <command>" — interval 1-300 seconds.
+  # Usage: /rg flag <region> console-command-timer "60 give %player% diamond 1"
+  # Default: false (disabled — opt-in)
+  console-command-timer: false
+  # PLACEHOLDERAPI
+  # --------------
+  # papi-placeholders toggle
+  # Registers the %wgefp_players_in_region_<regionId>% placeholder (number of online players
+  # currently inside a region, summed across all worlds). Requires PlaceholderAPI on the server.
+  # Counts are cached and refreshed once per second.
+  # Default: false (disabled — opt-in, requires PlaceholderAPI)
+  papi-placeholders: false

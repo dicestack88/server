@@ -1,0 +1,73 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 6861,
+      "minecraft:walk_one_cm": 41212,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 8494,
+      "minecraft:mob_kills": 5,
+      "minecraft:damage_taken": 1323,
+      "minecraft:play_time": 23853,
+      "minecraft:damage_dealt": 368,
+      "minecraft:jump": 527,
+      "minecraft:time_since_death": 6840,
+      "minecraft:sprint_one_cm": 41978,
+      "minecraft:fall_one_cm": 11721,
+      "minecraft:total_world_time": 23853,
+      "minecraft:swim_one_cm": 61395,
+      "minecraft:fly_one_cm": 106758,
+      "minecraft:walk_on_water_one_cm": 11137,
+      "minecraft:crouch_one_cm": 4326,
+      "minecraft:sneak_time": 2175,
+      "minecraft:deaths": 4
+    },
+    "minecraft:mined": {
+      "minecraft:deepslate": 35,
+      "minecraft:fire": 1,
+      "minecraft:deepslate_diamond_ore": 8,
+      "minecraft:deepslate_iron_ore": 11,
+      "minecraft:oak_planks": 2,
+      "minecraft:packed_ice": 5
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:salmon": 9,
+      "minecraft:cooked_beef": 28,
+      "minecraft:oak_planks": 109,
+      "minecraft:iron_shovel": 2,
+      "minecraft:iron_spear": 2,
+      "minecraft:copper_boots": 2,
+      "minecraft:stone_shovel": 2,
+      "minecraft:iron_axe": 2,
+      "minecraft:copper_chestplate": 1,
+      "minecraft:copper_leggings": 1,
+      "minecraft:cobbled_deepslate": 35,
+      "minecraft:raw_iron": 27,
+      "minecraft:water_bucket": 1,
+      "minecraft:stone_pickaxe": 2,
+      "minecraft:copper_helmet": 2,
+      "minecraft:stone_sword": 2,
+      "minecraft:stone_axe": 2,
+      "minecraft:iron_sword": 2,
+      "minecraft:diamond": 10,
+      "minecraft:iron_pickaxe": 1
+    },
+    "minecraft:killed": {
+      "minecraft:salmon": 4,
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 3,
+      "minecraft:iron_axe": 1,
+      "minecraft:stone_sword": 11,
+      "minecraft:cooked_beef": 3,
+      "minecraft:oak_planks": 42,
+      "minecraft:iron_pickaxe": 50,
+      "minecraft:stone_pickaxe": 6,
+      "minecraft:iron_sword": 10
+    }
+  },
+  "DataVersion": 4903
+}

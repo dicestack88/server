@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+flymode: false
+muted: false
+jailed: false
+ip-address: 127.207.191.14
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1789706858899
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1789707287346
+  login: 1789706679638
+  kits:
+    starter: 1789706804778
+money: '100'
+last-account-name: Twinkboys_Galore
+lastlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -346.97730221510193
+  y: 119.0
+  z: 66.11278862026288
+  yaw: -62.50433349609375
+  pitch: 12.150025367736816
+logoutlocation:
+  world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+  world-name: world
+  x: -11.317761681271342
+  y: 105.5
+  z: -5.555487635544022
+  yaw: 14.5811767578125
+  pitch: 24.000017166137695

@@ -1,0 +1,51 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 8646,
+      "minecraft:walk_one_cm": 53168,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 570,
+      "minecraft:damage_dealt": 226,
+      "minecraft:play_time": 12130,
+      "minecraft:jump": 253,
+      "minecraft:time_since_death": 8626,
+      "minecraft:drop": 4,
+      "minecraft:open_enderchest": 3,
+      "minecraft:sprint_one_cm": 44943,
+      "minecraft:fall_one_cm": 16503,
+      "minecraft:total_world_time": 12130,
+      "minecraft:fly_one_cm": 33783,
+      "minecraft:walk_on_water_one_cm": 950,
+      "minecraft:crouch_one_cm": 68,
+      "minecraft:sneak_time": 10,
+      "minecraft:climb_one_cm": 25,
+      "minecraft:deaths": 1,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:diamond_chestplate": 1,
+      "minecraft:diamond_axe": 1,
+      "minecraft:diamond_sword": 34,
+      "minecraft:diamond_helmet": 1,
+      "minecraft:diamond_boots": 1,
+      "minecraft:diamond_pickaxe": 1,
+      "minecraft:diamond_leggings": 1
+    },
+    "minecraft:used": {
+      "minecraft:cooked_beef": 2,
+      "minecraft:diamond_helmet": 1,
+      "minecraft:copper_boots": 1,
+      "minecraft:copper_leggings": 1,
+      "minecraft:copper_chestplate": 1,
+      "minecraft:copper_helmet": 1,
+      "minecraft:diamond_leggings": 1,
+      "minecraft:diamond_sword": 1,
+      "minecraft:diamond_boots": 1,
+      "minecraft:diamond_chestplate": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:diamond_sword": 4
+    }
+  },
+  "DataVersion": 4903
+}
