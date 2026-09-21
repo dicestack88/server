@@ -1,0 +1,93 @@
+# === RTP GUI Plugin Configuration ===
+# CUSTOM WORLDS ARE NOT SUPPORTED NATIVELY!!!
+# If you want custom world support, please download
+# a plugin for initializing worlds such as Worlds,
+# Multiverse, World Manager, etc.
+
+# GUI Settings
+gui:
+  title: "<gradient:green:yellow>Select a World to Teleport</gradient>"
+  size: 9 # 9 per row. 2 rows = 18, 3 rows = 27, and so on
+  open-sound: "UI_BUTTON_CLICK"
+  click-sound: "BLOCK_NOTE_BLOCK_PLING"
+  disabled-sound: "ENTITY_VILLAGER_NO"
+  items:
+    overworld:
+      world-name: "world"
+      min-radius: 500
+      max-radius: 10000 # Leave this 0 to just teleport based on world-border
+      enabled: true
+      slot: 2
+      material: GRASS_BLOCK
+      name: "<green>Overworld"
+      lore:
+        - "<gray>Click to teleport randomly in the Overworld!"
+    nether:
+      world-name: "world_nether"
+      # The logic for this does not teleport you to coordinates 10,000 to 11,000. It uses a mathematical calculation
+      # that converts this to a circular band instead of a square.
+      min-radius: 10000
+      max-radius: 11000
+      enabled: false
+      slot: 4
+      material: NETHERRACK
+      name: "<red>Nether"
+      lore:
+        - "<gray>Click to teleport randomly in the Nether!"
+    end:
+      world-name: "world_the_end"
+      min-radius: 0
+      max-radius: 0
+      enabled: false
+      slot: 6
+      material: END_STONE
+      name: "<yellow>The End"
+      lore:
+        - "<gray>Click to teleport randomly in the End!"
+
+cooldown:
+  default:
+    cooldown: 180
+    # This is the default cooldown if players don't
+    # have any rtp.cooldown.<rankname> permissions.
+  rank1:
+    permission: "rank1" # rtp.cooldown.rank1
+    cooldown: 120
+  rank2:
+    permission: "rank2" # rtp.cooldown.rank2
+    cooldown: 60
+
+teleport:
+  # I strongly suggest not increasing max-attempts from 100 as it might cause massive tps drops or server crashes.
+  max-attempts: 100    # maximum # of attempts to find a safe location to teleport to
+  countdown: 5         # seconds before teleport happens
+  move-cancel: true    # cancel teleport if player moves
+  damage-cancel: true  # cancel teleport if player takes damage
+  countdown-sound: "UI_BUTTON_CLICK"
+
+# Teleportation effects
+effects:
+  teleport-sound: "ENTITY_ENDERMAN_TELEPORT"
+  teleport-particle: "PORTAL"
+  particle-count: 40
+
+# Blacklisted blocks (blocks a player won't teleport on).
+blacklist-blocks:
+  - "LAVA"
+  - "FIRE"
+  - "CACTUS"
+  - "MAGMA_BLOCK"
+  - "CAMPFIRE"
+  - "SOUL_CAMPFIRE"
+  - "SOUL_FIRE"
+  - "WATER"
+
+# Messages
+messages:
+  teleported: "<green>Teleported to a random location in the %world%<green>!"
+  cooldown: "<red>You must wait <yellow>%time%s</yellow> before using RTP again!"
+  countdown: "<yellow>Teleporting in %countdown%s..."
+  cancel-move: "<red>Teleport cancelled because you moved!"
+  cancel-damage: "<red>Teleport cancelled because you took damage!"
+  no-permission: "<red>You have no permission to use /rtp reload!"
+  scanning: "<aqua>Scanning for a safe teleport location. <gray>(Attempt#%attempt%)"
