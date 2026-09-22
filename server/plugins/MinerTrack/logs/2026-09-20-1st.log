@@ -1,0 +1,12 @@
+2026-09-21 01:25:19 | dark67 failed X-Ray check VL:1(+1) Block:minecraft:deepslate_diamond_orex5(Veinx2) World: minecraft:overworld Pos: X2703 Y-17 Z7988
+Executed Command: minertrack notify &fdark67 &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2026-09-21 01:25:55 | dark67 failed X-Ray check VL:2(+1) Block:minecraft:deepslate_diamond_orex5(Veinx3) World: minecraft:overworld Pos: X2701 Y-14 Z7980
+2026-09-21 01:26:30 | dark67 failed X-Ray check VL:3(+1) Block:minecraft:deepslate_diamond_orex8(Veinx4) World: minecraft:overworld Pos: X2706 Y-15 Z7975
+Executed Command: minertrack notify &fdark67 &7triggered &fX-Ray &7detection [&cVL: 4&7]
+2026-09-21 01:27:21 | dark67 failed X-Ray check VL:4(+1) Block:minecraft:deepslate_diamond_orex2(Veinx5) World: minecraft:overworld Pos: X2704 Y-23 Z7979
+2026-09-21 05:19:17 | Agent_47 failed X-Ray check VL:1(+1) Block:minecraft:deepslate_diamond_orex6(Veinx2) World: minecraft:overworld Pos: X-210 Y-42 Z6360
+Executed Command: minertrack notify &fAgent_47 &7triggered &fX-Ray &7detection [&cVL: 2&7]
+2026-09-21 05:20:11 | Agent_47 failed X-Ray check VL:2(+1) Block:minecraft:deepslate_diamond_orex6(Veinx3) World: minecraft:overworld Pos: X-220 Y-41 Z6356
+2026-09-21 05:21:01 | Agent_47 failed X-Ray check VL:3(+1) Block:minecraft:deepslate_diamond_orex4(Veinx4) World: minecraft:overworld Pos: X-225 Y-48 Z6369
+Executed Command: minertrack notify &fAgent_47 &7triggered &fX-Ray &7detection [&cVL: 4&7]
+2026-09-21 05:22:09 | Agent_47 failed X-Ray check VL:4(+1) Block:minecraft:deepslate_diamond_orex8(Veinx5) World: minecraft:overworld Pos: X-203 Y-38 Z6375

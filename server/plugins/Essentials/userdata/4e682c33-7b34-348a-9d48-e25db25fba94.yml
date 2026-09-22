@@ -12,13 +12,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1789694522325
+  lastteleport: 1790041098243
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789694969568
-  login: 1789694579185
+  logout: 1790041278711
+  login: 1790040832264
   kits:
     starter: 1789616846096
 money: '1000.0'
@@ -26,19 +26,19 @@ last-account-name: KILLER_EXE
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -1980.5
-  y: 67.0
-  z: -15096.5
-  yaw: -92.2499771118164
-  pitch: 40.04998779296875
+  x: -1944.5916910180238
+  y: 9.0
+  z: -15046.65765349215
+  yaw: -174.6458740234375
+  pitch: 8.099940299987793
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -2051.0743525023804
-  y: 65.0
-  z: -14802.154540302776
-  yaw: -163.49993896484375
-  pitch: 27.000009536743164
+  x: -1955.699999988079
+  y: -33.0
+  z: -15052.300000011921
+  yaw: -111.79815673828125
+  pitch: 6.599979400634766
 homes:
   home:
     world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044

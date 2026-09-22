@@ -12,31 +12,40 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1789951466955
+  lastteleport: 1790039992682
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789949136782
-  login: 1789949390532
+  logout: 1790041042314
+  login: 1790041021098
   kits:
     firework: 1789088725287
-    starter: 1789090948118
-money: '1000.0'
+    starter: 1789970386725
+money: '7500.0'
 last-account-name: dicestack88YT
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -29574.054338603833
-  y: 100.0
-  z: -16105.025746531635
-  yaw: -92.24771118164062
-  pitch: 39.7498893737793
+  x: -1975.571788564919
+  y: -25.0
+  z: -15058.918458333448
+  yaw: -151.24684143066406
+  pitch: 18.300016403198242
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: 2808.3714856263937
-  y: -19.0
-  z: 28218.30000001192
-  yaw: -89.24974060058594
-  pitch: -2.999995231628418
+  x: -10.5
+  y: 106.5
+  z: -12.5
+  yaw: -179.0633544921875
+  pitch: 16.499996185302734
+homes:
+  manhunt:
+    world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
+    world-name: world
+    x: -4112.526426861885
+    y: 131.0
+    z: 1700.251650187358
+    yaw: 67.94580078125
+    pitch: 42.29999542236328

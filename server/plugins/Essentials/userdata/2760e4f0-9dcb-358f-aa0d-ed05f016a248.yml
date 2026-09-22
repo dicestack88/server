@@ -4,7 +4,7 @@ godmode: false
 flymode: false
 muted: false
 jailed: false
-ip-address: 127.81.214.178
+ip-address: 0:0:0:0:0:0:0:1
 afk: false
 socialspy: false
 npc: false
@@ -12,13 +12,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1789697490685
+  lastteleport: 1789965944986
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789698610151
-  login: 1789698502955
+  logout: 1790041498716
+  login: 1790041489908
   kits:
     starter: 1789694383391
 money: '1000.0'
@@ -26,19 +26,19 @@ last-account-name: truegorkulus_rex
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -2078.300000011921
-  y: -60.0
-  z: -14839.699999988079
-  yaw: 138.8986358642578
-  pitch: 41.10004806518555
+  x: -2052.7358824389357
+  y: 65.0
+  z: -14805.849777646594
+  yaw: 140.25010681152344
+  pitch: 48.75
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -2095.011175581482
-  y: -45.0
-  z: -14832.329884274353
-  yaw: -35.55059814453125
-  pitch: 42.899940490722656
+  x: -1984.5286797103129
+  y: -15.0
+  z: -14984.61865390317
+  yaw: -90.2037353515625
+  pitch: 22.050025939941406
 homes:
   home:
     world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044

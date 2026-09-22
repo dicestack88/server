@@ -2,7 +2,7 @@ teleportenabled: true
 teleportauto: false
 godmode: false
 flymode: false
-muted: true
+muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
 afk: false
@@ -12,31 +12,30 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1789524950003
+  lastteleport: 1789953445908
   lastheal: 0
-  mute: 1789525249105
+  mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1789525085509
-  login: 1789525003394
+  logout: 1789954114991
+  login: 1789953063262
   kits:
-    starter: 1789350489136
+    starter: 1789953789689
 money: '1000.0'
 last-account-name: dark67
 logoutlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: -25.6975129796139
-  y: 105.0
-  z: -29.29331658936273
-  yaw: 133.68673706054688
-  pitch: 11.850001335144043
+  x: 2705.474229497166
+  y: -24.0
+  z: 7979.699999988079
+  yaw: -56.09892654418945
+  pitch: 90.0
 lastlocation:
   world: 6eb6c88e-b14b-4c8a-813b-0dbcc5483044
   world-name: world
-  x: 39.30000001192093
-  y: 64.0
-  z: 43.30000001192093
-  yaw: -176.5256805419922
-  pitch: -2.2500033378601074
-mute-reason: shut the fuck up
+  x: 187.33157465135048
+  y: 112.0
+  z: 274.4679208569673
+  yaw: -164.0645751953125
+  pitch: 13.80009651184082
